@@ -7,10 +7,10 @@
         "sexe": "/images/sexes/male.svg",
         "stat": {
             "pv": "319",
-            "att-phy": "179",
-            "def-phy": "223",
-            "att-spe": "217",
-            "def-spe": "252",
+            "att_phy": "179",
+            "def_phy": "223",
+            "att_spe": "217",
+            "def_spe": "252",
             "vitesse": "172"
         },
         "capacite": {
@@ -30,10 +30,10 @@
         "sexe": "/images/sexes/male.svg",
         "stat": {
             "pv": "300",
-            "att-phy": "240",
-            "def-phy": "169",
-            "att-spe": "227",
-            "def-spe": "217",
+            "att_phy": "240",
+            "def_phy": "169",
+            "att_spe": "227",
+            "def_spe": "217",
             "vitesse": "259"
         },
         "capacite": {
@@ -53,10 +53,10 @@
         "sexe": "/images/sexes/male.svg",
         "stat": {
             "pv": "297",
-            "att-phy": "190",
-            "def-phy": "251",
-            "att-spe": "214",
-            "def-spe": "213",
+            "att_phy": "190",
+            "def_phy": "251",
+            "att_spe": "214",
+            "def_spe": "213",
             "vitesse": "190"
         },
         "capacite": {

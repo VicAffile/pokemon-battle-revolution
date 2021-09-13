@@ -4,6 +4,7 @@ const path = require('path');
 const bodyParser = require('body-parser');
 const capacites = require('./json/capacites.json');
 const pokemons = require('./json/pokemons.json');
+const talents = require('./json/talents.json');
 const types = require('./json/types.json');
 
 
@@ -31,7 +32,7 @@ app.get('/:id', (req, res) => {
     if (pokemon == undefined) {
         res.status(404).send("Ce Pokémon n'existe pas.");
     }
-    const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, capacites: capacites };
+    const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, talents: talents, capacites: capacites };
     res.render('pokemon', donnee);
 });
 

@@ -103,6 +103,15 @@ body section#pokemon {
           flex-direction: column;
 }
 
+body section#pokemon p {
+  margin: 0px;
+  padding: 5px;
+}
+
+body section#pokemon p span {
+  font-weight: bold;
+}
+
 body section#pokemon #infos {
   display: -webkit-box;
   display: -ms-flexbox;
@@ -138,15 +147,6 @@ body section#pokemon #infos div#info {
   background-color: white;
 }
 
-body section#pokemon #infos div#info p {
-  margin: 0px;
-  padding: 5px;
-}
-
-body section#pokemon #infos div#info p span {
-  font-weight: bold;
-}
-
 body section#pokemon #infos div#info div {
   margin: 0px;
   display: -webkit-box;
@@ -172,5 +172,29 @@ body section#pokemon #infos div#info div img#sexe {
 
 body section#pokemon #infos div#info div img.types {
   width: 90px;
+}
+
+body section#pokemon #infos div#info div#stats {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body section#pokemon #infos div#info div#stats ul {
+  margin: 0px;
+}
+
+body section#pokemon #talent {
+  background-color: white;
 }
 /*# sourceMappingURL=styles.css.map */

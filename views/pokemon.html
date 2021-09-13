@@ -21,7 +21,22 @@
             <p>
                 Poids : {{pokemon.poids}} kg
             </p>
+            <div id="stats">
+                <p>Statistiques</p>
+                <ul>
+                    <li>PV : {{pokemon.stat.pv}}</li>
+                    <li>Attaque Physique : {{pokemon.stat.att_phy}}</li>
+                    <li>Défense Physique : {{pokemon.stat.def_phy}}</li>
+                    <li>Attaque Spéciale : {{pokemon.stat.att_spe}}</li>
+                    <li>Défense Spéciale : {{pokemon.stat.def_spe}}</li>
+                    <li>Vitesse : {{pokemon.stat.vitesse}}</li>
+                </ul>
+            </div>
         </div>
+    </div>
+    <div id="talent">
+        <p>Talent : <span>{{pokemon.talent}}</span></p>
+        <p>{% for talent in talents %} {% if talent.nom == pokemon.talent %} {{talent.effet}} {% endif %} {% endfor %}</p>
     </div>
     <div id="attaques ">
 

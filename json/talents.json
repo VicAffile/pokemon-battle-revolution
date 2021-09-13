@@ -1,0 +1,13 @@
+[{
+        "nom": "Brasier",
+        "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Feu augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
+    },
+    {
+        "nom": "Engrais",
+        "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Plante augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
+    },
+    {
+        "nom": "Torrent",
+        "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Eau augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
+    }
+]
