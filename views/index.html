@@ -1,1 +1,15 @@
-{% extends 'layout.html' %} {% block content %} {% endblock %}
+{% extends 'layout.html' %} {% block content %}
+
+<section id="liste">
+
+    {% for pokemon in pokemons %}
+    <div class="case">
+        <div><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
+        <p class="nom">{{pokemon.nom}}</p>
+    </div>
+
+    {% endfor %}
+
+</section>
+
+{% endblock %}

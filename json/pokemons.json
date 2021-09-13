@@ -1,0 +1,61 @@
+[{
+        "id": 1,
+        "nom": "Florizarre",
+        "sprite": "/images/sprites/florizarre.png",
+        "talent": "Engrais",
+        "stat": {
+            "pv": "",
+            "att-phy": "",
+            "def-phy": "",
+            "att-spe": "",
+            "def-spe": "",
+            "vitesse": ""
+        },
+        "capacite": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    {
+        "id": 2,
+        "nom": "Dracaufeu",
+        "sprite": "/images/sprites/dracaufeu.png",
+        "talent": "Brasier",
+        "stat": {
+            "pv": "",
+            "att-phy": "",
+            "def-phy": "",
+            "att-spe": "",
+            "def-spe": "",
+            "vitesse": ""
+        },
+        "capacite": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    },
+    {
+        "id": 3,
+        "nom": "Tortank",
+        "sprite": "/images/sprites/tortank.png",
+        "talent": "Torrent",
+        "stat": {
+            "pv": "",
+            "att-phy": "",
+            "def-phy": "",
+            "att-spe": "",
+            "def-spe": "",
+            "vitesse": ""
+        },
+        "capacite": {
+            "1": "",
+            "2": "",
+            "3": "",
+            "4": ""
+        }
+    }
+]
