@@ -1,0 +1,109 @@
+[{
+        "nom": "Bomb-Beurk",
+        "type": "Poison",
+        "puissance": "90",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "30% de chances d'empoisonner la cible."
+    },
+    {
+        "nom": "Dracogriffe",
+        "type": "Dragon",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Aucun"
+    },
+    {
+        "nom": "Danse Draco",
+        "type": "Dragon",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente l'attaque physique et la vitesse d'un niveau."
+    },
+    {
+        "nom": "Laser Glace",
+        "type": "Glace",
+        "puissance": "95",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "10 % de chances de geler l'ennemi."
+    },
+    {
+        "nom": "Noeud Herbe",
+        "type": "Plante",
+        "puissance": "?",
+        "precision": "100",
+        "pp": "20",
+        "categorie": "Spéciale",
+        "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
+    },
+    {
+        "nom": "Poing de Feu",
+        "type": "Feu",
+        "puissance": "75",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "10% de chances de brûler la cible."
+    },
+    {
+        "nom": "Poudre Dodo",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "75%",
+        "pp": "15",
+        "categorie": "Non-offensive",
+        "effet": "Poudre Dodo endort la cible, sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
+    },
+    {
+        "nom": "Riposte",
+        "type": "Combat",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Si le lanceur est touché par une capacité physique pendant le tour où Riposte est utilisé, le lanceur occasionne deux fois plus de dommages à la cible qu'elle-même lui en a infligé, sans tenir compte des types. Riposte prend uniquement en compte le dernier coup d'une capacité multiple."
+    },
+    {
+        "nom": "Séisme",
+        "type": "Sol",
+        "puissance": "100",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Dégâts doublés si la capacité est utilisée durant le tour où l'adversaire est sous terre quand il utilise Tunnel. En combat duo, cette capacité touche tous les autres Pokémon présents sur le terrain."
+    },
+    {
+        "nom": "Surf",
+        "type": "Eau",
+        "puissance": "95",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "En combat duo, cette capacité touche tous les autres Pokémon présents sur le terrain."
+    },
+    {
+        "nom": "Tour Rapide",
+        "type": "Normal",
+        "puissance": "20",
+        "precision": "100%",
+        "pp": "40",
+        "categorie": "Physique",
+        "effet": "Annule les effets secondaires des capacités bloquantes, des capacités de pièges et de Vampigraine."
+    },
+    {
+        "nom": "Vampigraine",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "90%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Draine à la fin de chaque tour 1/8e des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
+    }
+]

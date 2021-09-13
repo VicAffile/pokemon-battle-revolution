@@ -2,7 +2,9 @@ const express = require('express');
 const swig = require('swig');
 const path = require('path');
 const bodyParser = require('body-parser');
+const capacites = require('./json/capacites.json');
 const pokemons = require('./json/pokemons.json');
+const types = require('./json/types.json');
 
 
 let app = express();
@@ -29,7 +31,7 @@ app.get('/:id', (req, res) => {
     if (pokemon == undefined) {
         res.status(404).send("Ce Pokémon n'existe pas.");
     }
-    const donnee = { titre: pokemon.nom, pokemon: pokemon };
+    const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, capacites: capacites };
     res.render('pokemon', donnee);
 });
 

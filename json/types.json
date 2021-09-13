@@ -1,0 +1,73 @@
+[{
+        "nom": "Acier",
+        "image": "/images/types/acier.png"
+    },
+    {
+        "nom": "Combat",
+        "image": "/images/types/combat.png"
+    },
+    {
+        "nom": "Dragon",
+        "image": "/images/types/dragon.png"
+    },
+    {
+        "nom": "Eau",
+        "image": "/images/types/eau.png"
+    },
+    {
+        "nom": "Electrik",
+        "image": "/images/types/electrik.png"
+    },
+    {
+        "nom": "Feu",
+        "image": "/images/types/feu.png"
+    },
+    {
+        "nom": "Glace",
+        "image": "/images/types/glace.png"
+    },
+    {
+        "nom": "Inconnu",
+        "image": "/images/types/inconnu.png"
+    },
+    {
+        "nom": "Insecte",
+        "image": "/images/types/insecte.png"
+    },
+    {
+        "nom": "Normal",
+        "image": "/images/types/normal.png"
+    },
+    {
+        "nom": "Plante",
+        "image": "/images/types/plante.png"
+    },
+    {
+        "nom": "Poison",
+        "image": "/images/types/poison.png"
+    },
+    {
+        "nom": "Psy",
+        "image": "/images/types/psy.png"
+    },
+    {
+        "nom": "Roche",
+        "image": "/images/types/rocche.png"
+    },
+    {
+        "nom": "Sol",
+        "image": "/images/types/sol.png"
+    },
+    {
+        "nom": "Spectre",
+        "image": "/images/types/scectre.png"
+    },
+    {
+        "nom": "Ténèbres",
+        "image": "/images/types/tenebres.png"
+    },
+    {
+        "nom": "Vol",
+        "image": "/images/types/vol.png"
+    }
+]

@@ -10,18 +10,20 @@
         <div id="sprite"><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
         <div id="info">
             <div>
-                <p>Nom : <span>{{pokemon.nom}}</span></p> <img id="sexe" src="{{pokemon.sexe}}" alt="Type de {{pokemon.nom}}">
+                <p>Nom : <span>{{pokemon.nom}}</span></p> <img id="sexe" src="{{pokemon.sexe}}" alt="Sexe de {{pokemon.nom}}">
             </div>
             <div>
-                <p>Type(s) : </p> <img class="types" src="{{pokemon.types.a}}" alt="Type de {{pokemon.nom}}"> {% if pokemon.types.b %}
-                <p> - </p> <img class="types" src="{{pokemon.types.b}}" alt="Type de {{pokemon.nom}}"> {% endif %}
+                {% if pokemon.types.b != "" %}
+                <p>Types : </p> {% endif %} {% if pokemon.types.b == "" %}
+                <p>Type : </p> {% endif %} {% for type in types %} {% if type.nom == pokemon.types.a %} <img class="types" src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% if pokemon.types.b %}
+                <p> - </p> {% for type in types %} {% if type.nom == pokemon.types.b %} <img class="types" src="{{type.image}}" alt="Type de {{pokemon.nom}} "> {% endif %} {% endfor %} {% endif %}
             </div>
             <p>
-                Sexe :
+                Poids : {{pokemon.poids}} kg
             </p>
         </div>
     </div>
-    <div id="attaques">
+    <div id="attaques ">
 
     </div>
 </section>

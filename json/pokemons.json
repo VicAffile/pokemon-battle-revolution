@@ -1,67 +1,70 @@
 [{
         "id": 1,
         "nom": "Florizarre",
-        "types": { "a": "/images/types/plante.png", "b": "/images/types/poison.png" },
+        "types": { "a": "Plante", "b": "Poison" },
         "sprite": "/images/sprites/florizarre.png",
         "talent": "Engrais",
         "sexe": "/images/sexes/male.svg",
         "stat": {
-            "pv": "",
-            "att-phy": "",
-            "def-phy": "",
-            "att-spe": "",
-            "def-spe": "",
-            "vitesse": ""
+            "pv": "319",
+            "att-phy": "179",
+            "def-phy": "223",
+            "att-spe": "217",
+            "def-spe": "252",
+            "vitesse": "172"
         },
         "capacite": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
-        }
+            "a": "Noeud Herbe",
+            "b": "Bomb-Beurk",
+            "c": "Vampigraine",
+            "d": "Poudre Dodo"
+        },
+        "poids": 100.0
     },
     {
         "id": 2,
         "nom": "Dracaufeu",
-        "types": { "a": "/images/types/feu.png", "b": "/images/types/vol.png" },
+        "types": { "a": "Feu", "b": "Vol" },
         "sprite": "/images/sprites/dracaufeu.png",
         "talent": "Brasier",
         "sexe": "/images/sexes/male.svg",
         "stat": {
-            "pv": "",
-            "att-phy": "",
-            "def-phy": "",
-            "att-spe": "",
-            "def-spe": "",
-            "vitesse": ""
+            "pv": "300",
+            "att-phy": "240",
+            "def-phy": "169",
+            "att-spe": "227",
+            "def-spe": "217",
+            "vitesse": "259"
         },
         "capacite": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
-        }
+            "a": "Poing de Feu",
+            "b": "Dracogriffe",
+            "c": "Séisme",
+            "d": "Danse Draco"
+        },
+        "poids": 90.5
     },
     {
         "id": 3,
         "nom": "Tortank",
-        "types": { "a": "/images/types/eau.png", "b": "" },
+        "types": { "a": "Eau", "b": "" },
         "sprite": "/images/sprites/tortank.png",
         "talent": "Torrent",
         "sexe": "/images/sexes/male.svg",
         "stat": {
-            "pv": "",
-            "att-phy": "",
-            "def-phy": "",
-            "att-spe": "",
-            "def-spe": "",
-            "vitesse": ""
+            "pv": "297",
+            "att-phy": "190",
+            "def-phy": "251",
+            "att-spe": "214",
+            "def-spe": "213",
+            "vitesse": "190"
         },
         "capacite": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
-        }
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Tour Rapide",
+            "d": "Riposte"
+        },
+        "poids": 85.5
     }
 ]
