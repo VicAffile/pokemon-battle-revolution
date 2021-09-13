@@ -27,17 +27,85 @@ body {
                 margin: 10px;
                 border: solid white 2px;
                 border-radius: 10%;
+                .case-bouton {
+                    border-radius: 10px 10px 0px 0px;
+                    background-color: white;
+                    button {
+                        padding: 5px;
+                        width: 100%;
+                        border: none;
+                        border-radius: 10px 10px 0px 0px;
+                        background-color: white;
+                        &:hover {
+                            font-weight: bold;
+                        }
+                    }
+                }
                 img {
                     width: 150px;
                     object-fit: cover;
                 }
-                .nom {
+                .case-nom {
                     margin: 0px;
                     padding: 5px;
                     border-radius: 0px 0px 10px 10px;
                     background-color: white;
                     text-align: center;
                     font-weight: bold;
+                }
+            }
+        }
+        &#boutons {
+            button {
+                padding: 20px;
+                width: 200px;
+                font-weight: bold;
+            }
+        }
+        &#pokemon {
+            width: 54%;
+            display: flex;
+            flex-direction: column;
+            #infos {
+                display: flex;
+                flex-direction: row;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                div {
+                    margin: 10px;
+                    &#sprite {
+                        width: 300px;
+                        img {
+                            width: 100%;
+                        }
+                    }
+                    &#info {
+                        width: 350px;
+                        background-color: white;
+                        p {
+                            margin: 0px;
+                            padding: 5px;
+                            span {
+                                font-weight: bold;
+                            }
+                        }
+                        div {
+                            margin: 0px;
+                            display: flex;
+                            flex-direction: row;
+                            align-items: center;
+                            img {
+                                object-fit: contain;
+                                &#sexe {
+                                    width: 20px;
+                                }
+                                &.types {
+                                    width: 90px;
+                                }
+                            }
+                        }
+                    }
                 }
             }
         }

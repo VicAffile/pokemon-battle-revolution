@@ -54,18 +54,123 @@ body section#liste .case {
   border-radius: 10%;
 }
 
+body section#liste .case .case-bouton {
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+}
+
+body section#liste .case .case-bouton button {
+  padding: 5px;
+  width: 100%;
+  border: none;
+  border-radius: 10px 10px 0px 0px;
+  background-color: white;
+}
+
+body section#liste .case .case-bouton button:hover {
+  font-weight: bold;
+}
+
 body section#liste .case img {
   width: 150px;
   -o-object-fit: cover;
      object-fit: cover;
 }
 
-body section#liste .case .nom {
+body section#liste .case .case-nom {
   margin: 0px;
   padding: 5px;
   border-radius: 0px 0px 10px 10px;
   background-color: white;
   text-align: center;
   font-weight: bold;
+}
+
+body section#boutons button {
+  padding: 20px;
+  width: 200px;
+  font-weight: bold;
+}
+
+body section#pokemon {
+  width: 54%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+body section#pokemon #infos {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section#pokemon #infos div {
+  margin: 10px;
+}
+
+body section#pokemon #infos div#sprite {
+  width: 300px;
+}
+
+body section#pokemon #infos div#sprite img {
+  width: 100%;
+}
+
+body section#pokemon #infos div#info {
+  width: 350px;
+  background-color: white;
+}
+
+body section#pokemon #infos div#info p {
+  margin: 0px;
+  padding: 5px;
+}
+
+body section#pokemon #infos div#info p span {
+  font-weight: bold;
+}
+
+body section#pokemon #infos div#info div {
+  margin: 0px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section#pokemon #infos div#info div img {
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+body section#pokemon #infos div#info div img#sexe {
+  width: 20px;
+}
+
+body section#pokemon #infos div#info div img.types {
+  width: 90px;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -4,8 +4,9 @@
 
     {% for pokemon in pokemons %}
     <div class="case">
+        <div class="case-bouton"><a href="/{{pokemon.id}}"><button>Voir</button></a></div>
         <div><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
-        <p class="nom">{{pokemon.nom}}</p>
+        <p class="case-nom">{{pokemon.nom}}</p>
     </div>
 
     {% endfor %}

@@ -18,10 +18,19 @@ app.set('view engine', 'html');
 app.set('views', __dirname + '/views');
 
 
-app.get('/', function(req, res) {
-    console.log(pokemons);
-    let donnee = { titre: 'Liste des Pokémons', pokemons: pokemons };
+app.get('/', (req, res) => {
+    const donnee = { titre: 'Liste des Pokémons', pokemons: pokemons };
     res.render('index', donnee);
+});
+
+app.get('/:id', (req, res) => {
+    const id = parseInt(req.params.id);
+    const pokemon = pokemons.find(pokemon => pokemon.id === id);
+    if (pokemon == undefined) {
+        res.status(404).send("Ce Pokémon n'existe pas.");
+    }
+    const donnee = { titre: pokemon.nom, pokemon: pokemon };
+    res.render('pokemon', donnee);
 });
 
 

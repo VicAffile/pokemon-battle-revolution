@@ -1,0 +1,29 @@
+{% extends 'layout.html' %} {% block content %}
+
+<section id="boutons">
+    <a href="/">
+        <button>Revenir à la liste</button>
+    </a>
+</section>
+<section id="pokemon">
+    <div id="infos">
+        <div id="sprite"><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
+        <div id="info">
+            <div>
+                <p>Nom : <span>{{pokemon.nom}}</span></p> <img id="sexe" src="{{pokemon.sexe}}" alt="Type de {{pokemon.nom}}">
+            </div>
+            <div>
+                <p>Type(s) : </p> <img class="types" src="{{pokemon.types.a}}" alt="Type de {{pokemon.nom}}"> {% if pokemon.types.b %}
+                <p> - </p> <img class="types" src="{{pokemon.types.b}}" alt="Type de {{pokemon.nom}}"> {% endif %}
+            </div>
+            <p>
+                Sexe :
+            </p>
+        </div>
+    </div>
+    <div id="attaques">
+
+    </div>
+</section>
+
+{% endblock %}
