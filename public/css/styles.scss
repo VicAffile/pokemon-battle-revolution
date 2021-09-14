@@ -51,10 +51,16 @@ body {
                     background-color: white;
                     p {
                         margin: 0px;
-                        text-align: center;
                         font-weight: bold;
+                        display: flex;
+                        justify-content: center;
+                        img {
+                            margin-left: 5px;
+                            width: 15px;
+                        }
                     }
                     div {
+                        margin-top: 2px;
                         display: flex;
                         justify-content: space-around;
                         img {
@@ -105,6 +111,9 @@ body {
                         height: 255px;
                         border-radius: 0px 10px 0px 0px;
                         background-color: white;
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
                         div {
                             margin: 0px;
                             display: flex;

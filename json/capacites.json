@@ -50,7 +50,7 @@
         "precision": "100%",
         "pp": "15",
         "categorie": "Physique",
-        "effet": "Aucun"
+        "effet": "Aucun effet supplémentaire."
     },
     {
         "nom": "Danse Draco",
@@ -122,7 +122,7 @@
         "precision": "75%",
         "pp": "15",
         "categorie": "Non-offensive",
-        "effet": "Poudre Dodo endort la cible, sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
+        "effet": "Endort la cible sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
     },
     {
         "nom": "Rapace",
@@ -140,7 +140,7 @@
         "precision": "100%",
         "pp": "20",
         "categorie": "Physique",
-        "effet": "Aucun"
+        "effet": "Aucun effet supplémentaire."
     },
     {
         "nom": "Riposte",
@@ -185,6 +185,6 @@
         "precision": "90%",
         "pp": "10",
         "categorie": "Non-offensive",
-        "effet": "Draine à la fin de chaque tour 1/8e des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
+        "effet": "Draine à la fin de chaque tour 1/8ème des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
     }
 ]

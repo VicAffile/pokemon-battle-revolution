@@ -7,11 +7,12 @@
         <div class="case-bouton"><a href="/{{pokemon.id}}"><button>Voir</button></a></div>
         <div><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
         <div class="case-info">
-            <p>{{pokemon.nom}}</p>
-            <div>
-                {% for type in types %} {% if type.nom == pokemon.types.a %} <img src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% if pokemon.types.b != "" %} {% for type in types %} {% if type.nom == pokemon.types.b %}
-                <img src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% endif %}
-            </div>
+            <p>{{pokemon.nom}} <img src="{{pokemon.sexe}}" alt="Sexe de {{pokemon.nom}}" </p>
+                <div>
+                    {% for type in types %} {% if type.nom == pokemon.types.a %} <img src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% if pokemon.types.b != "" %} {% for type in types %} {% if type.nom == pokemon.types.b
+                    %}
+                    <img src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% endif %}
+                </div>
         </div>
     </div>
 
