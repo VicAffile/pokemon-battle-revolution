@@ -1,4 +1,13 @@
 [{
+        "nom": "Aile d'Acier",
+        "type": "Normal",
+        "puissance": "70",
+        "precision": "90%",
+        "pp": "25",
+        "categorie": "Physique",
+        "effet": "10% de chances de monter la défense d'un niveau."
+    },
+    {
         "nom": "Bomb-Beurk",
         "type": "Poison",
         "puissance": "90",
@@ -6,6 +15,33 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "30% de chances d'empoisonner la cible."
+    },
+    {
+        "nom": "Coup Bas",
+        "type": "Ténèbres",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Attaque toujours en premier sauf si la cible utilise aussi une capacité de priorité, dans ce cas le premier à attaquer sera déterminé normalement. Si l'adversaire utilise une capacité non-offensive ou parvient à attaquer avant l'utilisateur, la capacité échouera."
+    },
+    {
+        "nom": "Demi-Tour",
+        "type": "Insecte",
+        "puissance": "70",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "L'utilisateur de Demi-Tour attaque, puis se retire immédiatement. Il ne se retire pas s'il est le seul de l'équipe encore debout ou si le fait d'avoir utilisé Demi-Tour a mis fin au combat. Si l'adversaire utilise Poursuite alors que l'utilisateur lance Demi-Tour simultanément, Poursuite cause des dégâts normaux si l'adversaire est le plus rapide et voit ses dégâts doublés si l'adversaire est le plus lent. Demi-Tour peut également être utilisé, afin de se libérer des effets de Piège Sable, Magnépiège, Marque Ombre, Regard Noir, Toile ou encore Barrage et des capacités piégeantes comme Siphon, Ligotage, etc."
+    },
+    {
+        "nom": "Direct Toxik",
+        "type": "Poison",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "30% de chances d'empoisonner l'adversaire."
     },
     {
         "nom": "Dracogriffe",
@@ -26,6 +62,15 @@
         "effet": "Augmente l'attaque physique et la vitesse d'un niveau."
     },
     {
+        "nom": "Lame de Roc",
+        "type": "Roche",
+        "puissance": "100",
+        "precision": "80%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique."
+    },
+    {
         "nom": "Laser Glace",
         "type": "Glace",
         "puissance": "95",
@@ -44,6 +89,24 @@
         "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
     },
     {
+        "nom": "Pics Toxik",
+        "type": "Poison",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Répand des pics empoisonnés autour de la cible. Si lancé une fois, les Pokémon arrivant sur le terrain sont empoisonnés et si lancé deux fois, les Pokémon arrivant sur le terrain sont gravement empoisonnés. Les Pokémon de type Vol, Acier ou Poison ou ayant les talents Lévitation, Vaccin ou Garde Magik ne sont pas affectés par cette capacité. Un Pokémon Vol ou lévitant peut être touché par les Pics s'il vient en combat et que Gravité est déjà active. Tour Rapide ou un Pokémon de type Poison au sol arrivant au combat peuvent enlever les Pics Toxik. Un Pokémon Poison lévitant ou volant ne peut pas absorber les Pics, à moins qu'il soit cloué au sol sous l'effet de Gravité. Pics Toxik n'active pas les effets de Synchro, sauf si le Pokémon possédant ce talent a été forcé de venir sur le terrain grâce à Hurlement ou Cyclone."
+    },
+    {
+        "nom": "Piège de Roc",
+        "type": "Roche",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "A chaque changement de Pokémon adverse, le Pokémon apparu perd des PV : double résistance au type roche = 3.125%, résistance au type roche = 6.25%, pas de résistance au type roche = 12.5%, faiblesse au type roche = 25% et double faiblesse au type roche = 50%. Si l'adversaire utilise Tour Rapide, l'effet de cette attaque disparait"
+    },
+    {
         "nom": "Poing de Feu",
         "type": "Feu",
         "puissance": "75",
@@ -60,6 +123,24 @@
         "pp": "15",
         "categorie": "Non-offensive",
         "effet": "Poudre Dodo endort la cible, sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
+    },
+    {
+        "nom": "Rapace",
+        "type": "Vol",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Fait subir au lanceur 1/3 des dégâts infligés à la cible."
+    },
+    {
+        "nom": "Retour",
+        "type": "Normal",
+        "puissance": "102",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Aucun"
     },
     {
         "nom": "Riposte",

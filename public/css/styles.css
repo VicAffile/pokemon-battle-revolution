@@ -27,11 +27,8 @@ body header div img {
   height: 100%;
 }
 
-body section {
-  max-width: 90%;
-}
-
 body section#liste {
+  max-width: 90%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -51,11 +48,11 @@ body section#liste {
 body section#liste .case {
   margin: 10px;
   border: solid white 2px;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 body section#liste .case .case-bouton {
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 5px 5px 0px 0px;
   background-color: white;
 }
 
@@ -77,13 +74,32 @@ body section#liste .case img {
      object-fit: cover;
 }
 
-body section#liste .case .case-nom {
-  margin: 0px;
+body section#liste .case .case-info {
   padding: 5px;
-  border-radius: 0px 0px 10px 10px;
+  border-radius: 0px 0px 5px 5px;
   background-color: white;
+}
+
+body section#liste .case .case-info p {
+  margin: 0px;
   text-align: center;
   font-weight: bold;
+}
+
+body section#liste .case .case-info div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+}
+
+body section#liste .case .case-info div img {
+  width: 60px;
+}
+
+body section#boutons {
+  width: 100%;
 }
 
 body section#boutons button {
@@ -93,7 +109,6 @@ body section#boutons button {
 }
 
 body section#pokemon {
-  width: 54%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -101,6 +116,9 @@ body section#pokemon {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
 }
 
 body section#pokemon p {
@@ -113,6 +131,7 @@ body section#pokemon p span {
 }
 
 body section#pokemon #infos {
+  width: 600px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -120,8 +139,8 @@ body section#pokemon #infos {
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
@@ -130,12 +149,11 @@ body section#pokemon #infos {
           align-items: center;
 }
 
-body section#pokemon #infos div {
-  margin: 10px;
-}
-
 body section#pokemon #infos div#sprite {
-  width: 300px;
+  width: 41.66%;
+  border-top: solid white 2px;
+  border-left: solid white 2px;
+  border-radius: 10px 0px 0px 0px;
 }
 
 body section#pokemon #infos div#sprite img {
@@ -143,7 +161,9 @@ body section#pokemon #infos div#sprite img {
 }
 
 body section#pokemon #infos div#info {
-  width: 350px;
+  width: 58.34%;
+  height: 255px;
+  border-radius: 0px 10px 0px 0px;
   background-color: white;
 }
 
@@ -195,6 +215,64 @@ body section#pokemon #infos div#info div#stats ul {
 }
 
 body section#pokemon #talent {
+  width: 600px;
+  border-radius: 0px 0px 10px 10px;
   background-color: white;
+}
+
+body section#pokemon #capacites {
+  max-width: 1200px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body section#pokemon #capacites .capacite {
+  margin: 5px;
+  padding: 5px;
+  border-radius: 10px;
+  background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section#pokemon #capacites .capacite .general {
+  width: 250px;
+}
+
+body section#pokemon #capacites .capacite .general .types {
+  width: 90px;
+}
+
+body section#pokemon #capacites .capacite .effet {
+  width: 250px;
+  max-height: 145px;
+  overflow: auto;
+  text-align: justify;
 }
 /*# sourceMappingURL=styles.css.map */

@@ -7,6 +7,18 @@
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Plante augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
     {
+        "nom": "Point Poison",
+        "effet": "Si un Pokémon effectue une attaque directe sur un adversaire doté de ce talent, il a 30 % de chances d'être empoisonné."
+    },
+    {
+        "nom": "Regard Vif",
+        "effet": "Un Pokémon doté de ce talent ne peut pas perdre de Précision."
+    },
+    {
+        "nom": "Rivalité",
+        "effet": "Si le Pokémon est du même sexe que son adversaire la puissance de ses attaques est augmentée de 25%, s'ils sont tous deux de sexe différent la puissance de ses attaques est diminuée de 25% et si l'adversaire est asexué le talent n'a pas d'effet."
+    },
+    {
         "nom": "Torrent",
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Eau augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     }

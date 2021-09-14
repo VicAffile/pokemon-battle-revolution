@@ -5,7 +5,7 @@
         "sprite": "/images/sprites/florizarre.png",
         "talent": "Engrais",
         "sexe": "/images/sexes/male.svg",
-        "stat": {
+        "stats": {
             "pv": "319",
             "att_phy": "179",
             "def_phy": "223",
@@ -13,7 +13,7 @@
             "def_spe": "252",
             "vitesse": "172"
         },
-        "capacite": {
+        "capacites": {
             "a": "Noeud Herbe",
             "b": "Bomb-Beurk",
             "c": "Vampigraine",
@@ -28,7 +28,7 @@
         "sprite": "/images/sprites/dracaufeu.png",
         "talent": "Brasier",
         "sexe": "/images/sexes/male.svg",
-        "stat": {
+        "stats": {
             "pv": "300",
             "att_phy": "240",
             "def_phy": "169",
@@ -36,7 +36,7 @@
             "def_spe": "217",
             "vitesse": "259"
         },
-        "capacite": {
+        "capacites": {
             "a": "Poing de Feu",
             "b": "Dracogriffe",
             "c": "Séisme",
@@ -51,7 +51,7 @@
         "sprite": "/images/sprites/tortank.png",
         "talent": "Torrent",
         "sexe": "/images/sexes/male.svg",
-        "stat": {
+        "stats": {
             "pv": "297",
             "att_phy": "190",
             "def_phy": "251",
@@ -59,12 +59,81 @@
             "def_spe": "213",
             "vitesse": "190"
         },
-        "capacite": {
+        "capacites": {
             "a": "Surf",
             "b": "Laser Glace",
             "c": "Tour Rapide",
             "d": "Riposte"
         },
         "poids": 85.5
+    },
+    {
+        "id": 4,
+        "nom": "Roucarnage",
+        "types": { "a": "Normal", "b": "Vol" },
+        "sprite": "/images/sprites/roucarnage.png",
+        "talent": "Regard Vif",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "312",
+            "att_phy": "210",
+            "def_phy": "176",
+            "att_spe": "135",
+            "def_spe": "170",
+            "vitesse": "235"
+        },
+        "capacites": {
+            "a": "Rapace",
+            "b": "Retour",
+            "c": "Aile d'Acier",
+            "d": "Demi-Tour"
+        },
+        "poids": 39.5
+    },
+    {
+        "id": 5,
+        "nom": "Nidoqueen",
+        "types": { "a": "Poison", "b": "Sol" },
+        "sprite": "/images/sprites/nidoqueen.png",
+        "talent": "Point Poison",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "297",
+            "att_phy": "199",
+            "def_phy": "200",
+            "att_spe": "190",
+            "def_spe": "184",
+            "vitesse": "174"
+        },
+        "capacites": {
+            "a": "Direct Toxik",
+            "b": "Séisme",
+            "c": "Piège de Roc",
+            "d": "Pics Toxik"
+        },
+        "poids": 60.0
+    },
+    {
+        "id": 6,
+        "nom": "Nidoking",
+        "types": { "a": "Poison", "b": "Sol" },
+        "sprite": "/images/sprites/nidoking.png",
+        "talent": "Rivalité",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "286",
+            "att_phy": "230",
+            "def_phy": "190",
+            "att_spe": "177",
+            "def_spe": "182",
+            "vitesse": "176"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Lame de Roc",
+            "c": "Poing de Feu",
+            "d": "Coup Bas"
+        },
+        "poids": 62.0
     }
 ]

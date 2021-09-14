@@ -15,8 +15,8 @@
             <div>
                 {% if pokemon.types.b != "" %}
                 <p>Types : </p> {% endif %} {% if pokemon.types.b == "" %}
-                <p>Type : </p> {% endif %} {% for type in types %} {% if type.nom == pokemon.types.a %} <img class="types" src="{{type.image}}" alt="Type de {{pokemon.nom}}"> {% endif %} {% endfor %} {% if pokemon.types.b %}
-                <p> - </p> {% for type in types %} {% if type.nom == pokemon.types.b %} <img class="types" src="{{type.image}}" alt="Type de {{pokemon.nom}} "> {% endif %} {% endfor %} {% endif %}
+                <p>Type : </p> {% endif %} <img class="types" src="{{types_pokemon[0].image}}" alt="Type de {{pokemon.nom}}"> {% if pokemon.types.b != "" %}
+                <p> - </p> <img class="types" src="{{types_pokemon[1].image}}" alt="Type de {{pokemon.nom}} "> {% endif %}
             </div>
             <p>
                 Poids : {{pokemon.poids}} kg
@@ -24,22 +24,33 @@
             <div id="stats">
                 <p>Statistiques</p>
                 <ul>
-                    <li>PV : {{pokemon.stat.pv}}</li>
-                    <li>Attaque Physique : {{pokemon.stat.att_phy}}</li>
-                    <li>Défense Physique : {{pokemon.stat.def_phy}}</li>
-                    <li>Attaque Spéciale : {{pokemon.stat.att_spe}}</li>
-                    <li>Défense Spéciale : {{pokemon.stat.def_spe}}</li>
-                    <li>Vitesse : {{pokemon.stat.vitesse}}</li>
+                    <li>PV : {{pokemon.stats.pv}}</li>
+                    <li>Attaque Physique : {{pokemon.stats.att_phy}}</li>
+                    <li>Défense Physique : {{pokemon.stats.def_phy}}</li>
+                    <li>Attaque Spéciale : {{pokemon.stats.att_spe}}</li>
+                    <li>Défense Spéciale : {{pokemon.stats.def_spe}}</li>
+                    <li>Vitesse : {{pokemon.stats.vitesse}}</li>
                 </ul>
             </div>
         </div>
     </div>
     <div id="talent">
-        <p>Talent : <span>{{pokemon.talent}}</span></p>
-        <p>{% for talent in talents %} {% if talent.nom == pokemon.talent %} {{talent.effet}} {% endif %} {% endfor %}</p>
+        <p>Talent : <span>{{talent.nom}}</span></p>
+        <p>{{talent.effet}}</p>
     </div>
-    <div id="attaques ">
-
+    <div id="capacites">
+        {% for capacite in capacites %}
+        <div class="capacite">
+            <div class="general">
+                <p>{% for type in types %} {% if type.nom == capacite.type %} <img class="types" src="{{type.image}}" alt="Type de la capacite {{capacite.nom}} de {{pokemon.nom}}"> {% endif %} {% endfor %} - <span>{{capacite.nom}}</span></p>
+                <p>Catégorie : {{capacite.categorie}}</p>
+                <p>Puissance : {{capacite.puissance}}</p>
+                <p>Précision : {{capacite.precision}}</p>
+                <p>PP : {{capacite.pp}}</p>
+            </div>
+            <p class="effet">{{capacite.effet}}</p>
+        </div>
+        {% endfor %}
     </div>
 </section>
 

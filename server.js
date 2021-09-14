@@ -22,7 +22,7 @@ app.set('views', __dirname + '/views');
 
 
 app.get('/', (req, res) => {
-    const donnee = { titre: 'Liste des Pokémons', pokemons: pokemons };
+    const donnee = { titre: 'Liste des Pokémons', pokemons: pokemons, types: types };
     res.render('index', donnee);
 });
 
@@ -32,10 +32,23 @@ app.get('/:id', (req, res) => {
     if (pokemon == undefined) {
         res.status(404).send("Ce Pokémon n'existe pas.");
     }
-    const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, talents: talents, capacites: capacites };
+    const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, types_pokemon: [recherche_api(pokemon.types.a, types), recherche_api(pokemon.types.b, types)], talent: recherche_api(pokemon.talent, talents), capacites: [recherche_api(pokemon.capacites.a, capacites), recherche_api(pokemon.capacites.b, capacites), recherche_api(pokemon.capacites.c, capacites), recherche_api(pokemon.capacites.d, capacites)] };
     res.render('pokemon', donnee);
 });
 
 
 app.listen(8080);
 console.log("L'application tourne.");
+
+
+function recherche_api(recherche, api) {
+    if (recherche == "") {
+        return "";
+    } else {
+        for (let element of api) {
+            if (element.nom == recherche) {
+                return element;
+            }
+        }
+    }
+}
