@@ -1,4 +1,4 @@
-# Projet : Portfolio
+# Projet : Créateur équipe - Pokémon Battle Révolution
 Type : Application Web  
 Langages : HTML, CSS (SCSS), JavaScript et NodeJS (express...)
 
