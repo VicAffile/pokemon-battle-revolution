@@ -1,6 +1,6 @@
 [{
         "nom": "Aile d'Acier",
-        "type": "Normal",
+        "type": "Acier",
         "puissance": "70",
         "precision": "90%",
         "pp": "25",

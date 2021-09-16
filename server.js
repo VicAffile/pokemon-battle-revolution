@@ -26,6 +26,7 @@ app.get('/', (req, res) => {
     res.render('index', donnee);
 });
 
+
 app.get('/:id', (req, res) => {
     const id = parseInt(req.params.id);
     const pokemon = pokemons.find(pokemon => pokemon.id === id);
