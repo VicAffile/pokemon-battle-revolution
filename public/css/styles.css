@@ -175,20 +175,43 @@ body section#liste .case {
   border-radius: 10px;
 }
 
-body section#liste .case .case-bouton {
+body section#liste .case .boutons {
   border-radius: 5px 5px 0px 0px;
   background-color: white;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
 }
 
-body section#liste .case .case-bouton button {
+body section#liste .case .boutons :nth-child(1) {
+  width: 50%;
+}
+
+body section#liste .case .boutons :nth-child(1) button {
   padding: 5px;
   width: 100%;
   border: none;
-  border-radius: 10px 10px 0px 0px;
+  border-radius: 10px 0px 0px 0px;
   background-color: white;
 }
 
-body section#liste .case .case-bouton button:hover {
+body section#liste .case .boutons :nth-child(1) button:hover {
+  font-weight: bold;
+}
+
+body section#liste .case .boutons :nth-child(2) {
+  padding: 5px;
+  width: 50%;
+  border: none;
+  border-radius: 0px 10px 0px 0px;
+  background-color: white;
+}
+
+body section#liste .case .boutons :nth-child(2):hover {
   font-weight: bold;
 }
 

@@ -1,52 +1,64 @@
 if (localStorage.getItem('mon_equipe_pokemon_battle_revolution') == undefined) {
-    localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify({
-        pokemon_1: [2, "/images/sprites/dracaufeu.png"],
-        pokemon_2: [3, "/images/sprites/tortank.png"],
-        pokemon_3: [0, ""],
-        pokemon_4: [0, ""],
-        pokemon_5: [0, ""],
-        pokemon_6: [0, ""]
-    }));
+    localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify([
+        [0, ""],
+        [0, ""],
+        [0, ""],
+        [0, ""],
+        [0, ""],
+        [0, ""]
+    ]));
 } else {
-    let equipe = JSON.parse(localStorage.getItem("mon_equipe_pokemon_battle_revolution"));
-    if (equipe.pokemon_1[0] != 0) {
-        let pokemon = document.getElementById('un')
-        pokemon.childNodes[1].classList.replace('sprite-pokeball', 'sprite');
-        pokemon.childNodes[1].innerHTML = '<img src="' + equipe.pokemon_1[1] + '" alt="Sprite du Pokémon">';
-        pokemon.childNodes[3].classList.replace('boutons-pokeball', 'boutons');
-        pokemon.childNodes[3].innerHTML = '<a href="/' + equipe.pokemon_1[0] + '"><button>Voir</button></a> <button onclick="supprimer(this)">Supprimer</button>';
+    afficher_equipe();
+}
+
+
+function ajouter_liste(bouton) {
+    let pokemon = bouton.parentNode.parentNode;
+    let liste = pokemon.parentNode.getElementsByClassName('case');
+    for (let i = 0; i < liste.length; i++) {
+        if (liste[i] == pokemon) {
+            let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
+            if (non_choisi(i + 1)) {
+                for (let membre of equipe) {
+                    if (membre[0] == 0) {
+                        console.log(equipe)
+                        membre[0] = i + 1;
+                        membre[1] = pokemon.querySelector('img').src;
+                        console.log(equipe)
+                        localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
+                        localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
+                        afficher_equipe()
+                        return;
+                    }
+                }
+            }
+        }
     }
-    if (equipe.pokemon_2[0] != 0) {
-        let pokemon = document.getElementById('deux')
-        pokemon.childNodes[1].classList.replace('sprite-pokeball', 'sprite');
-        pokemon.childNodes[1].innerHTML = '<img src="' + equipe.pokemon_2[1] + '" alt="Sprite du Pokémon">';
-        pokemon.childNodes[3].classList.replace('boutons-pokeball', 'boutons');
-        pokemon.childNodes[3].innerHTML = '<a href="/' + equipe.pokemon_2[0] + '"><button>Voir</button></a> <button onclick="supprimer(this)">Supprimer</button>';
-    }
+    console.log("Tu as déjà six Pokémon.")
 }
 
 
 function supprimer(bouton) {
     let pokemon = bouton.parentNode.parentNode;
-    let equipe = JSON.parse(localStorage.getItem("mon_equipe_pokemon_battle_revolution"));
+    let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
     switch (pokemon.id) {
         case 'un':
-            equipe.pokemon_1 = [0, ""];
+            equipe[0] = [0, ""];
             break;
         case 'deux':
-            equipe.pokemon_2 = [0, ""];
+            equipe[1] = [0, ""];
             break;
         case 'trois':
-            equipe.pokemon_3 = [0, ""];
+            equipe[2] = [0, ""];
             break;
         case 'quatre':
-            equipe.pokemon_4 = [0, ""];
+            equipe[3] = [0, ""];
             break;
         case 'cinq':
-            equipe.pokemon_5 = [0, ""];
+            equipe[4] = [0, ""];
             break;
         case 'six':
-            equipe.pokemon_6 = [0, ""];
+            equipe[5] = [0, ""];
             break;
         default:
             console.log("L'id n'est pas présent");
@@ -56,4 +68,48 @@ function supprimer(bouton) {
     pokemon.childNodes[1].classList.replace('sprite', 'sprite-pokeball');
     pokemon.childNodes[1].innerHTML = '<img src="/images/ressources/pokeball.png" alt="Sprite du Pokémon">';
     pokemon.childNodes[3].classList.replace('boutons', 'boutons-pokeball');
+}
+
+
+function afficher_equipe() {
+    let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
+    if (equipe[0][0] != 0) {
+        afficher_membre(0, document.getElementById('un'));
+    }
+    if (equipe[1][0] != 0) {
+        afficher_membre(1, document.getElementById('deux'));
+    }
+    if (equipe[2][0] != 0) {
+        afficher_membre(2, document.getElementById('trois'));
+    }
+    if (equipe[3][0] != 0) {
+        afficher_membre(3, document.getElementById('quatre'));
+    }
+    if (equipe[4][0] != 0) {
+        afficher_membre(4, document.getElementById('cinq'));
+    }
+    if (equipe[5][0] != 0) {
+        afficher_membre(5, document.getElementById('six'));
+    }
+}
+
+
+function afficher_membre(index, id) {
+    let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
+    id.childNodes[1].classList.replace('sprite-pokeball', 'sprite');
+    id.childNodes[1].innerHTML = '<img src="' + equipe[index][1] + '" alt="Sprite du Pokémon">';
+    id.childNodes[3].classList.replace('boutons-pokeball', 'boutons');
+    id.childNodes[3].innerHTML = '<a href="/' + equipe[index][0] + '"><button>Voir</button></a> <button onclick="supprimer(this)">Supprimer</button>';
+}
+
+
+function non_choisi(id) {
+    let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
+    for (let pokemon of equipe) {
+        if (pokemon[0] == id) {
+            console.log("Tu as déjà choisi ce Pokémon.")
+            return false;
+        }
+    }
+    return true;
 }

@@ -4,7 +4,10 @@
 
     {% for pokemon in pokemons %}
     <div class="case">
-        <div class="case-bouton"><a href="/{{pokemon.id}}"><button>Voir</button></a></div>
+        <div class="boutons">
+            <a href="/{{pokemon.id}}"><button>Voir</button></a>
+            <button onclick="ajouter_liste(this)">Ajouter</button>
+        </div>
         <div class="image"><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
         <div class="case-info">
             <p>{{pokemon.nom}} <img src="{{pokemon.sexe}}" alt="Sexe de {{pokemon.nom}}"></p>
