@@ -17,7 +17,8 @@ body {
 body header {
   position: fixed;
   width: 100%;
-  height: 85px;
+  height: 95px;
+  background-color: rgba(0, 0, 0, 0.5);
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -42,9 +43,8 @@ body header #logo img {
 }
 
 body header #equipe {
-  margin-top: 10px;
   margin-right: 80px;
-  height: 100%;
+  height: 75px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -147,10 +147,6 @@ body header #equipe .pokemon:hover .boutons {
   opacity: 0.9;
 }
 
-body section.premiere {
-  margin-top: 100px;
-}
-
 body section#liste {
   max-width: 90%;
   display: -webkit-box;
@@ -216,7 +212,7 @@ body section#liste .case .boutons :nth-child(2):hover {
 }
 
 body section#liste .case .image {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 body section#liste .case .image img {
@@ -328,7 +324,7 @@ body section#pokemon #infos div#sprite {
   border-top: solid white 2px;
   border-left: solid white 2px;
   border-radius: 10px 0px 0px 0px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 body section#pokemon #infos div#sprite img {
@@ -459,5 +455,9 @@ body section#pokemon #capacites .capacite .effet {
   max-height: 145px;
   overflow: auto;
   text-align: justify;
+}
+
+body section.premiere {
+  margin-top: 150px;
 }
 /*# sourceMappingURL=styles.css.map */

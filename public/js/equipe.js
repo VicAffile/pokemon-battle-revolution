@@ -21,16 +21,33 @@ function ajouter_liste(bouton) {
             if (non_choisi(i + 1)) {
                 for (let membre of equipe) {
                     if (membre[0] == 0) {
-                        console.log(equipe)
                         membre[0] = i + 1;
                         membre[1] = pokemon.querySelector('img').src;
-                        console.log(equipe)
                         localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
                         localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
-                        afficher_equipe()
+                        afficher_equipe();
                         return;
                     }
                 }
+            }
+        }
+    }
+    console.log("Tu as déjà six Pokémon.")
+}
+
+function ajouter_detail(bouton) {
+    let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
+    const url = document.location.href;
+    const id = url.substring(url.lastIndexOf("/") + 1);
+    if (non_choisi(id)) {
+        for (let membre of equipe) {
+            if (membre[0] == 0) {
+                membre[0] = id;
+                membre[1] = document.getElementById('sprite').querySelector('img').src;
+                localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
+                localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
+                afficher_equipe();
+                return;
             }
         }
     }
