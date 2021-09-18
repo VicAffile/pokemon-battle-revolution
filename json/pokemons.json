@@ -135,5 +135,74 @@
             "d": "Coup Bas"
         },
         "poids": 62.0
+    },
+    {
+        "id": 7,
+        "nom": "Mélodelfe",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/melodelfe.png",
+        "talent": "Garde Magik",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "340",
+            "att_phy": "152",
+            "def_phy": "199",
+            "att_spe": "213",
+            "def_spe": "205",
+            "vitesse": "150"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Laser Glace",
+            "c": "E-Coque",
+            "d": "Cage-Eclair"
+        },
+        "poids": 40.0
+    },
+    {
+        "id": 8,
+        "nom": "Arcanin",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/arcanin.png",
+        "talent": "Torche",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "321",
+            "att_phy": "256",
+            "def_phy": "184",
+            "att_spe": "233",
+            "def_spe": "176",
+            "vitesse": "244"
+        },
+        "capacites": {
+            "a": "Boutefeu",
+            "b": "Vit. Extrême",
+            "c": "Aurore",
+            "d": "Feu Follet"
+        },
+        "poids": 155.0
+    },
+    {
+        "id": 9,
+        "nom": "Alakazam",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/alakazam.png",
+        "talent": "Synchro",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "246",
+            "att_phy": "120",
+            "def_phy": "106",
+            "att_spe": "328",
+            "def_spe": "196",
+            "vitesse": "290"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Exploforce",
+            "c": "Rayon Signal",
+            "d": "Plénitude"
+        },
+        "poids": 48.0
     }
 ]

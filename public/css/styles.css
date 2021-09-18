@@ -212,7 +212,7 @@ body section#liste .case .boutons :nth-child(2):hover {
 }
 
 body section#liste .case .image {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 body section#liste .case .image img {
@@ -324,7 +324,7 @@ body section#pokemon #infos div#sprite {
   border-top: solid white 2px;
   border-left: solid white 2px;
   border-radius: 10px 0px 0px 0px;
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 body section#pokemon #infos div#sprite img {
@@ -399,6 +399,11 @@ body section#pokemon #talent {
   width: 600px;
   border-radius: 0px 0px 10px 10px;
   background-color: white;
+}
+
+body section#pokemon #talent :nth-child(2) {
+  height: 80px;
+  overflow: auto;
 }
 
 body section#pokemon #capacites {

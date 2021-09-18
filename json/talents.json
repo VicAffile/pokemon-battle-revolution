@@ -7,6 +7,10 @@
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Plante augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
     {
+        "nom": "Garde Magik",
+        "effet": "Seules les capacités qui infligent des dégâts directs fonctionnent contre le Pokémon possédant le talent. Un Pokémon doté de ce talent ne subira pas les dégâts infligés par : les altérations de statut, sauf ceux d'une éventuelle confusion, les altérations de climat, les contrecoups (mais pas celui de Lutte), le sacrifice de PV (Malédiction spectre) ou les Entry Hazards (Picots, Pics Toxik et Piège de Roc). Cependant, les effets secondaires associés aux statuts ou encore l'impossibilité de changer de Pokémon sur les capacités piégeantes restent tout à fait effectifs."
+    },
+    {
         "nom": "Point Poison",
         "effet": "Si un Pokémon effectue une attaque directe sur un adversaire doté de ce talent, il a 30 % de chances d'être empoisonné."
     },
@@ -17,6 +21,14 @@
     {
         "nom": "Rivalité",
         "effet": "Si le Pokémon est du même sexe que son adversaire la puissance de ses attaques est augmentée de 25%, s'ils sont tous deux de sexe différent la puissance de ses attaques est diminuée de 25% et si l'adversaire est asexué le talent n'a pas d'effet."
+    },
+    {
+        "nom": "Synchro",
+        "effet": "Si un Pokémon doté du talent Synchro est empoisonné, paralysé ou brûlé, alors il transmettra son altération de statut à l'attaquant. Ce talent ne fonctionne pas avec le sommeil, le gel ou la confusion. Ce statut doit obligatoirement être provoqué par une capacité ou l'activation d'un talent comme Statik ou encore Corps Ardent. Ainsi un empoisonnement par Pics Toxik ne sera pas synchronisée. Si le Pokémon adverse qui switche face à celui qui a Synchro est déjà atteint d'une altération de statut, ce dernier ne changera pas, même s'il est différent de celui du Pokémon ayant Synchro (un Tortank paralysé qui switche sur un Alakazam empoisonné ne sera pas empoisonné)."
+    },
+    {
+        "nom": "Torche",
+        "effet": "Lorsqu'un Pokémon doté de ce talent est touché par une capacité de type Feu (offensive ou non, donc des capacités comme Feu Follet sont aussi concernées) ou que son statut est modifié en brûlure, il obtient un boost de 50 % pour ses propres capacités Feu. Une seconde attaque ne produit pas d'augmentation supplémentaire. Les capacités de type Feu qui touchent ce Pokémon ne produisent également aucun dégât. L'augmentation de la puissance des capacités Feu disparaît si le Pokémon est switché. Si le Pokémon est gelé et est touché par une capacité feu, il est dégelé sans bénéficier du boost."
     },
     {
         "nom": "Torrent",

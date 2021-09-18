@@ -135,7 +135,7 @@ body {
                     }
                 }
                 .image {
-                    background-color: rgba(0, 0, 0, 0.2);
+                    background-color: rgba(255, 255, 255, 0.2);
                     img {
                         width: 150px;
                         object-fit: cover;
@@ -203,7 +203,7 @@ body {
                         border-top: solid white 2px;
                         border-left: solid white 2px;
                         border-radius: 10px 0px 0px 0px;
-                        background-color: rgba(0, 0, 0, 0.2);
+                        background-color: rgba(255, 255, 255, 0.2);
                         img {
                             width: 100%;
                         }
@@ -247,6 +247,10 @@ body {
                 width: 600px;
                 border-radius: 0px 0px 10px 10px;
                 background-color: white;
+                 :nth-child(2) {
+                    height: 80px;
+                    overflow: auto;
+                }
             }
             #capacites {
                 max-width: 1200px;

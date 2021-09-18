@@ -8,6 +8,15 @@
         "effet": "10% de chances de monter la défense d'un niveau."
     },
     {
+        "nom": "Aurore",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Restaure la moitié des PV max du lanceur sous des conditions météo normales, 2/3 si le soleil brille et 1/4 sous les autres conditions météo (Pluie, Brume...)."
+    },
+    {
         "nom": "Bomb-Beurk",
         "type": "Poison",
         "puissance": "90",
@@ -15,6 +24,24 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "30% de chances d'empoisonner la cible."
+    },
+    {
+        "nom": "Boutefeu",
+        "type": "Feu",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Dégèle le lanceur et a 10% de chance de brûler l'adversaire. Le lanceur reçoit un contrecoup égal à 1/3 des dégâts infligés par la capacité."
+    },
+    {
+        "nom": "Cage-Eclair",
+        "type": "Electrik",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Paralyse la cible sauf si celle-ci est déjà victime d'un problème de statut majeur ou si elle se trouve derrière un clone. Cette capacité ne fonctionne pas contre les Pokémon de type Sol, ainsi que contre ceux dotés du talent Paratonnerre."
     },
     {
         "nom": "Coup Bas",
@@ -62,6 +89,33 @@
         "effet": "Augmente l'attaque physique et la vitesse d'un niveau."
     },
     {
+        "nom": "Exploforce",
+        "type": "Combat",
+        "puissance": "120",
+        "precision": "70%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "Possède 10% de chances de baisser la Défense Spéciale adverse."
+    },
+    {
+        "nom": "E-Coque",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Restaure jusqu'à 50% des PV maximum du lanceur, la capacité échouera si les PV du lanceur sont déjà au maximum."
+    },
+    {
+        "nom": "Feu Follet",
+        "type": "Feu",
+        "puissance": "/",
+        "precision": "75",
+        "pp": "15",
+        "categorie": "Non-offensive",
+        "effet": "Brûle la cible. La capacité est sans effet sur les types Feu, bien que non-offensive, elle active le talent Torche."
+    },
+    {
         "nom": "Lame de Roc",
         "type": "Roche",
         "puissance": "100",
@@ -107,6 +161,15 @@
         "effet": "A chaque changement de Pokémon adverse, le Pokémon apparu perd des PV : double résistance au type roche = 3.125%, résistance au type roche = 6.25%, pas de résistance au type roche = 12.5%, faiblesse au type roche = 25% et double faiblesse au type roche = 50%. Si l'adversaire utilise Tour Rapide, l'effet de cette attaque disparait"
     },
     {
+        "nom": "Plénitude",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente à la fois l'Attaque Spéciale et la Défense Spéciale de l'utilisateur d'un niveau."
+    },
+    {
         "nom": "Poing de Feu",
         "type": "Feu",
         "puissance": "75",
@@ -125,6 +188,15 @@
         "effet": "Endort la cible sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
     },
     {
+        "nom": "Psyko",
+        "type": "Psy",
+        "puissance": "90",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "10% de chances de baisser d'un niveau la Défense Spéciale de la cible."
+    },
+    {
         "nom": "Rapace",
         "type": "Vol",
         "puissance": "120",
@@ -132,6 +204,15 @@
         "pp": "15",
         "categorie": "Physique",
         "effet": "Fait subir au lanceur 1/3 des dégâts infligés à la cible."
+    },
+    {
+        "nom": "Rayon Signal",
+        "type": "Insecte",
+        "puissance": "75",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "10% de chances de rendre la cible confuse."
     },
     {
         "nom": "Retour",
@@ -186,5 +267,14 @@
         "pp": "10",
         "categorie": "Non-offensive",
         "effet": "Draine à la fin de chaque tour 1/8ème des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
+    },
+    {
+        "nom": "Vit. Extrême",
+        "type": "Normal",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
     }
 ]
