@@ -10,22 +10,70 @@
 </head>
 
 <body>
+
     <header>
         <div id="logo"><img src="/images/ressources/logo.png" alt="Logo du jeu"></div>
         <div id="equipe">
-            <div class="pokemon">
-                <div class="sprite">
-                    <img src="/images/sprites/dracaufeu.png" alt="">
+            <div id="un" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
                 </div>
-                <div class="boutons">
-                    <button>Voir</button>
-                    <button>Supprimer</button>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
+                </div>
+            </div>
+            <div id="deux" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
+                </div>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
+                </div>
+            </div>
+            <div id="trois" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
+                </div>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
+                </div>
+            </div>
+            <div id="quatre" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
+                </div>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
+                </div>
+            </div>
+            <div id="cinq" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
+                </div>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
+                </div>
+            </div>
+            <div id="six" class="pokemon">
+                <div class="sprite-pokeball">
+                    <img src="/images/ressources/pokeball.png" alt="Sprite d'une Poké Ball">
+                </div>
+                <div class="boutons-pokeball">
+                    <a href=""><button>Voir</button></a>
+                    <button onclick="supprimer(this)">Supprimer</button>
                 </div>
             </div>
         </div>
     </header>
 
     {% block content %} {% endblock %}
+
+    <script src="js/equipe.js"></script>
 
 </body>
 

@@ -45,9 +45,20 @@ body header #equipe {
   margin-top: 10px;
   margin-right: 80px;
   height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
 body header #equipe .pokemon {
+  margin-left: 10px;
   height: 100%;
   display: -ms-grid;
   display: grid;
@@ -76,6 +87,14 @@ body header #equipe .pokemon .sprite:hover {
   opacity: 0.2;
 }
 
+body header #equipe .pokemon .sprite-pokeball {
+  height: 100%;
+}
+
+body header #equipe .pokemon .sprite-pokeball img {
+  height: 100%;
+}
+
 body header #equipe .pokemon .boutons {
   opacity: 0;
   -ms-grid-column: 1;
@@ -94,18 +113,26 @@ body header #equipe .pokemon .boutons {
           flex-direction: column;
 }
 
-body header #equipe .pokemon .boutons button {
-  height: 50%;
-  font-weight: bold;
-}
-
 body header #equipe .pokemon .boutons :nth-child(1) {
+  width: 100%;
+  height: 50%;
   border-radius: 20px 20px 0px 0px;
   background-color: red;
 }
 
+body header #equipe .pokemon .boutons :nth-child(1) button {
+  height: 100%;
+  font-weight: bold;
+}
+
 body header #equipe .pokemon .boutons :nth-child(2) {
+  height: 50%;
   border-radius: 0px 0px 20px 20px;
+  font-weight: bold;
+}
+
+body header #equipe .pokemon .boutons-pokeball {
+  display: none;
 }
 
 body header #equipe .pokemon:hover .sprite {
@@ -278,6 +305,7 @@ body section#pokemon #infos div#sprite {
   border-top: solid white 2px;
   border-left: solid white 2px;
   border-radius: 10px 0px 0px 0px;
+  background-color: rgba(255, 255, 255, 0.2);
 }
 
 body section#pokemon #infos div#sprite img {

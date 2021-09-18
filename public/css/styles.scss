@@ -23,7 +23,11 @@ body {
             margin-top: 10px;
             margin-right: 80px;
             height: 100%;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
             .pokemon {
+                margin-left: 10px;
                 height: 100%;
                 display: grid;
                 grid-template-rows: 100%;
@@ -42,6 +46,12 @@ body {
                         opacity: 0.2;
                     }
                 }
+                .sprite-pokeball {
+                    height: 100%;
+                    img {
+                        height: 100%;
+                    }
+                }
                 .boutons {
                     opacity: 0;
                     grid-column-start: 1;
@@ -51,17 +61,24 @@ body {
                     height: 100%;
                     display: flex;
                     flex-direction: column;
-                    button {
-                        height: 50%;
-                        font-weight: bold;
-                    }
                      :nth-child(1) {
+                        width: 100%;
+                        height: 50%;
                         border-radius: 20px 20px 0px 0px;
                         background-color: red;
+                        button {
+                            height: 100%;
+                            font-weight: bold;
+                        }
                     }
                      :nth-child(2) {
+                        height: 50%;
                         border-radius: 0px 0px 20px 20px;
+                        font-weight: bold;
                     }
+                }
+                .boutons-pokeball {
+                    display: none;
                 }
                 &:hover {
                     .sprite {
@@ -174,6 +191,7 @@ body {
                         border-top: solid white 2px;
                         border-left: solid white 2px;
                         border-radius: 10px 0px 0px 0px;
+                        background-color: rgba($color: #FFFFFF, $alpha: 0.2);
                         img {
                             width: 100%;
                         }
