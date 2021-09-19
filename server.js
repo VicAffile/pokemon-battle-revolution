@@ -7,6 +7,8 @@ const pokemons = require('./json/pokemons.json');
 const talents = require('./json/talents.json');
 const types = require('./json/types.json');
 
+const PORT = 3000;
+
 
 let app = express();
 app.use(bodyParser());
@@ -38,7 +40,7 @@ app.get('/:id', (req, res) => {
 });
 
 
-app.listen(8080);
+app.listen(PORT);
 console.log("L'application tourne.");
 
 
