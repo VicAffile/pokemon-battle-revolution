@@ -30,63 +30,59 @@ body {
                 margin-left: 10px;
                 height: 100%;
                 display: grid;
-                grid-template-rows: 100%;
+                grid-template-rows: 50% 50%;
                 .sprite {
-                    z-index: 2;
-                    grid-column-start: 1;
-                    grid-column-end: 1;
-                    grid-row-start: 1;
-                    grid-row-end: 1;
+                    z-index: 10;
+                    grid-column: 1;
+                    grid-row: 1 / 3;
                     height: 100%;
                     img {
                         height: 100%;
                     }
-                    &:hover {
-                        transition: 1s;
-                        opacity: 0.2;
-                    }
                 }
                 .sprite-pokeball {
+                    grid-column: 1;
+                    grid-row: 1 / 3;
                     height: 100%;
                     img {
+                        width: auto;
                         height: 100%;
                     }
                 }
                 .boutons {
+                    z-index: 0;
                     opacity: 0;
-                    grid-column-start: 1;
-                    grid-column-end: 1;
-                    grid-row-start: 1;
-                    grid-row-end: 1;
-                    height: 100%;
-                    display: flex;
-                    flex-direction: column;
-                     :nth-child(1) {
+                    width: 100%;
+                }
+                a {
+                    grid-column: 1;
+                    grid-row: 1 / 2;
+                    button {
                         width: 100%;
-                        height: 50%;
+                        height: 100%;
                         border-radius: 20px 20px 0px 0px;
                         background-color: red;
-                        button {
-                            height: 100%;
-                            font-weight: bold;
-                        }
-                    }
-                     :nth-child(2) {
-                        height: 50%;
-                        border-radius: 0px 0px 20px 20px;
+                        text-align: center;
                         font-weight: bold;
                     }
+                }
+                button {
+                    grid-column: 1;
+                    grid-row: 2 / 3;
+                    border-radius: 0px 0px 20px 20px;
+                    font-weight: bold;
                 }
                 .boutons-pokeball {
                     display: none;
                 }
                 &:hover {
                     .sprite {
-                        transition: 0.5s;
+                        transition: 1s;
+                        opacity: 0.2;
                     }
                     .boutons {
                         transition: 1s;
-                        z-index: 3;
+                        z-index: 20;
                         opacity: 0.9;
                     }
                 }

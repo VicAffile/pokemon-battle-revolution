@@ -56,7 +56,7 @@ function ajouter_detail(bouton) {
 
 
 function supprimer(bouton) {
-    let pokemon = bouton.parentNode.parentNode;
+    let pokemon = bouton.parentNode;
     let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
     switch (pokemon.id) {
         case 'un':
@@ -82,9 +82,12 @@ function supprimer(bouton) {
     }
     localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
     localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
-    pokemon.childNodes[1].classList.replace('sprite', 'sprite-pokeball');
-    pokemon.childNodes[1].innerHTML = '<img src="/images/ressources/pokeball.png" alt="Sprite du Pokémon">';
-    pokemon.childNodes[3].classList.replace('boutons', 'boutons-pokeball');
+    pokemon.querySelector('div').classList.replace('sprite', 'sprite-pokeball');
+    pokemon.querySelector('img').src = "/images/ressources/pokeball.png";
+    pokemon.querySelector('img').alt = "Sprite d'une Poké Ball";
+    pokemon.querySelector('a').classList.replace('boutons', 'boutons-pokeball');
+    pokemon.querySelector('a').href = "";
+    pokemon.querySelectorAll('button')[1].classList.replace('boutons', 'boutons-pokeball');
 }
 
 
@@ -113,10 +116,12 @@ function afficher_equipe() {
 
 function afficher_membre(index, id) {
     let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
-    id.childNodes[1].classList.replace('sprite-pokeball', 'sprite');
-    id.childNodes[1].innerHTML = '<img src="' + equipe[index][1] + '" alt="Sprite du Pokémon">';
-    id.childNodes[3].classList.replace('boutons-pokeball', 'boutons');
-    id.childNodes[3].innerHTML = '<a href="/' + equipe[index][0] + '"><button>Voir</button></a> <button onclick="supprimer(this)">Supprimer</button>';
+    id.querySelector('div').classList.replace('sprite-pokeball', 'sprite');
+    id.querySelector('img').src = equipe[index][1];
+    id.querySelector('img').alt = "Sprite du Pokémon";
+    id.querySelector('a').classList.replace('boutons-pokeball', 'boutons');
+    id.querySelector('a').href = "/" + equipe[index][0];
+    id.querySelectorAll('button')[1].classList.replace('boutons-pokeball', 'boutons');
 }
 
 
