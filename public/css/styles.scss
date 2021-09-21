@@ -170,6 +170,9 @@ body {
                             border: none;
                             border-radius: 10px 0px 0px 0px;
                             background-color: white;
+                            @media all and (max-width: 560px) {
+                                font-size: x-small;
+                            }
                             &:hover {
                                 font-weight: bold;
                             }
@@ -181,6 +184,9 @@ body {
                         border: none;
                         border-radius: 0px 10px 0px 0px;
                         background-color: white;
+                        @media all and (max-width: 560px) {
+                            font-size: x-small;
+                        }
                         &:hover {
                             font-weight: bold;
                         }
@@ -204,7 +210,10 @@ body {
                         justify-content: center;
                         img {
                             margin-left: 5px;
-                            width: 15px;
+                            width: 10%;
+                        }
+                        @media all and (max-width: 560px) {
+                            font-size: small;
                         }
                     }
                     div {
