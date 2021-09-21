@@ -248,10 +248,23 @@ body section#liste {
           align-items: flex-start;
 }
 
+@media all and (max-width: 560px) {
+  body section#liste {
+    width: 100%;
+  }
+}
+
 body section#liste .case {
   margin: 10px;
+  width: 150px;
   border: solid white 2px;
   border-radius: 10px;
+}
+
+@media all and (max-width: 775px) {
+  body section#liste .case {
+    width: 100px;
+  }
 }
 
 body section#liste .case .boutons {
@@ -299,7 +312,7 @@ body section#liste .case .image {
 }
 
 body section#liste .case .image img {
-  width: 150px;
+  width: 100%;
   -o-object-fit: cover;
      object-fit: cover;
 }
@@ -336,7 +349,7 @@ body section#liste .case .case-info div {
 }
 
 body section#liste .case .case-info div img {
-  width: 60px;
+  width: 40%;
 }
 
 body section#boutons {
