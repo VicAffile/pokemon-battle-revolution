@@ -34,12 +34,32 @@ body header {
           align-items: center;
 }
 
+@media all and (max-width: 820px) {
+  body header {
+    padding-bottom: 5px;
+    height: auto;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+}
+
 body header #logo {
   height: 100%;
 }
 
 body header #logo img {
   height: 100%;
+}
+
+@media all and (max-width: 820px) {
+  body header #logo {
+    height: 75px;
+  }
 }
 
 body header #equipe {
@@ -57,6 +77,19 @@ body header #equipe {
           justify-content: center;
 }
 
+@media all and (max-width: 950px) {
+  body header #equipe {
+    margin-right: 10px;
+  }
+}
+
+@media all and (max-width: 820px) {
+  body header #equipe {
+    margin-right: 0px;
+    height: auto;
+  }
+}
+
 body header #equipe .pokemon {
   margin-left: 10px;
   height: 100%;
@@ -64,6 +97,26 @@ body header #equipe .pokemon {
   display: grid;
   -ms-grid-rows: 50% 50%;
       grid-template-rows: 50% 50%;
+}
+
+@media all and (max-width: 820px) {
+  body header #equipe .pokemon {
+    margin-right: 5px;
+    margin-left: 5px;
+    width: 75px;
+  }
+}
+
+@media all and (max-width: 550px) {
+  body header #equipe .pokemon {
+    width: 55px;
+  }
+}
+
+@media all and (max-width: 490px) {
+  body header #equipe .pokemon {
+    width: 45px;
+  }
 }
 
 body header #equipe .pokemon .sprite {
@@ -80,6 +133,13 @@ body header #equipe .pokemon .sprite img {
   height: 100%;
 }
 
+@media all and (max-width: 820px) {
+  body header #equipe .pokemon .sprite img {
+    width: 100%;
+    height: auto;
+  }
+}
+
 body header #equipe .pokemon .sprite-pokeball {
   -ms-grid-column: 1;
   grid-column: 1;
@@ -90,8 +150,14 @@ body header #equipe .pokemon .sprite-pokeball {
 }
 
 body header #equipe .pokemon .sprite-pokeball img {
-  width: auto;
   height: 100%;
+}
+
+@media all and (max-width: 820px) {
+  body header #equipe .pokemon .sprite-pokeball img {
+    width: 100%;
+    height: auto;
+  }
 }
 
 body header #equipe .pokemon .boutons {
@@ -117,6 +183,13 @@ body header #equipe .pokemon a button {
   font-weight: bold;
 }
 
+@media all and (max-width: 820px) {
+  body header #equipe .pokemon a button {
+    padding: 0px;
+    font-size: xx-small;
+  }
+}
+
 body header #equipe .pokemon button {
   -ms-grid-column: 1;
   grid-column: 1;
@@ -127,17 +200,30 @@ body header #equipe .pokemon button {
   font-weight: bold;
 }
 
-body header #equipe .pokemon .boutons-pokeball {
+@media all and (max-width: 820px) {
+  body header #equipe .pokemon button {
+    padding: 0px;
+    font-size: xx-small;
+  }
+}
+
+@media all and (max-width: 490px) {
+  body header #equipe .pokemon button {
+    font-size: 6px;
+  }
+}
+
+body header #equipe .boutons-pokeball {
   display: none;
 }
 
-body header #equipe .pokemon:hover .sprite {
+body header #equipe:hover .sprite {
   -webkit-transition: 1s;
   transition: 1s;
   opacity: 0.2;
 }
 
-body header #equipe .pokemon:hover .boutons {
+body header #equipe:hover .boutons {
   -webkit-transition: 1s;
   transition: 1s;
   z-index: 20;
