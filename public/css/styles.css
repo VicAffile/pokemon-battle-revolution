@@ -267,6 +267,13 @@ body section#liste .case {
   }
 }
 
+@media all and (max-width: 560px) {
+  body section#liste .case {
+    margin: 5px;
+    width: 90px;
+  }
+}
+
 body section#liste .case .boutons {
   border-radius: 5px 5px 0px 0px;
   background-color: white;

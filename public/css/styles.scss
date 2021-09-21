@@ -153,6 +153,10 @@ body {
                 @media all and (max-width: 775px) {
                     width: 100px;
                 }
+                @media all and (max-width: 560px) {
+                    margin: 5px;
+                    width: 90px;
+                }
                 .boutons {
                     border-radius: 5px 5px 0px 0px;
                     background-color: white;
