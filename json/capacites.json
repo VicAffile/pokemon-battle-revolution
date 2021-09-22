@@ -35,6 +35,15 @@
         "effet": "20 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
     },
     {
+        "nom": "Bluff",
+        "type": "Normal",
+        "puissance": "40",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Frappe en premier et apeure le Pokémon ennemi. Cependant, cette capacité ne peut être utilisée qu'au tour d'arrivée au combat du lanceur."
+    },
+    {
         "nom": "Bomb-Beurk",
         "type": "Poison",
         "puissance": "90",
@@ -62,6 +71,15 @@
         "effet": "Paralyse la cible sauf si celle-ci est déjà victime d'un problème de statut majeur ou si elle se trouve derrière un clone. Cette capacité ne fonctionne pas contre les Pokémon de type Sol, ainsi que contre ceux dotés du talent Paratonnerre."
     },
     {
+        "nom": "Cascade",
+        "type": "Eau",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "20 % de chances d'apeurer la cible."
+    },
+    {
         "nom": "Casse-Brique",
         "type": "Combat",
         "puissance": "75",
@@ -87,6 +105,15 @@
         "pp": "5",
         "categorie": "Physique",
         "effet": "Attaque toujours en premier sauf si la cible utilise aussi une capacité de priorité, dans ce cas le premier à attaquer sera déterminé normalement. Si l'adversaire utilise une capacité non-offensive ou parvient à attaquer avant l'utilisateur, la capacité échouera."
+    },
+    {
+        "nom": "Crocs Givre",
+        "type": "Glace",
+        "puissance": "65",
+        "precision": "95%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "10% de chances de geler l'adversaire et également 10% de chances d'apeurer l'adversaire si l'utilisateur attaque en premier. Les deux effets peuvent se produire simultanément."
     },
     {
         "nom": "Danse Draco",
@@ -197,6 +224,15 @@
         "effet": "Draine la moitié des dommages infligés."
     },
     {
+        "nom": "Grobisou",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "75%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Endort la cible."
+    },
+    {
         "nom": "Lame de Roc",
         "type": "Roche",
         "puissance": "100",
@@ -249,6 +285,15 @@
         "pp": "10",
         "categorie": "Non-offensive",
         "effet": "Cette capacité a deux effets possibles suivant que le lanceur est de type Spectre ou non. Si le lanceur est de type Spectre alors le lanceur perd la moitié de ses PV maximaux et maudit la cible. Lorsqu'un Pokémon est maudit, il perd un quart de sa vie à chaque tour. Cet effet disparaît avec le switch. Si le lanceur n'est pas de type Spectre alors le lanceur augmente d'un niveau l'Attaque et la Défense, mais baisse d'un niveau la vitesse du lanceur."
+    },
+    {
+        "nom": "Marto-Poing",
+        "type": "Combat",
+        "puissance": "100",
+        "precision": "90%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Réduit d'un niveau la Vitesse du lanceur."
     },
     {
         "nom": "Noeud Herbe",
@@ -341,6 +386,15 @@
         "effet": "10% de chances de baisser d'un niveau la Défense Spéciale de la cible."
     },
     {
+        "nom": "Psykoud'Boul",
+        "type": "Psy",
+        "puissance": "80",
+        "precision": "90%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "20% de chances d'apeurer la cible."
+    },
+    {
         "nom": "Rapace",
         "type": "Vol",
         "puissance": "120",
@@ -395,6 +449,15 @@
         "effet": "Dégâts doublés si la capacité est utilisée durant le tour où l'adversaire est sous terre quand il utilise Tunnel. En combat duo, cette capacité touche tous les autres Pokémon présents sur le terrain."
     },
     {
+        "nom": "Soin",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Permet au lanceur de récupérer jusqu'à la moitié de ses PV Max."
+    },
+    {
         "nom": "Surf",
         "type": "Eau",
         "puissance": "95",
@@ -420,6 +483,15 @@
         "pp": "40",
         "categorie": "Physique",
         "effet": "Annule les effets secondaires des capacités bloquantes, des capacités de pièges et de Vampigraine."
+    },
+    {
+        "nom": "Toxik",
+        "type": "Poison",
+        "puissance": "/",
+        "precision": "85%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Empoisonne gravement la cible"
     },
     {
         "nom": "Vampigraine",

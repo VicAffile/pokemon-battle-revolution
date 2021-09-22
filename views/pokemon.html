@@ -11,7 +11,7 @@
         <div id="sprite"><img src="{{pokemon.sprite}}" alt="Sprite de {{pokemon.nom}}"></div>
         <div id="info">
             <div>
-                <p>Nom : <span>{{pokemon.nom}}</span></p> <img id="sexe" src="{{pokemon.sexe}}" alt="Sexe de {{pokemon.nom}}">
+                <p>Nom : <span>{{pokemon.nom}}</span></p> {% if pokemon.sexe != "Aucun" %} <img id="sexe" src="{{pokemon.sexe}}" alt="Sexe de {{pokemon.nom}}"> {% endif %}
             </div>
             <div>
                 {% if pokemon.types.b != "" %}
@@ -43,7 +43,8 @@
         {% for capacite in capacites %}
         <div class="capacite">
             <div class="general">
-                <p>{% for type in types %} {% if type.nom == capacite.type %} <img class="types" src="{{type.image}}" alt="Type de la capacite {{capacite.nom}} de {{pokemon.nom}}"> {% endif %} {% endfor %} - <span>{{capacite.nom}}</span></p>
+                <p><img class="types" src="{% if capacite.nom != 'Malédiction' %} {% for type in types %} {% if type.nom == capacite.type %} {{type.image}} {% endif %} {% endfor %} {% else %} {% if pokemon.type.a == 'Spectre' %} /images/types/spectre.png {% elseif pokemon.type.b == 'Spectre' %} /images/types/spectre.png {% else %} /images/types/inconnu.png {% endif %} {% endif %}"
+                        alt="Type de la capacite {{capacite.nom}} de {{pokemon.nom}}"> - <span>{{capacite.nom}}</span></p>
                 <p>Catégorie : {{capacite.categorie}}</p>
                 <p>Puissance : {{capacite.puissance}}</p>
                 <p>Précision : {{capacite.precision}}</p>

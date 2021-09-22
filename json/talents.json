@@ -1,6 +1,14 @@
 [{
+        "nom": "Absorb Eau",
+        "effet": "Un Pokémon doté de ce talent récupère au maximum 1/4 de ses PV s'il est touché par une capacité de type Eau et il ne subit pas les dégâts de ces capacités."
+    },
+    {
         "nom": "Annule Garde",
         "effet": "Un Pokémon doté de ce talent provoque une Précision de 100 % pour toutes ses capacités, ainsi que les coups qu’il encaisse."
+    },
+    {
+        "nom": "Benêt",
+        "effet": "Un Pokémon doté de ce talent ne peut pas être attiré par Attraction, Joli Sourire ou encore Séduction."
     },
     {
         "nom": "Brasier",
@@ -15,8 +23,20 @@
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Plante augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
     {
+        "nom": "Intimidation",
+        "effet": "Lors de l'envoi au combat du Pokémon, le Pokémon adverse perd un niveau de statistique d'Attaque. Intimidation n'a aucun effet si le Pokémon adverse possède les talents Corps Sain, Écran Fumée ou Hyper Cutter."
+    },
+    {
         "nom": "Garde Magik",
         "effet": "Seules les capacités qui infligent des dégâts directs fonctionnent contre le Pokémon possédant le talent. Un Pokémon doté de ce talent ne subira pas les dégâts infligés par : les altérations de statut, sauf ceux d'une éventuelle confusion, les altérations de climat, les contrecoups (mais pas celui de Lutte), le sacrifice de PV (Malédiction spectre) ou les Entry Hazards (Picots, Pics Toxik et Piège de Roc). Cependant, les effets secondaires associés aux statuts ou encore l'impossibilité de changer de Pokémon sur les capacités piégeantes restent tout à fait effectifs."
+    },
+    {
+        "nom": "Matinal",
+        "effet": "Lorsqu'un Pokémon doté du talent Matinal s'endort, il se réveille deux fois plus rapidement que prévu."
+    },
+    {
+        "nom": "Médic Nature",
+        "effet": "Un Pokémon doté de Médic Nature soigne son statut lorsqu'il est quitte le combat."
     },
     {
         "nom": "Lévitation",

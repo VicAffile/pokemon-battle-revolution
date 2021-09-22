@@ -365,5 +365,143 @@
             "d": "Balance"
         },
         "poids": 40.5
+    },
+    {
+        "id": 17,
+        "nom": "Kangourex",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/kangourex.png",
+        "talent": "Matinal",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "360",
+            "att_phy": "236",
+            "def_phy": "204",
+            "att_spe": "88",
+            "def_spe": "207",
+            "vitesse": "202"
+        },
+        "capacites": {
+            "a": "Retour",
+            "b": "Marto-Poing",
+            "c": "Coup Bas",
+            "d": "Bluff"
+        },
+        "poids": 80.0
+    },
+    {
+        "id": 18,
+        "nom": "Staross",
+        "types": { "a": "Eau", "b": "Psy" },
+        "sprite": "/images/sprites/staross.png",
+        "talent": "Médic Nature",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "285",
+            "att_phy": "165",
+            "def_phy": "203",
+            "att_spe": "211",
+            "def_spe": "231",
+            "vitesse": "261"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Tonnerre",
+            "c": "Tour Rapide",
+            "d": "Soin"
+        },
+        "poids": 80.0
+    },
+    {
+        "id": 19,
+        "nom": "Lippoutou",
+        "types": { "a": "Glace", "b": "Psy" },
+        "sprite": "/images/sprites/lippoutou.png",
+        "talent": "Benêt",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "278",
+            "att_phy": "122",
+            "def_phy": "80",
+            "att_spe": "257",
+            "def_spe": "216",
+            "vitesse": "212"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Psyko",
+            "c": "Machination",
+            "d": "Grobisou"
+        },
+        "poids": 40.6
+    },
+    {
+        "id": 20,
+        "nom": "Tauros",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/tauros.png",
+        "talent": "Intimidation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "282",
+            "att_phy": "233",
+            "def_phy": "184",
+            "att_spe": "93",
+            "def_spe": "174",
+            "vitesse": "284"
+        },
+        "capacites": {
+            "a": "Retour",
+            "b": "Séisme",
+            "c": "Psykoud'Boul",
+            "d": "Lame de Roc"
+        },
+        "poids": 88.4
+    },
+    {
+        "id": 21,
+        "nom": "Léviator",
+        "types": { "a": "Eau", "b": "Vol" },
+        "sprite": "/images/sprites/leviator.png",
+        "talent": "Intimidation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "347",
+            "att_phy": "291",
+            "def_phy": "198",
+            "att_spe": "128",
+            "def_spe": "253",
+            "vitesse": "208"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Séisme",
+            "c": "Crocs Givre",
+            "d": "Danse Draco"
+        },
+        "poids": 235.0
+    },
+    {
+        "id": 22,
+        "nom": "Lokhlass",
+        "types": { "a": "Eau", "b": "Glace" },
+        "sprite": "/images/sprites/lokhlass.png",
+        "talent": "Absorb Eau",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "417",
+            "att_phy": "171",
+            "def_phy": "217",
+            "att_spe": "214",
+            "def_spe": "261",
+            "vitesse": "133"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Tonnerre",
+            "d": "Toxik"
+        },
+        "poids": 220.0
     }
 ]
