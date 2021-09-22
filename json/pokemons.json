@@ -503,5 +503,143 @@
             "d": "Toxik"
         },
         "poids": 220.0
+    },
+    {
+        "id": 23,
+        "nom": "Aquali",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/aquali.png",
+        "talent": "Absorb Eau",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "393",
+            "att_phy": "124",
+            "def_phy": "170",
+            "att_spe": "254",
+            "def_spe": "231",
+            "vitesse": "157"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Abri",
+            "d": "Vœu"
+        },
+        "poids": 29.0
+    },
+    {
+        "id": 24,
+        "nom": "Voltali",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/voltali.png",
+        "talent": "Absorb Volt",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "255",
+            "att_phy": "130",
+            "def_phy": "139",
+            "att_spe": "303",
+            "def_spe": "222",
+            "vitesse": "292"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Ball'Ombre",
+            "c": "Rayon Signal",
+            "d": "Relais"
+        },
+        "poids": 24.5
+    },
+    {
+        "id": 25,
+        "nom": "Pyroli",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/pyroli.png",
+        "talent": "Torche",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "275",
+            "att_phy": "309",
+            "def_phy": "172",
+            "att_spe": "258",
+            "def_spe": "246",
+            "vitesse": "165"
+        },
+        "capacites": {
+            "a": "Surchauffe",
+            "b": "Retour",
+            "c": "Morsure",
+            "d": "Surpuissance"
+        },
+        "poids": 25.0
+    },
+    {
+        "id": 26,
+        "nom": "Amonistar",
+        "types": { "a": "Roche", "b": "Eau" },
+        "sprite": "/images/sprites/amonistar.png",
+        "talent": "Glissade",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "266",
+            "att_phy": "130",
+            "def_phy": "319",
+            "att_spe": "261",
+            "def_spe": "154",
+            "vitesse": "140"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Telluriforce",
+            "c": "Laser Glace",
+            "d": "Piège de Roc"
+        },
+        "poids": 35.0
+    },
+    {
+        "id": 27,
+        "nom": "Kabutops",
+        "types": { "a": "Roche", "b": "Eau" },
+        "sprite": "/images/sprites/kabutops.png",
+        "talent": "Glissade",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "247",
+            "att_phy": "235",
+            "def_phy": "237",
+            "att_spe": "160",
+            "def_spe": "167",
+            "vitesse": "186"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Cascade",
+            "c": "Aqua-Jet",
+            "d": "Danse-Lames"
+        },
+        "poids": 40.5
+    },
+    {
+        "id": 28,
+        "nom": "Ptéra",
+        "types": { "a": "Roche", "b": "Vol" },
+        "sprite": "/images/sprites/ptera.png",
+        "talent": "Pression",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "326",
+            "att_phy": "257",
+            "def_phy": "144",
+            "att_spe": "145",
+            "def_spe": "183",
+            "vitesse": "339"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Séisme",
+            "c": "Provoc",
+            "d": "Piège de Roc"
+        },
+        "poids": 59.0
     }
 ]

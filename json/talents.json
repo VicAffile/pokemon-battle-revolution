@@ -3,6 +3,10 @@
         "effet": "Un Pokémon doté de ce talent récupère au maximum 1/4 de ses PV s'il est touché par une capacité de type Eau et il ne subit pas les dégâts de ces capacités."
     },
     {
+        "nom": "Absorb Volt",
+        "effet": "Un Pokémon doté de ce talent récupère 25 % de ses PV max s'il est touché par une capacité de type Électrik et il ne subit pas les dégâts de ces capacités."
+    },
+    {
         "nom": "Annule Garde",
         "effet": "Un Pokémon doté de ce talent provoque une Précision de 100 % pour toutes ses capacités, ainsi que les coups qu’il encaisse."
     },
@@ -31,6 +35,10 @@
         "effet": "Seules les capacités qui infligent des dégâts directs fonctionnent contre le Pokémon possédant le talent. Un Pokémon doté de ce talent ne subira pas les dégâts infligés par : les altérations de statut, sauf ceux d'une éventuelle confusion, les altérations de climat, les contrecoups (mais pas celui de Lutte), le sacrifice de PV (Malédiction spectre) ou les Entry Hazards (Picots, Pics Toxik et Piège de Roc). Cependant, les effets secondaires associés aux statuts ou encore l'impossibilité de changer de Pokémon sur les capacités piégeantes restent tout à fait effectifs."
     },
     {
+        "nom": "Glissade",
+        "effet": "Si le climat est pluvieux, le Pokémon doté de Glissade voit sa statistique de Vitesse multipliée par deux."
+    },
+    {
         "nom": "Matinal",
         "effet": "Lorsqu'un Pokémon doté du talent Matinal s'endort, il se réveille deux fois plus rapidement que prévu."
     },
@@ -45,6 +53,10 @@
     {
         "nom": "Point Poison",
         "effet": "Si un Pokémon effectue une attaque directe sur un adversaire doté de ce talent, il a 30 % de chances d'être empoisonné."
+    },
+    {
+        "nom": "Pression",
+        "effet": "Face à un Pokémon doté de Pression, un Pokémon l'attaquant avec une capacité offensive dépense deux fois plus de PP. Cette dépense est effectuée que la capacité soit réussie ou non, efficace ou inefficace. Ainsi, face à un Artikodin, une capacité Feu Follet (non-offensive) retire un seul PP à son utilisateur, tandis qu'une capacité Séisme en retire deux, malgré le fait qu'elle n'atteigne pas un Pokémon de type Vol. Pour les combats Duo, si deux Pokémon sont dotés de Pression, alors les effets se cumuleront uniquement si les deux Pokémon sont touchés par une capacité de zone. Le talent n'est pas affecté par Brise Moule."
     },
     {
         "nom": "Puanteur",
@@ -69,6 +81,10 @@
     {
         "nom": "Tempo Perso",
         "effet": "Un Pokémon doté de ce talent ne peut pas être confus, y compris s'il utilise des capacités entraînant la confusion, comme Mania ou Colère. La protection garantie par Tempo Perso contre la confusion peut toutefois être annulée par Suc Digestif et Brise Moule."
+    },
+    {
+        "nom": "Tête de Roc",
+        "effet": "Un Pokémon doté de Tête de Roc ne subit pas de contrecoup sur les attaques pouvant en infliger."
     },
     {
         "nom": "Torche",
