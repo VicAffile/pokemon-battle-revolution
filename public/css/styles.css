@@ -425,21 +425,10 @@ body section#pokemon p span {
 
 body section#pokemon #infos {
   width: 600px;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 41.66% 58.34%;
+      grid-template-columns: 41.66% 58.34%;
 }
 
 @media all and (max-width: 625px) {
@@ -447,13 +436,19 @@ body section#pokemon #infos {
     width: 95%;
     display: -ms-grid;
     display: grid;
+    -ms-grid-columns: 100%;
+        grid-template-columns: 100%;
     -ms-grid-rows: 100%;
         grid-template-rows: 100%;
   }
 }
 
 body section#pokemon #infos #sprite {
-  width: 41.66%;
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 1;
+  grid-column: 1 / 2;
+  -ms-grid-row: 1;
+  grid-row: 1;
   border-top: solid white 2px;
   border-left: solid white 2px;
   border-radius: 10px 0px 0px 0px;
@@ -479,7 +474,11 @@ body section#pokemon #infos #sprite img {
 }
 
 body section#pokemon #infos #info {
-  width: 58.34%;
+  -ms-grid-column: 2;
+  -ms-grid-column-span: 1;
+  grid-column: 2 / 3;
+  -ms-grid-row: 1;
+  grid-row: 1;
   height: 255px;
   border-radius: 0px 10px 0px 0px;
   background-color: white;
@@ -572,6 +571,7 @@ body section#pokemon #infos #info div#stats ul {
 
 body section#pokemon #talent {
   width: 600px;
+  background-color: white;
   border-radius: 0px 0px 10px 10px;
 }
 
@@ -583,7 +583,7 @@ body section#pokemon #talent :nth-child(2) {
 @media all and (max-width: 625px) {
   body section#pokemon #talent {
     margin-top: 15px;
-    width: 98%;
+    width: 95%;
     border: solid white 2px;
     border-radius: 10px;
     background-color: rgba(255, 255, 255, 0.9);

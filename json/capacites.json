@@ -44,6 +44,15 @@
         "effet": "Paralyse la cible sauf si celle-ci est déjà victime d'un problème de statut majeur ou si elle se trouve derrière un clone. Cette capacité ne fonctionne pas contre les Pokémon de type Sol, ainsi que contre ceux dotés du talent Paratonnerre."
     },
     {
+        "nom": "Casse-Brique",
+        "type": "Combat",
+        "puissance": "75",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Annule les effets de Mur Lumière et/ou de Protection même si Casse-Brique échoue ou si la cible est de type Spectre."
+    },
+    {
         "nom": "Coup Bas",
         "type": "Ténèbres",
         "puissance": "80",
@@ -51,6 +60,15 @@
         "pp": "5",
         "categorie": "Physique",
         "effet": "Attaque toujours en premier sauf si la cible utilise aussi une capacité de priorité, dans ce cas le premier à attaquer sera déterminé normalement. Si l'adversaire utilise une capacité non-offensive ou parvient à attaquer avant l'utilisateur, la capacité échouera."
+    },
+    {
+        "nom": "Danse Draco",
+        "type": "Dragon",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente l'attaque physique et la vitesse d'un niveau."
     },
     {
         "nom": "Demi-Tour",
@@ -89,13 +107,13 @@
         "effet": "Aucun effet supplémentaire."
     },
     {
-        "nom": "Danse Draco",
-        "type": "Dragon",
-        "puissance": "/",
-        "precision": "/",
-        "pp": "20",
-        "categorie": "Non-offensive",
-        "effet": "Augmente l'attaque physique et la vitesse d'un niveau."
+        "nom": "Dynamopoing",
+        "type": "Combat",
+        "puissance": "100",
+        "precision": "50%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Plonge toujours la cible dans la confusion si la capacité la touche."
     },
     {
         "nom": "Exploforce",
@@ -105,6 +123,15 @@
         "pp": "5",
         "categorie": "Spéciale",
         "effet": "Possède 10% de chances de baisser la Défense Spéciale adverse."
+    },
+    {
+        "nom": "Explosion",
+        "type": "Normal",
+        "puissance": "250",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Provoque le K.O. de l'utilisateur, que le coup ait porté ou non. Si un Pokémon avec le talent Moiteur se trouve sur le terrain, Explosion échoue complètement, ne provoquant ni dégâts ni K.O. du lanceur."
     },
     {
         "nom": "E-Coque",
@@ -132,6 +159,15 @@
         "pp": "15",
         "categorie": "Non-offensive",
         "effet": "Brûle la cible. La capacité est sans effet sur les types Feu, bien que non-offensive, elle active le talent Torche."
+    },
+    {
+        "nom": "Giga-Sangsue",
+        "type": "Plante",
+        "puissance": "60",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "Draine la moitié des dommages infligés."
     },
     {
         "nom": "Lame de Roc",
@@ -170,6 +206,24 @@
         "effet": "10% de chances de réduire d'un niveau la Défense Spéciale de la cible."
     },
     {
+        "nom": "Machination",
+        "type": "Ténèbres",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente l'Attaque Spéciale du lanceur de deux niveaux."
+    },
+    {
+        "nom": "Malédiction",
+        "type": "?",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Cette capacité a deux effets possibles suivant que le lanceur est de type Spectre ou non. Si le lanceur est de type Spectre alors le lanceur perd la moitié de ses PV maximaux et maudit la cible. Lorsqu'un Pokémon est maudit, il perd un quart de sa vie à chaque tour. Cet effet disparaît avec le switch. Si le lanceur n'est pas de type Spectre alors le lanceur augmente d'un niveau l'Attaque et la Défense, mais baisse d'un niveau la vitesse du lanceur."
+    },
+    {
         "nom": "Noeud Herbe",
         "type": "Plante",
         "puissance": "?",
@@ -177,6 +231,15 @@
         "pp": "20",
         "categorie": "Spéciale",
         "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
+    },
+    {
+        "nom": "Ombre Portée",
+        "type": "Spectre",
+        "puissance": "40",
+        "precision": "100%",
+        "pp": "30",
+        "categorie": "Physique",
+        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
     },
     {
         "nom": "Pics Toxik",
@@ -197,6 +260,15 @@
         "effet": "A chaque changement de Pokémon adverse, le Pokémon apparu perd des PV : double résistance au type roche = 3.125%, résistance au type roche = 6.25%, pas de résistance au type roche = 12.5%, faiblesse au type roche = 25% et double faiblesse au type roche = 50%. Si l'adversaire utilise Tour Rapide, l'effet de cette attaque disparait"
     },
     {
+        "nom": "Pisto-Poing",
+        "type": "Acier",
+        "puissance": "40",
+        "precision": "100%",
+        "pp": "30",
+        "categorie": "Physique",
+        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
         "nom": "Plénitude",
         "type": "Psy",
         "puissance": "/",
@@ -204,6 +276,15 @@
         "pp": "20",
         "categorie": "Non-offensive",
         "effet": "Augmente à la fois l'Attaque Spéciale et la Défense Spéciale de l'utilisateur d'un niveau."
+    },
+    {
+        "nom": "Poinglace",
+        "type": "Glace",
+        "puissance": "75",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "10% de chances de geler la cible."
     },
     {
         "nom": "Poing de Feu",
@@ -249,6 +330,15 @@
         "pp": "15",
         "categorie": "Spéciale",
         "effet": "10% de chances de rendre la cible confuse."
+    },
+    {
+        "nom": "Représailles",
+        "type": "Ténèbres",
+        "puissance": "50",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Si le lanceur reçoit un coup de la part de la cible ou si celle-ci se retire avant que Représailles n'ait pu être lancée, la puissance de Représailles est doublée."
     },
     {
         "nom": "Retour",

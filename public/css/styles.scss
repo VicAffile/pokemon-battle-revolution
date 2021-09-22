@@ -255,18 +255,17 @@ body {
             }
             #infos {
                 width: 600px;
-                display: flex;
-                flex-direction: row;
-                flex-wrap: wrap;
-                justify-content: center;
-                align-items: center;
+                display: grid;
+                grid-template-columns: 41.66% 58.34%;
                 @media all and (max-width: 625px) {
                     width: 95%;
                     display: grid;
+                    grid-template-columns: 100%;
                     grid-template-rows: 100%;
                 }
                 #sprite {
-                    width: 41.66%;
+                    grid-column: 1 / 2;
+                    grid-row: 1;
                     border-top: solid white 2px;
                     border-left: solid white 2px;
                     border-radius: 10px 0px 0px 0px;
@@ -284,7 +283,8 @@ body {
                     }
                 }
                 #info {
-                    width: 58.34%;
+                    grid-column: 2 / 3;
+                    grid-row: 1;
                     height: 255px;
                     border-radius: 0px 10px 0px 0px;
                     background-color: white;
@@ -341,6 +341,7 @@ body {
             }
             #talent {
                 width: 600px;
+                background-color: white;
                 border-radius: 0px 0px 10px 10px;
                  :nth-child(2) {
                     height: 80px;
@@ -348,7 +349,7 @@ body {
                 }
                 @media all and (max-width: 625px) {
                     margin-top: 15px;
-                    width: 98%;
+                    width: 95%;
                     border: solid white 2px;
                     border-radius: 10px;
                     background-color: rgba(255, 255, 255, 0.9);

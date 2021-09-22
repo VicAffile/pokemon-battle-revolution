@@ -92,6 +92,29 @@
     },
     {
         "id": 5,
+        "nom": "Pikachu",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/pikachu.png",
+        "talent": "Statik",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "233",
+            "att_phy": "206",
+            "def_phy": "98",
+            "att_spe": "306",
+            "def_spe": "136",
+            "vitesse": "240"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Noeud Herbe",
+            "c": "Machination",
+            "d": "Cage-Eclair"
+        },
+        "poids": 6.0
+    },
+    {
+        "id": 6,
         "nom": "Nidoqueen",
         "types": { "a": "Poison", "b": "Sol" },
         "sprite": "/images/sprites/nidoqueen.png",
@@ -114,7 +137,7 @@
         "poids": 60.0
     },
     {
-        "id": 6,
+        "id": 7,
         "nom": "Nidoking",
         "types": { "a": "Poison", "b": "Sol" },
         "sprite": "/images/sprites/nidoking.png",
@@ -137,7 +160,7 @@
         "poids": 62.0
     },
     {
-        "id": 7,
+        "id": 8,
         "nom": "Mélodelfe",
         "types": { "a": "Normal", "b": "" },
         "sprite": "/images/sprites/melodelfe.png",
@@ -160,7 +183,7 @@
         "poids": 40.0
     },
     {
-        "id": 8,
+        "id": 9,
         "nom": "Arcanin",
         "types": { "a": "Feu", "b": "" },
         "sprite": "/images/sprites/arcanin.png",
@@ -183,7 +206,7 @@
         "poids": 155.0
     },
     {
-        "id": 9,
+        "id": 10,
         "nom": "Alakazam",
         "types": { "a": "Psy", "b": "" },
         "sprite": "/images/sprites/alakazam.png",
@@ -204,5 +227,120 @@
             "d": "Plénitude"
         },
         "poids": 48.0
+    },
+    {
+        "id": 11,
+        "nom": "Mackogneur",
+        "types": { "a": "Combat", "b": "" },
+        "sprite": "/images/sprites/mackogneur.png",
+        "talent": "Annule Garde",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "332",
+            "att_phy": "309",
+            "def_phy": "178",
+            "att_spe": "136",
+            "def_spe": "220",
+            "vitesse": "125"
+        },
+        "capacites": {
+            "a": "Dynamopoing",
+            "b": "Poinglace",
+            "c": "Représailles",
+            "d": "Pisto-Poing"
+        },
+        "poids": 130.0
+    },
+    {
+        "id": 12,
+        "nom": "Tentacruel",
+        "types": { "a": "Eau", "b": "Poison" },
+        "sprite": "/images/sprites/tentacruel.png",
+        "talent": "Corps Sain",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "325",
+            "att_phy": "153",
+            "def_phy": "168",
+            "att_spe": "167",
+            "def_spe": "298",
+            "vitesse": "242"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Giga-Sangsue",
+            "c": "Tour Rapide",
+            "d": "Pics Toxik"
+        },
+        "poids": 55.0
+    },
+    {
+        "id": 13,
+        "nom": "Grolem",
+        "types": { "a": "Roche", "b": "Sol" },
+        "sprite": "/images/sprites/grolem.png",
+        "talent": "Tête de Roc",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "295",
+            "att_phy": "260",
+            "def_phy": "286",
+            "att_spe": "117",
+            "def_spe": "174",
+            "vitesse": "108"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Séisme",
+            "c": "Coup Bas",
+            "d": "Explosion"
+        },
+        "poids": 300.0
+    },
+    {
+        "id": 14,
+        "nom": "Flagadoss",
+        "types": { "a": "Eau", "b": "Psy" },
+        "sprite": "/images/sprites/flagadoss.png",
+        "talent": "Tempo Perso",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "326",
+            "att_phy": "181",
+            "def_phy": "252",
+            "att_spe": "235",
+            "def_spe": "209",
+            "vitesse": "89"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Lance-Flamme",
+            "c": "Plénitude",
+            "d": "Cage-Eclair"
+        },
+        "poids": 78.5
+    },
+    {
+        "id": 15,
+        "nom": "Grotadmorv",
+        "types": { "a": "Poison", "b": "" },
+        "sprite": "/images/sprites/grotadmorv.png",
+        "talent": "Puanteur",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "329",
+            "att_phy": "243",
+            "def_phy": "176",
+            "att_spe": "148",
+            "def_spe": "220",
+            "vitesse": "130"
+        },
+        "capacites": {
+            "a": "Direct Toxik",
+            "b": "Casse-Brique",
+            "c": "Ombre Portée",
+            "d": "Malédiction"
+        },
+        "poids": 30.0
     }
 ]
