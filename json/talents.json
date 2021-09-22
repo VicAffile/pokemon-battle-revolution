@@ -19,6 +19,10 @@
         "effet": "Seules les capacités qui infligent des dégâts directs fonctionnent contre le Pokémon possédant le talent. Un Pokémon doté de ce talent ne subira pas les dégâts infligés par : les altérations de statut, sauf ceux d'une éventuelle confusion, les altérations de climat, les contrecoups (mais pas celui de Lutte), le sacrifice de PV (Malédiction spectre) ou les Entry Hazards (Picots, Pics Toxik et Piège de Roc). Cependant, les effets secondaires associés aux statuts ou encore l'impossibilité de changer de Pokémon sur les capacités piégeantes restent tout à fait effectifs."
     },
     {
+        "nom": "Lévitation",
+        "effet": "Un Pokémon doté de Lévitation ne peut pas être touché par des capacités de type Sol, excepté Jet de Sable. Lévitation permet également d'échapper aux Picots, aux Pics Toxik et au talent Piège Sable."
+    },
+    {
         "nom": "Point Poison",
         "effet": "Si un Pokémon effectue une attaque directe sur un adversaire doté de ce talent, il a 30 % de chances d'être empoisonné."
     },

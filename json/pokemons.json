@@ -342,5 +342,28 @@
             "d": "Malédiction"
         },
         "poids": 30.0
+    },
+    {
+        "id": 16,
+        "nom": "Ectoplasma",
+        "types": { "a": "Spectre", "b": "Poison" },
+        "sprite": "/images/sprites/ectoplasma.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "249",
+            "att_phy": "162",
+            "def_phy": "143",
+            "att_spe": "328",
+            "def_spe": "161",
+            "vitesse": "258"
+        },
+        "capacites": {
+            "a": "Ball'Ombre",
+            "b": "Exploforce",
+            "c": "Clonage",
+            "d": "Balance"
+        },
+        "poids": 40.5
     }
 ]

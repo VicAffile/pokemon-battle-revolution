@@ -17,6 +17,24 @@
         "effet": "Restaure la moitié des PV max du lanceur sous des conditions météo normales, 2/3 si le soleil brille et 1/4 sous les autres conditions météo (Pluie, Brume...)."
     },
     {
+        "nom": "Balance",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-Offennsive",
+        "effet": "Balance additionne le nombre de PV de l'utilisateur à celui de l'adversaire et divise cette somme par deux, le résultat devient le nombre de PV de chacun des deux Pokémon. Si cette valeur est supérieure aux PV de l'un des Pokémon, celui-ci aura sa jauge de PV remplie. Cette capacité ne prend pas en compte les changements de Précision/Esquive."
+    },
+    {
+        "nom": "Ball'Ombre",
+        "type": "Spectre",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "20 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
+    },
+    {
         "nom": "Bomb-Beurk",
         "type": "Poison",
         "puissance": "90",
@@ -51,6 +69,15 @@
         "pp": "15",
         "categorie": "Physique",
         "effet": "Annule les effets de Mur Lumière et/ou de Protection même si Casse-Brique échoue ou si la cible est de type Spectre."
+    },
+    {
+        "nom": "Clonage",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "En sacrifiant 25% de ses PV maximum, le lanceur crée un clone, copie conforme du point de vue du type et des statistiques. Les PV du clone sont ceux perdus par le lanceur pour l'utiliser. Par exemple, si un Pokémon perd 36 PV pour la création du clone, le clone aura 36 PV. Une fois le clone créé, celui-ci prendra les dégâts causés par l'adversaire à la place du lanceur, jusqu'à sa destruction. Le clone prendra aussi les capacités de statuts (telles que Cage-Éclair et Onde Folie) et de diminution de statistiques (telles que Jet de Sable) lancées après son apparition, ce qui en immunisera son lanceur tant que le clone est présent. Si le clone est détruit par une capacité drainant des PV, les PV seront drainés du clone. Clonage ne protège pas des effets de Requiem, Provoc, Entrave, Encore, Tourmente, Dépit, Buée Noire, Boost, Saisie, Échange, Imitation, Cyclone et Hurlement, ni des capacités sonores, mais bloque Regard Noir, Tourmagik (et leurs équivalents), Anti-Soin, Embargo, Échange Psy ou encore Balance. Si les PV du lanceur sont inférieurs ou égaux à 25% de ses PV maximum, Clonage échouera. De fait, Munja ne peut utiliser Clonage, puisqu'il n'a qu'un PV, bien qu'il puisse l'apprendre. Le clone peut être transmis par Relais. Les capacités comme Toxik ou Onde Folie n'affectent pas le clone, mais le statut du Pokémon qui a lancé Clonage est affecté par Synchro. Les capacités comme Vampigraine ou Racines, qui drainent des PV, les rendront au Pokémon qui a lancé Clonage, et non au clone."
     },
     {
         "nom": "Coup Bas",
@@ -122,7 +149,7 @@
         "precision": "70%",
         "pp": "5",
         "categorie": "Spéciale",
-        "effet": "Possède 10% de chances de baisser la Défense Spéciale adverse."
+        "effet": "10 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
     },
     {
         "nom": "Explosion",
