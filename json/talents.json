@@ -11,6 +11,10 @@
         "effet": "Un Pokémon doté de ce talent provoque une Précision de 100 % pour toutes ses capacités, ainsi que les coups qu’il encaisse."
     },
     {
+        "nom": "Attention",
+        "effet": "Un Pokémon doté de ce talent ne peut pas être apeuré."
+    },
+    {
         "nom": "Benêt",
         "effet": "Un Pokémon doté de ce talent ne peut pas être attiré par Attraction, Joli Sourire ou encore Séduction."
     },
@@ -39,16 +43,20 @@
         "effet": "Si le climat est pluvieux, le Pokémon doté de Glissade voit sa statistique de Vitesse multipliée par deux."
     },
     {
+        "nom": "Isograisse",
+        "effet": "Si un Pokémon adverse utilise une capacité de type Feu ou Glace contre un Pokémon doté d'Isograisse, les dégâts infligés par ces capacités sont divisés par deux."
+    },
+    {
+        "nom": "Lévitation",
+        "effet": "Un Pokémon doté de Lévitation ne peut pas être touché par des capacités de type Sol, excepté Jet de Sable. Lévitation permet également d'échapper aux Picots, aux Pics Toxik et au talent Piège Sable."
+    },
+    {
         "nom": "Matinal",
         "effet": "Lorsqu'un Pokémon doté du talent Matinal s'endort, il se réveille deux fois plus rapidement que prévu."
     },
     {
         "nom": "Médic Nature",
         "effet": "Un Pokémon doté de Médic Nature soigne son statut lorsqu'il est quitte le combat."
-    },
-    {
-        "nom": "Lévitation",
-        "effet": "Un Pokémon doté de Lévitation ne peut pas être touché par des capacités de type Sol, excepté Jet de Sable. Lévitation permet également d'échapper aux Picots, aux Pics Toxik et au talent Piège Sable."
     },
     {
         "nom": "Point Poison",

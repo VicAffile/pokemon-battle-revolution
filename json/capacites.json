@@ -26,6 +26,24 @@
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
     },
     {
+        "nom": "Aurasphère",
+        "type": "Combat",
+        "puissance": "90",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Spéciale",
+        "effet": "N'échoue jamais sauf si la cible utilise Abri ou Détection ou encore si elle se trouve dans le premier tour de Rebond, Plongée, Tunnel, Vol ou Revenant."
+    },
+    {
+        "nom": "Atterrissage",
+        "type": "Vol",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Atterrissage restaure jusqu'à la moitié des PV maximum du lanceur. Si le lanceur est du type Vol et qu'Atterrissage a réussi, alors jusqu'à la fin du tour, le Pokémon perd son type Vol, faisant ainsi disparaître les immunités, faiblesses et résistances associées à ce type pour ce tour. Cependant, Atterrissage ne désactive pas Lévitation. Si l'utilisateur de cette capacité est de type Vol pur, il devient de type Inconnu."
+    },
+    {
         "nom": "Aurore",
         "type": "Normal",
         "puissance": "/",
@@ -51,6 +69,15 @@
         "pp": "15",
         "categorie": "Spéciale",
         "effet": "20 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
+    },
+    {
+        "nom": "Blabla Dodo",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Permet au lanceur d'utiliser une capacité au hasard parmi son panel de capacités lorsqu'il est endormi. La capacité ne fonctionne donc uniquement que lorsque le lanceur est endormi. Cependant, elle ne peut pas s'utiliser elle-même, et si la capacité choisit Repos, la capacié échouera."
     },
     {
         "nom": "Bluff",
@@ -87,6 +114,15 @@
         "pp": "20",
         "categorie": "Non-offensive",
         "effet": "Paralyse la cible sauf si celle-ci est déjà victime d'un problème de statut majeur ou si elle se trouve derrière un clone. Cette capacité ne fonctionne pas contre les Pokémon de type Sol, ainsi que contre ceux dotés du talent Paratonnerre."
+    },
+    {
+        "nom": "Canicule",
+        "type": "Feu",
+        "puissance": "100",
+        "precision": "90%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "10% de chances de brûler la cible et en Match Double Canicule touche tous les adversaires."
     },
     {
         "nom": "Cascade",
@@ -251,6 +287,15 @@
         "effet": "Draine la moitié des dommages infligés."
     },
     {
+        "nom": "Glas de Soin",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Tous les Pokémon présents dans l'équipe de l'utilisateur de Glas de Soin sont soignés de la brûlure, du gel, de la paralysie, du poison et du sommeil. N'affecte pas les possesseurs de la capacité spéciale Anti-Bruit."
+    },
+    {
         "nom": "Grobisou",
         "type": "Normal",
         "puissance": "/",
@@ -260,6 +305,15 @@
         "effet": "Endort la cible."
     },
     {
+        "nom": "Hurlement",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Le Pokémon adverse est remplacé par l'un des autres Pokémon de son équipe aléatoirement. Si l'adversaire n'a qu'un seul Pokémon restant, la capacité échoue. Il en est de même si le Pokémon adverse dispose du talent Ventouse ou a utilisé la capacité Racines. La capacité a également une priorité négative."
+    },
+    {
         "nom": "Lame de Roc",
         "type": "Roche",
         "puissance": "100",
@@ -267,6 +321,15 @@
         "pp": "5",
         "categorie": "Physique",
         "effet": "1/8 de chances de faire un coup critique."
+    },
+    {
+        "nom": "Lame d'Air",
+        "type": "Vol",
+        "puissance": "75",
+        "precision": "95%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "30% de chances d'apeurer la cible."
     },
     {
         "nom": "Lance-Flamme",
@@ -306,7 +369,7 @@
     },
     {
         "nom": "Malédiction",
-        "type": "?",
+        "type": "",
         "puissance": "/",
         "precision": "/",
         "pp": "10",
@@ -377,6 +440,15 @@
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
     },
     {
+        "nom": "Plaquage",
+        "type": "Normal",
+        "puissance": "85",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "30% de chances de paralyser le Pokémon adverse, à moins qu'il ne s'agisse d'un Pokémon de type Électrik. Plaquage inflige deux fois plus de dégâts et ne rate jamais si le Pokémon adverse a utilisé Lilliput."
+    },
+    {
         "nom": "Plénitude",
         "type": "Psy",
         "puissance": "/",
@@ -440,6 +512,15 @@
         "effet": "20% de chances d'apeurer la cible."
     },
     {
+        "nom": "Puis. Cachée",
+        "type": "",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "La puissance de base et le type de cette capacité dépendent du Pokémon qui l'utilise."
+    },
+    {
         "nom": "Rapace",
         "type": "Vol",
         "puissance": "120",
@@ -465,6 +546,15 @@
         "pp": "40",
         "categorie": "Non-offensive",
         "effet": "Permet de changer le Pokémon au combat avec l'un de ses équipiers, même si le lanceur était bloqué d'une façon ou d'une autre (Piège Sable...), lui transmettant au passage ses changements de stat ou l'effet de capacités comme Verrouillage. Les clones, les problèmes de statut mineurs comme la Confusion, une Vampigraine, un Anneau Hydro, un Requiem sont également transmis par Relais. Les effets de Regard Noir ne sont pas relayés."
+    },
+    {
+        "nom": "Repos",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Au tour 1  le lanceur restaure tous ses PV et ses problèmes de statut sont remplacés par le Sommeil, au tour 2 et 3 le lanceur est endormi et ne peut attaquer et au tour 4 le lanceur se réveille. Le Pokémon se réveille et lance la capacité ordonnée dès le tour 3 s'il possède le talent Matinal. Repos échoue si les PV du lanceur sont au maximum."
     },
     {
         "nom": "Représailles",
@@ -544,7 +634,7 @@
         "puissance": "90",
         "precision": "100%",
         "pp": "10",
-        "categorie": "Spécial",
+        "categorie": "Spéciale",
         "effet": "10% de chances de baisser la Défense Spéciale de la cible d'un niveau."
     },
     {

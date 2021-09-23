@@ -19,7 +19,8 @@
             "c": "Vampigraine",
             "d": "Poudre Dodo"
         },
-        "poids": 100.0
+        "poids": 100.0,
+        "pc": "Aucun"
     },
     {
         "id": 2,
@@ -42,7 +43,8 @@
             "c": "Séisme",
             "d": "Danse Draco"
         },
-        "poids": 90.5
+        "poids": 90.5,
+        "pc": "Aucun"
     },
     {
         "id": 3,
@@ -65,7 +67,8 @@
             "c": "Tour Rapide",
             "d": "Riposte"
         },
-        "poids": 85.5
+        "poids": 85.5,
+        "pc": "Aucun"
     },
     {
         "id": 4,
@@ -88,7 +91,8 @@
             "c": "Aile d'Acier",
             "d": "Demi-Tour"
         },
-        "poids": 39.5
+        "poids": 39.5,
+        "pc": "Aucun"
     },
     {
         "id": 5,
@@ -111,7 +115,8 @@
             "c": "Machination",
             "d": "Cage-Eclair"
         },
-        "poids": 6.0
+        "poids": 6.0,
+        "pc": "Aucun"
     },
     {
         "id": 6,
@@ -134,7 +139,8 @@
             "c": "Piège de Roc",
             "d": "Pics Toxik"
         },
-        "poids": 60.0
+        "poids": 60.0,
+        "pc": "Aucun"
     },
     {
         "id": 7,
@@ -157,7 +163,8 @@
             "c": "Poing de Feu",
             "d": "Coup Bas"
         },
-        "poids": 62.0
+        "poids": 62.0,
+        "pc": "Aucun"
     },
     {
         "id": 8,
@@ -180,7 +187,8 @@
             "c": "E-Coque",
             "d": "Cage-Eclair"
         },
-        "poids": 40.0
+        "poids": 40.0,
+        "pc": "Aucun"
     },
     {
         "id": 9,
@@ -203,7 +211,8 @@
             "c": "Aurore",
             "d": "Feu Follet"
         },
-        "poids": 155.0
+        "poids": 155.0,
+        "pc": "Aucun"
     },
     {
         "id": 10,
@@ -226,7 +235,8 @@
             "c": "Rayon Signal",
             "d": "Plénitude"
         },
-        "poids": 48.0
+        "poids": 48.0,
+        "pc": "Aucun"
     },
     {
         "id": 11,
@@ -249,7 +259,8 @@
             "c": "Représailles",
             "d": "Pisto-Poing"
         },
-        "poids": 130.0
+        "poids": 130.0,
+        "pc": "Aucun"
     },
     {
         "id": 12,
@@ -272,7 +283,8 @@
             "c": "Tour Rapide",
             "d": "Pics Toxik"
         },
-        "poids": 55.0
+        "poids": 55.0,
+        "pc": "Aucun"
     },
     {
         "id": 13,
@@ -295,7 +307,8 @@
             "c": "Coup Bas",
             "d": "Explosion"
         },
-        "poids": 300.0
+        "poids": 300.0,
+        "pc": "Aucun"
     },
     {
         "id": 14,
@@ -318,7 +331,8 @@
             "c": "Plénitude",
             "d": "Cage-Eclair"
         },
-        "poids": 78.5
+        "poids": 78.5,
+        "pc": "Aucun"
     },
     {
         "id": 15,
@@ -341,7 +355,8 @@
             "c": "Ombre Portée",
             "d": "Malédiction"
         },
-        "poids": 30.0
+        "poids": 30.0,
+        "pc": "Aucun"
     },
     {
         "id": 16,
@@ -364,7 +379,8 @@
             "c": "Clonage",
             "d": "Balance"
         },
-        "poids": 40.5
+        "poids": 40.5,
+        "pc": "Aucun"
     },
     {
         "id": 17,
@@ -387,7 +403,8 @@
             "c": "Coup Bas",
             "d": "Bluff"
         },
-        "poids": 80.0
+        "poids": 80.0,
+        "pc": "Aucun"
     },
     {
         "id": 18,
@@ -410,7 +427,8 @@
             "c": "Tour Rapide",
             "d": "Soin"
         },
-        "poids": 80.0
+        "poids": 80.0,
+        "pc": "Aucun"
     },
     {
         "id": 19,
@@ -433,7 +451,8 @@
             "c": "Machination",
             "d": "Grobisou"
         },
-        "poids": 40.6
+        "poids": 40.6,
+        "pc": "Aucun"
     },
     {
         "id": 20,
@@ -456,7 +475,8 @@
             "c": "Psykoud'Boul",
             "d": "Lame de Roc"
         },
-        "poids": 88.4
+        "poids": 88.4,
+        "pc": "Aucun"
     },
     {
         "id": 21,
@@ -479,7 +499,8 @@
             "c": "Crocs Givre",
             "d": "Danse Draco"
         },
-        "poids": 235.0
+        "poids": 235.0,
+        "pc": "Aucun"
     },
     {
         "id": 22,
@@ -502,7 +523,8 @@
             "c": "Tonnerre",
             "d": "Toxik"
         },
-        "poids": 220.0
+        "poids": 220.0,
+        "pc": "Aucun"
     },
     {
         "id": 23,
@@ -525,7 +547,8 @@
             "c": "Abri",
             "d": "Vœu"
         },
-        "poids": 29.0
+        "poids": 29.0,
+        "pc": "Aucun"
     },
     {
         "id": 24,
@@ -548,7 +571,8 @@
             "c": "Rayon Signal",
             "d": "Relais"
         },
-        "poids": 24.5
+        "poids": 24.5,
+        "pc": "Aucun"
     },
     {
         "id": 25,
@@ -571,7 +595,8 @@
             "c": "Morsure",
             "d": "Surpuissance"
         },
-        "poids": 25.0
+        "poids": 25.0,
+        "pc": "Aucun"
     },
     {
         "id": 26,
@@ -594,7 +619,8 @@
             "c": "Laser Glace",
             "d": "Piège de Roc"
         },
-        "poids": 35.0
+        "poids": 35.0,
+        "pc": "Aucun"
     },
     {
         "id": 27,
@@ -617,7 +643,8 @@
             "c": "Aqua-Jet",
             "d": "Danse-Lames"
         },
-        "poids": 40.5
+        "poids": 40.5,
+        "pc": "Aucun"
     },
     {
         "id": 28,
@@ -640,6 +667,175 @@
             "c": "Provoc",
             "d": "Piège de Roc"
         },
-        "poids": 59.0
+        "poids": 59.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 29,
+        "nom": "Ronflex",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/ronflex.png",
+        "talent": "Isograisse",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "485",
+            "att_phy": "282",
+            "def_phy": "168",
+            "att_spe": "150",
+            "def_spe": "252",
+            "vitesse": "95"
+        },
+        "capacites": {
+            "a": "Plaquage",
+            "b": "Poing de Feu",
+            "c": "Repos",
+            "d": "Blabla Dodo"
+        },
+        "poids": 460.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 30,
+        "nom": "Artikodin",
+        "types": { "a": "Glace", "b": "Vol" },
+        "sprite": "/images/sprites/artikodin.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "294",
+            "att_phy": "198",
+            "def_phy": "248",
+            "att_spe": "211",
+            "def_spe": "287",
+            "vitesse": "211"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Atterrissage",
+            "c": "Hurlement",
+            "d": "Glas de Soin"
+        },
+        "poids": 55.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 31,
+        "nom": "Electhor",
+        "types": { "a": "Electrik", "b": "Vol" },
+        "sprite": "/images/sprites/electhor.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "315",
+            "att_phy": "202",
+            "def_phy": "206",
+            "att_spe": "304",
+            "def_spe": "202",
+            "vitesse": "231"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Canicule",
+            "c": "Puis. Cachée",
+            "d": "Atterrissage"
+        },
+        "poids": 52.6,
+        "pc": "/images/types/glace.png"
+    },
+    {
+        "id": 32,
+        "nom": "Sulfura",
+        "types": { "a": "Feu", "b": "Vol" },
+        "sprite": "/images/sprites/sulfura.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "305",
+            "att_phy": "230",
+            "def_phy": "170",
+            "att_spe": "287",
+            "def_spe": "187",
+            "vitesse": "258"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Lame d'Air",
+            "c": "Demi-Tour",
+            "d": "Atterrissage"
+        },
+        "poids": 60.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 33,
+        "nom": "Dracolosse",
+        "types": { "a": "Dragon", "b": "Vol" },
+        "sprite": "/images/sprites/dracolosse.png",
+        "talent": "Attention",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "316",
+            "att_phy": "344",
+            "def_phy": "218",
+            "att_spe": "212",
+            "def_spe": "198",
+            "vitesse": "201"
+        },
+        "capacites": {
+            "a": "Dracogriffe",
+            "b": "Poing de Feu",
+            "c": "Vit. Extrême",
+            "d": "Danse Draco"
+        },
+        "poids": 210.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 34,
+        "nom": "Mewtwo",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/mewtwo.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "340",
+            "att_phy": "213",
+            "def_phy": "210",
+            "att_spe": "353",
+            "def_spe": "186",
+            "vitesse": "298"
+        },
+        "capacites": {
+            "a": "Aurasphère",
+            "b": "Ball'Ombre",
+            "c": "Tonnerre",
+            "d": "Lance-Flamme"
+        },
+        "poids": 122.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 35,
+        "nom": "Mew",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/mew.png",
+        "talent": "Synchro",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "336",
+            "att_phy": "222",
+            "def_phy": "247",
+            "att_spe": "226",
+            "def_spe": "258",
+            "vitesse": "208"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Clonage",
+            "c": "Machination",
+            "d": "Relais"
+        },
+        "poids": 4.0,
+        "pc": "Aucun"
     }
 ]
