@@ -26,6 +26,15 @@
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
     },
     {
+        "nom": "Aromathérapi",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Tous les Pokémon présents dans l'équipe du lanceur d'Aromathérapi seront soignés de leurs problèmes de statut."
+    },
+    {
         "nom": "Aurasphère",
         "type": "Combat",
         "puissance": "90",
@@ -233,6 +242,15 @@
         "effet": "Plonge toujours la cible dans la confusion si la capacité la touche."
     },
     {
+        "nom": "Eco-Sphère",
+        "type": "Plante",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "10 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
+    },
+    {
         "nom": "Exploforce",
         "type": "Combat",
         "puissance": "120",
@@ -393,6 +411,15 @@
         "pp": "25",
         "categorie": "Physique",
         "effet": "30% de chances d'apeurer la cible."
+    },
+    {
+        "nom": "Mur Lumière",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/%",
+        "pp": "30",
+        "categorie": "Non-offensive",
+        "effet": "Crée un mur divisant par deux l'attaque spéciale des Pokémon adverses pendant 5 tours. L'effet se poursuit même si le lanceur est retiré. La capacité Casse-Brique neutralise cette capacité, et Saisie se l'approprie. En Match Double, les dégâts sont réduits d'un tiers au lieu de moitié."
     },
     {
         "nom": "Noeud Herbe",
@@ -627,6 +654,15 @@
         "pp": "5",
         "categorie": "Physique",
         "effet": "Baisse l'Attaque Physique et la Défense Physique du lanceur d'un niveau."
+    },
+    {
+        "nom": "Synthèse",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Restaure les PV en fonction du climat : en temps normal restaure la moitié des PV de l'utilisateur, si le soleil brille restaure 2/3 des PV max et sous les autres conditions météo ne restaure qu'1/4 des PV max de l'utilisateur."
     },
     {
         "nom": "Telluriforce",

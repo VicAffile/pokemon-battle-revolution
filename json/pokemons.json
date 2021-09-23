@@ -837,5 +837,29 @@
         },
         "poids": 4.0,
         "pc": "Aucun"
+    },
+    {
+        "id": 36,
+        "nom": "Méganium",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/meganium.png",
+        "talent": "Engrais",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "294",
+            "att_phy": "176",
+            "def_phy": "239",
+            "att_spe": "202",
+            "def_spe": "223",
+            "vitesse": "186"
+        },
+        "capacites": {
+            "a": "Eco-Sphère",
+            "b": "Synthèse",
+            "c": "Mur Lumière",
+            "d": "Aromathérapi"
+        },
+        "poids": 100.5,
+        "pc": "Aucun"
     }
 ]
