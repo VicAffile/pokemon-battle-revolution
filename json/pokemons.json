@@ -861,5 +861,269 @@
         },
         "poids": 100.5,
         "pc": "Aucun"
+    },
+    {
+        "id": 37,
+        "nom": "Typhlosion",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/typhlosion.png",
+        "talent": "Brasier",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "289",
+            "att_phy": "172",
+            "def_phy": "190",
+            "att_spe": "156",
+            "def_spe": "197",
+            "vitesse": "254"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Exploforce",
+            "c": "Lance-Soleil",
+            "d": "Zénith"
+        },
+        "poids": 79.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 38,
+        "nom": "Aligatueur",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/aligatueur.png",
+        "talent": "Torrent",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "309",
+            "att_phy": "270",
+            "def_phy": "229",
+            "att_spe": "202",
+            "def_spe": "179",
+            "vitesse": "168"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Poinglace",
+            "c": "Séisme",
+            "d": "Danse Draco"
+        },
+        "poids": 88.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 39,
+        "nom": "Nostenfer",
+        "types": { "a": "Poison", "b": "Vol" },
+        "sprite": "/images/sprites/nostenfer.png",
+        "talent": "Attention",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "334",
+            "att_phy": "219",
+            "def_phy": "167",
+            "att_spe": "149",
+            "def_spe": "182",
+            "vitesse": "302"
+        },
+        "capacites": {
+            "a": "Rapace",
+            "b": "Poison-Croix",
+            "c": "Demi-Tour",
+            "d": "Provoc"
+        },
+        "poids": 75.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 40,
+        "nom": "Pharamp",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/pharamp.png",
+        "talent": "Statik",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "335",
+            "att_phy": "172",
+            "def_phy": "189",
+            "att_spe": "276",
+            "def_spe": "225",
+            "vitesse": "123"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Rayon Signal",
+            "c": "Exploforce",
+            "d": "Clonage"
+        },
+        "poids": 61.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 41,
+        "nom": "Mentali",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/mentali.png",
+        "talent": "Synchro",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "260",
+            "att_phy": "156",
+            "def_phy": "170",
+            "att_spe": "309",
+            "def_spe": "239",
+            "vitesse": "256"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Ball'Ombre",
+            "c": "Plénitude",
+            "d": "Relais"
+        },
+        "poids": 26.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 42,
+        "nom": "Noctali",
+        "types": { "a": "Ténèbres", "b": "" },
+        "sprite": "/images/sprites/noctali.png",
+        "talent": "Synchro",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "329",
+            "att_phy": "150",
+            "def_phy": "298",
+            "att_spe": "148",
+            "def_spe": "277",
+            "vitesse": "142"
+        },
+        "capacites": {
+            "a": "Représailles",
+            "b": "Malédiction",
+            "c": "Vœu",
+            "d": "Relais"
+        },
+        "poids": 27.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 43,
+        "nom": "Roigada",
+        "types": { "a": "Eau", "b": "Psy" },
+        "sprite": "/images/sprites/roigada.png",
+        "talent": "Tempo Perso",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "343",
+            "att_phy": "177",
+            "def_phy": "198",
+            "att_spe": "219",
+            "def_spe": "251",
+            "vitesse": "96"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Psyko",
+            "c": "Toxik",
+            "d": "Paresse"
+        },
+        "poids": 27.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 44,
+        "nom": "Qulbutoké",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/qulbutoke.png",
+        "talent": "Marque Ombre",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "522",
+            "att_phy": "78",
+            "def_phy": "163",
+            "att_spe": "72",
+            "def_spe": "188",
+            "vitesse": "78"
+        },
+        "capacites": {
+            "a": "Riposte",
+            "b": "Voile Miroir",
+            "c": "Encore",
+            "d": "Rune Protect"
+        },
+        "poids": 28.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 45,
+        "nom": "Foretress",
+        "types": { "a": "Insecte", "b": "Acier" },
+        "sprite": "/images/sprites/foretress.png",
+        "talent": "Fermeté",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "316",
+            "att_phy": "237",
+            "def_phy": "363",
+            "att_spe": "141",
+            "def_spe": "162",
+            "vitesse": "76"
+        },
+        "capacites": {
+            "a": "Gyroballe",
+            "b": "Tour Rapide",
+            "c": "Picots",
+            "d": "Pics Toxik"
+        },
+        "poids": 125.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 46,
+        "nom": "Steelix",
+        "types": { "a": "Acier", "b": "Sol" },
+        "sprite": "/images/sprites/steelix.png",
+        "talent": "Fermeté",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "282",
+            "att_phy": "223",
+            "def_phy": "439",
+            "att_spe": "117",
+            "def_spe": "164",
+            "vitesse": "88"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Gyroballe",
+            "c": "Piège de Roc",
+            "d": "Explosion"
+        },
+        "poids": 400.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 47,
+        "nom": "Cizayox",
+        "types": { "a": "Insecte", "b": "Acier" },
+        "sprite": "/images/sprites/cizayox.png",
+        "talent": "Technicien",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "281",
+            "att_phy": "294",
+            "def_phy": "231",
+            "att_spe": "128",
+            "def_spe": "210",
+            "vitesse": "154"
+        },
+        "capacites": {
+            "a": "Pisto-Poing",
+            "b": "Surpuissance",
+            "c": "Poursuite",
+            "d": "Demi-Tour"
+        },
+        "poids": 28.5,
+        "pc": "Aucun"
     }
 ]

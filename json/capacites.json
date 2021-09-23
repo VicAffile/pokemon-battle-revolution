@@ -251,6 +251,15 @@
         "effet": "10 % de chances de baisser d'un niveau la Défense Spéciale de la cible."
     },
     {
+        "nom": "Encore",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Oblige la cible à faire usage de la dernière capacité qu'elle a utilisée. L'effet de Encore dure entre 2 et 6 tours"
+    },
+    {
         "nom": "Exploforce",
         "type": "Combat",
         "puissance": "120",
@@ -323,6 +332,15 @@
         "effet": "Endort la cible."
     },
     {
+        "nom": "Gyroballe",
+        "type": "Acier",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Plus l'utilisateur est lent par rapport à la cible, plus Gyroballe lui inflige de dégâts. La puissance de Gyroballe est calculée comme suit : Puissance = 25 x (Vitesse de la cible/Vitesse de l'utilisateur). Ce calcul tient compte d'une éventuelle augmentation ou baisse de la vitesse causées par exemple par la Paralysie, Hâte… Le maximum de puissance possible pour Gyroballe est 150."
+    },
+    {
         "nom": "Hurlement",
         "type": "Normal",
         "puissance": "/",
@@ -357,6 +375,15 @@
         "pp": "15",
         "categorie": "Spéciale",
         "effet": "10 % de chances de brûler l'ennemi."
+    },
+    {
+        "nom": "Lance-Soleil",
+        "type": "Plante",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "Lance-Soleil se déroule normalement en deux tours : le Pokémon absorbe de l'énergie solaire au premier tour, puis la relâche en un puissant faisceau au second. Lance-Soleil ne prend cependant qu'un seul tour d'utilisation si la capacité Zénith a été lancée auparavant, tandis que l'utilisation préalable de Danse Pluie ou de Grêle nécessite 2 tours de chargement en cas de mauvais temps."
     },
     {
         "nom": "Laser Glace",
@@ -416,7 +443,7 @@
         "nom": "Mur Lumière",
         "type": "Psy",
         "puissance": "/",
-        "precision": "/%",
+        "precision": "/",
         "pp": "30",
         "categorie": "Non-offensive",
         "effet": "Crée un mur divisant par deux l'attaque spéciale des Pokémon adverses pendant 5 tours. L'effet se poursuit même si le lanceur est retiré. La capacité Casse-Brique neutralise cette capacité, et Saisie se l'approprie. En Match Double, les dégâts sont réduits d'un tiers au lieu de moitié."
@@ -438,6 +465,24 @@
         "pp": "30",
         "categorie": "Physique",
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
+        "nom": "Paresse",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Récupère jusqu'à la moitié de ses PV Max."
+    },
+    {
+        "nom": "Picots",
+        "type": "Sol",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Inflige des dégâts à tout Pokémon de l'équipe adverse entrant sur le terrain. Lancer Picots une fois enlève 12,5% des PV max, lancer Picots deux fois enlève 16,66% des PV max et lancer Picots trois fois enlève 25% des PV max à un adversaire entrant sur le terrain. Lancer Picots plus de trois fois échoue. Picots n'affecte pas les Pokémon de type vol ou possédant le talent Lévitation, à moins qu'ils soient sous l'effet de la gravité. Picots n'affecte pas non plus les Pokémon possédant le talent Garde Magik. Tour Rapide et Anti-Brume annulent les effets de Picots."
     },
     {
         "nom": "Pics Toxik",
@@ -503,6 +548,15 @@
         "effet": "10% de chances de brûler la cible."
     },
     {
+        "nom": "Poison-Croix",
+        "type": "Poison",
+        "puissance": "70",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique et également 10% de chances d'empoisonner la cible."
+    },
+    {
         "nom": "Poudre Dodo",
         "type": "Plante",
         "puissance": "/",
@@ -510,6 +564,15 @@
         "pp": "15",
         "categorie": "Non-offensive",
         "effet": "Endort la cible sauf si celle-ci est déjà victime d'un problème de statut majeur, est derrière un clone, a les talents Insomnia ou Esprit Vital ou si la cible est de type Plante."
+    },
+    {
+        "nom": "Poursuite",
+        "type": "Ténèbres",
+        "puissance": "40",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Si le Pokémon ciblé par la capacité est retiré pendant le tour où Poursuite est utilisée, la puissance de la capacité double pour monter à 80 et inflige ses dégâts avant que le Pokémon ne soit remplacé. Les Pokémon utilisant Relais ne reçoivent pas de dommage. Si un Pokémon utilise Poursuite et sa cible Demi-Tour, le résultat dépend des vitesses relatives des deux adversaires : si le Pokémon utilisant Poursuite est plus rapide il inflige des dégâts standard, puis l'adversaire inflige les dégâts de sa capacité et switche et si le Pokémon utilisant Demi-Tour est plus rapide il inflige ses dégâts puis subit Poursuite avec une puissance doublée (identique à celle infligée pour un switch standard), et enfin effectue son remplacement."
     },
     {
         "nom": "Provoc",
@@ -611,6 +674,15 @@
         "effet": "Si le lanceur est touché par une capacité physique pendant le tour où Riposte est utilisé, le lanceur occasionne deux fois plus de dommages à la cible qu'elle-même lui en a infligé, sans tenir compte des types. Riposte prend uniquement en compte le dernier coup d'une capacité multiple."
     },
     {
+        "nom": "Rune Protect",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "25",
+        "categorie": "Non-offensive",
+        "effet": "Empêche pendant cinq tours son ou ses bénéficiaire(s) d'être atteint(s) par un problème de statut, exceptés ceux induits par des talents (Pose Spore, Corps Ardent...) ou des capacités lancées par les bénéficiaires eux-mêmes (Repos...). Rune Protect ne protège pas des effets de Bâillement si celui-ci a été lancé avant Rune Protect."
+    },
+    {
         "nom": "Séisme",
         "type": "Sol",
         "puissance": "100",
@@ -710,6 +782,15 @@
         "effet": "Draine à la fin de chaque tour 1/8ème des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
     },
     {
+        "nom": "Vit. Extrême",
+        "type": "Normal",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
         "nom": "Vœu",
         "type": "Normal",
         "puissance": "/",
@@ -719,12 +800,21 @@
         "effet": "Lors du tour où Vœu est lancé, le lanceur fait un vœu, sans plus d'effets notables. À la fin du tour suivant, le Pokémon au combat récupère la moitié de ses propres PV max. Si le bénéficiaire de Vœu a ses PV pleins, la capacité n'a aucun effet, bien que réussie."
     },
     {
-        "nom": "Vit. Extrême",
-        "type": "Normal",
-        "puissance": "80",
+        "nom": "Voile Miroir",
+        "type": "Psy",
+        "puissance": "?",
         "precision": "100%",
+        "pp": "20",
+        "categorie": "Spéciale",
+        "effet": "Si le lanceur de Voile Miroir est touché par une capacité de catégorie spéciale pendant le tour où Voile Miroir est utilisé, le lanceur occasionnera deux fois plus de dommages à la cible qu'elle-même lui en a infligé, sans prendre en compte le type des deux parties, bien que Voile Miroir ne puisse toucher les cibles de type Ténèbres."
+    },
+    {
+        "nom": "Zénith",
+        "type": "Feu",
+        "puissance": "/",
+        "precision": "/",
         "pp": "5",
-        "categorie": "Physique",
-        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+        "categorie": "Non-offensive",
+        "effet": "Lorsque Zénith est utilisé, un soleil de plomb s’installe sur le terrain durant 5 tours, annulant une éventuelle autre condition météo particulière. Les effets secondaires incluent : la puissance des capacités de type Feu est augmentée de 50 % et la puissance des capacités de type Eau est diminuée de 50 %, Lance-Soleil ne requiert plus de tour de chargement, la précision de Fatal-Foudre tombe à 50 %, Synthèse, Aurore et Rayon Lune restaurent 67 % des PV maximum du Pokémon, les Pokémon possédant le talent Peau Sèche perdront 1/8 ème de leur PV maximum à chaque tour, les Pokémon possédant le talent Chlorophyle verront leur Vitesse doubler et les Pokémon possédant le talent Feuille Garde seront immunisés aux problèmes de statut."
     }
 ]
