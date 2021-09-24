@@ -1413,5 +1413,293 @@
         },
         "poids": 5.0,
         "pc": "Aucun"
+    },
+    {
+        "id": 60,
+        "nom": "Jungko",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/jungko.png",
+        "talent": "Engrais",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "292",
+            "att_phy": "233",
+            "def_phy": "162",
+            "att_spe": "248",
+            "def_spe": "187",
+            "vitesse": "282"
+        },
+        "capacites": {
+            "a": "Lame-Feuille",
+            "b": "Dracogriffe",
+            "c": "Séisme",
+            "d": "Danse-Lames"
+        },
+        "poids": 52.2,
+        "pc": "Aucun"
+    },
+    {
+        "id": 61,
+        "nom": "Braségali",
+        "types": { "a": "Feu", "b": "Combat" },
+        "sprite": "/images/sprites/brasegali.png",
+        "talent": "Brasier",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "309",
+            "att_phy": "278",
+            "def_phy": "153",
+            "att_spe": "220",
+            "def_spe": "165",
+            "vitesse": "205"
+        },
+        "capacites": {
+            "a": "Boutefeu",
+            "b": "Pied Voltige",
+            "c": "Poing-Eclair",
+            "d": "Rapace"
+        },
+        "poids": 52.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 62,
+        "nom": "Laggron",
+        "types": { "a": "Eau", "b": "Sol" },
+        "sprite": "/images/sprites/laggron.png",
+        "talent": "Torrent",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "342",
+            "att_phy": "265",
+            "def_phy": "186",
+            "att_spe": "197",
+            "def_spe": "223",
+            "vitesse": "191"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Séisme",
+            "c": "Poinglace",
+            "d": "Piège de Roc"
+        },
+        "poids": 81.9,
+        "pc": "Aucun"
+    },
+    {
+        "id": 63,
+        "nom": "Hélédelle",
+        "types": { "a": "Normal", "b": "Vol" },
+        "sprite": "/images/sprites/heledelle.png",
+        "talent": "Cran",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "274",
+            "att_phy": "202",
+            "def_phy": "146",
+            "att_spe": "100",
+            "def_spe": "141",
+            "vitesse": "301"
+        },
+        "capacites": {
+            "a": "Rapace",
+            "b": "Retour",
+            "c": "Demi-Tour",
+            "d": "Poursuite"
+        },
+        "poids": 19.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 64,
+        "nom": "Gardevoir",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/gardevoir.png",
+        "talent": "Synchro",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "295",
+            "att_phy": "159",
+            "def_phy": "172",
+            "att_spe": "270",
+            "def_spe": "259",
+            "vitesse": "204"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Tonnerre",
+            "c": "Plénitude",
+            "d": "Feu Follet"
+        },
+        "poids": 48.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 65,
+        "nom": "Chapignon",
+        "types": { "a": "Plante", "b": "Combat" },
+        "sprite": "/images/sprites/chapignon.png",
+        "talent": "Soin Poison",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "262",
+            "att_phy": "338",
+            "def_phy": "180",
+            "att_spe": "130",
+            "def_spe": "143",
+            "vitesse": "194"
+        },
+        "capacites": {
+            "a": "Canon Graine",
+            "b": "Mitra-Poing",
+            "c": "Clonage",
+            "d": "Spore"
+        },
+        "poids": 39.2,
+        "pc": "Aucun"
+    },
+    {
+        "id": 66,
+        "nom": "Monaflèmit",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/monaflemit.png",
+        "talent": "Absentéisme",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "448",
+            "att_phy": "353",
+            "def_phy": "232",
+            "att_spe": "198",
+            "def_spe": "191",
+            "vitesse": "231"
+        },
+        "capacites": {
+            "a": "Retour",
+            "b": "Séisme",
+            "c": "Griffe Ombre",
+            "d": "Mitra-Poing"
+        },
+        "poids": 130.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 67,
+        "nom": "Ninjask",
+        "types": { "a": "Insecte", "b": "Vol" },
+        "sprite": "/images/sprites/ninjask.png",
+        "talent": "Turbo",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "258",
+            "att_phy": "215",
+            "def_phy": "138",
+            "att_spe": "115",
+            "def_spe": "143",
+            "vitesse": "399"
+        },
+        "capacites": {
+            "a": "Plaie-Croix",
+            "b": "Danse-Lames",
+            "c": "Abri",
+            "d": "Relais"
+        },
+        "poids": 12.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 68,
+        "nom": "Munja",
+        "types": { "a": "Insecte", "b": "Spectre" },
+        "sprite": "/images/sprites/munja.png",
+        "talent": "Garde Mystik",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "1",
+            "att_phy": "236",
+            "def_phy": "114",
+            "att_spe": "65",
+            "def_spe": "82",
+            "vitesse": "136"
+        },
+        "capacites": {
+            "a": "Plaie-Croix",
+            "b": "Ombre Portée",
+            "c": "Danse-Lames",
+            "d": "Feu Follet"
+        },
+        "poids": 1.2,
+        "pc": "Aucun"
+    },
+    {
+        "id": 69,
+        "nom": "Brouhabam",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/brouhabam.png",
+        "talent": "Anti-Bruit",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "347",
+            "att_phy": "237",
+            "def_phy": "121",
+            "att_spe": "211",
+            "def_spe": "153",
+            "vitesse": "155"
+        },
+        "capacites": {
+            "a": "Retour",
+            "b": "Séisme",
+            "c": "Poing de Feu",
+            "d": "Mâchouille"
+        },
+        "poids": 84.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 70,
+        "nom": "Hariyama",
+        "types": { "a": "Combat", "b": "" },
+        "sprite": "/images/sprites/hariyama.png",
+        "talent": "Cran",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "430",
+            "att_phy": "294",
+            "def_phy": "162",
+            "att_spe": "95",
+            "def_spe": "148",
+            "vitesse": "148"
+        },
+        "capacites": {
+            "a": "Close Combat",
+            "b": "Poinglace",
+            "c": "Pisto-Poing",
+            "d": "Représailles"
+        },
+        "poids": 253.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 71,
+        "nom": "Galeking",
+        "types": { "a": "Acier", "b": "Roche" },
+        "sprite": "/images/sprites/galeking.png",
+        "talent": "Tête de Roc",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "278",
+            "att_phy": "266",
+            "def_phy": "441",
+            "att_spe": "149",
+            "def_spe": "142",
+            "vitesse": "156"
+        },
+        "capacites": {
+            "a": "Fracass'Tête",
+            "b": "Poinglace",
+            "c": "Coup Bas",
+            "d": "Poliroche"
+        },
+        "poids": 360.0,
+        "pc": "Aucun"
     }
 ]

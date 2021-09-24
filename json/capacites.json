@@ -152,6 +152,15 @@
         "effet": "10% de chances de brûler la cible et en Match Double Canicule touche tous les adversaires."
     },
     {
+        "nom": "Canon Graine",
+        "type": "Plante",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Aucun effet supplémentaire."
+    },
+    {
         "nom": "Cascade",
         "type": "Eau",
         "puissance": "80",
@@ -377,6 +386,15 @@
         "effet": "50% de chances de brûler son adversaire. À noter qu'un Pokémon gelé peut malgré tout utiliser Feu Sacré, qui non seulement le dégèle mais attaque également le Pokémon adverse de façon normale."
     },
     {
+        "nom": "Fracass'Tête",
+        "type": "Roche",
+        "puissance": "150",
+        "precision": "80%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Fait subir à l'utilisateur un contrecoup égal à la moitié des PV perdus par la cible."
+    },
+    {
         "nom": "Giga-Sangsue",
         "type": "Plante",
         "puissance": "60",
@@ -393,6 +411,15 @@
         "pp": "5",
         "categorie": "Non-offensive",
         "effet": "Tous les Pokémon présents dans l'équipe de l'utilisateur de Glas de Soin sont soignés de la brûlure, du gel, de la paralysie, du poison et du sommeil. N'affecte pas les possesseurs de la capacité spéciale Anti-Bruit."
+    },
+    {
+        "nom": "Griffe Ombre",
+        "type": "Spectre",
+        "puissance": "70",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique."
     },
     {
         "nom": "Grobisou",
@@ -447,6 +474,15 @@
         "pp": "15",
         "categorie": "Spéciale",
         "effet": "30% de chances d'apeurer la cible."
+    },
+    {
+        "nom": "Lame-Feuille",
+        "type": "Plante",
+        "puissance": "90",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique."
     },
     {
         "nom": "Lance-Flamme",
@@ -530,6 +566,15 @@
         "effet": "Aucun effet supplémentaire."
     },
     {
+        "nom": "Mitra-Poing",
+        "type": "Combat",
+        "puissance": "150",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Avant d'effectuer la capacité, le lanceur doit se concentrer pendant un tour et si l'adversaire attaque directement le lanceur pendant ce tour, celui-ci est déconcentré et ne peut pas attaquer."
+    },
+    {
         "nom": "Morsure",
         "type": "Ténèbres",
         "puissance": "60",
@@ -593,6 +638,15 @@
         "effet": "Répand des pics empoisonnés autour de la cible. Si lancé une fois, les Pokémon arrivant sur le terrain sont empoisonnés et si lancé deux fois, les Pokémon arrivant sur le terrain sont gravement empoisonnés. Les Pokémon de type Vol, Acier ou Poison ou ayant les talents Lévitation, Vaccin ou Garde Magik ne sont pas affectés par cette capacité. Un Pokémon Vol ou lévitant peut être touché par les Pics s'il vient en combat et que Gravité est déjà active. Tour Rapide ou un Pokémon de type Poison au sol arrivant au combat peuvent enlever les Pics Toxik. Un Pokémon Poison lévitant ou volant ne peut pas absorber les Pics, à moins qu'il soit cloué au sol sous l'effet de Gravité. Pics Toxik n'active pas les effets de Synchro, sauf si le Pokémon possédant ce talent a été forcé de venir sur le terrain grâce à Hurlement ou Cyclone."
     },
     {
+        "nom": "Pied Voltige",
+        "type": "Combat",
+        "puissance": "100",
+        "precision": "90",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Si la capacité échoue, le lanceur perd le nombre de PV correspondant à la moitié des dégâts qu'il aurait dû infliger. La capacité échoue toujours si lancée contre un Pokémon de type Spectre et donc le lanceur prend les dommages correspondants."
+    },
+    {
         "nom": "Piège de Roc",
         "type": "Roche",
         "puissance": "/",
@@ -609,6 +663,15 @@
         "pp": "30",
         "categorie": "Physique",
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
+        "nom": "Plaie-Croix",
+        "type": "Insecte",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Aucun effet supplémentaire."
     },
     {
         "nom": "Plaquage",
@@ -647,6 +710,15 @@
         "effet": "10% de chances de brûler la cible."
     },
     {
+        "nom": "Poing-Eclair",
+        "type": "Electrik",
+        "puissance": "75",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "10% de chances de paralyser la cible."
+    },
+    {
         "nom": "Poison-Croix",
         "type": "Poison",
         "puissance": "70",
@@ -654,6 +726,15 @@
         "pp": "20",
         "categorie": "Physique",
         "effet": "1/8 de chances de faire un coup critique et également 10% de chances d'empoisonner la cible."
+    },
+    {
+        "nom": "Poliroche",
+        "type": "Roche",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente la vitesse du lanceur de deux niveaux."
     },
     {
         "nom": "Poudre Dodo",
@@ -798,6 +879,15 @@
         "pp": "10",
         "categorie": "Non-offensive",
         "effet": "Permet au lanceur de récupérer jusqu'à la moitié de ses PV Max."
+    },
+    {
+        "nom": "Spore",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Non-offensive",
+        "effet": "Endort la cible. Spore ne pourra pas fonctionner si la cible a déjà un problème de statut majeur comme la paralysie, le gel, l'empoisonnement ou la brûlure. Spore ne peut pas affecter les cibles qui possèdent les talents Insomnia ou Esprit Vital"
     },
     {
         "nom": "Surchauffe",
