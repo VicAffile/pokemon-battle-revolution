@@ -27,6 +27,10 @@
         "effet": "Un Pokémon doté de ce talent est immunisé aux baisses de statistiques imposées par son adversaire, que ce soit par des capacités ou un talent (par exemple, Intimidation). Il reste tout de même sensible aux diminutions qu'il peut s'imposer lui-même par des capacités comme Malédiction..."
     },
     {
+        "nom": "Cran",
+        "effet": "Un Pokémon doté de ce talent voit sa statistique d'Attaque augmenter de 50 % s'il a une altération principale de son statut : brûlure, empoisonnement, gel, paralysie ou sommeil. La confusion n'active pas ce talent. Par ailleurs, Cran annule la diminution d'attaque causée par une éventuelle brûlure, ainsi, seul le bonus d'Attaque de 50 % est appliqué comme modification de cette statistique."
+    },
+    {
         "nom": "Engrais",
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Plante augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
@@ -85,6 +89,10 @@
     {
         "nom": "Rivalité",
         "effet": "Si le Pokémon est du même sexe que son adversaire la puissance de ses attaques est augmentée de 25%, s'ils sont tous deux de sexe différent la puissance de ses attaques est diminuée de 25% et si l'adversaire est asexué le talent n'a pas d'effet."
+    },
+    {
+        "nom": "Sable Volant",
+        "effet": "Lorsqu'un Pokémon doté du talent Sable Volant est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi une tempête de sable."
     },
     {
         "nom": "Statik",

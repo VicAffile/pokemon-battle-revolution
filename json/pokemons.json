@@ -14,7 +14,7 @@
             "vitesse": "172"
         },
         "capacites": {
-            "a": "Noeud Herbe",
+            "a": "Nœud Herbe",
             "b": "Bomb-Beurk",
             "c": "Vampigraine",
             "d": "Poudre Dodo"
@@ -111,7 +111,7 @@
         },
         "capacites": {
             "a": "Tonnerre",
-            "b": "Noeud Herbe",
+            "b": "Nœud Herbe",
             "c": "Machination",
             "d": "Cage-Eclair"
         },
@@ -1123,7 +1123,295 @@
             "c": "Poursuite",
             "d": "Demi-Tour"
         },
-        "poids": 28.5,
+        "poids": 118.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 48,
+        "nom": "Scarhino",
+        "types": { "a": "Insecte", "b": "Combat" },
+        "sprite": "/images/sprites/scarhino.png",
+        "talent": "Cran",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "308",
+            "att_phy": "284",
+            "def_phy": "177",
+            "att_spe": "89",
+            "def_spe": "212",
+            "vitesse": "201"
+        },
+        "capacites": {
+            "a": "Mégacorne",
+            "b": "Close Combat",
+            "c": "Lame de Roc",
+            "d": "Blabla Dodo"
+        },
+        "poids": 54.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 49,
+        "nom": "Ursaring",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/ursaring.png",
+        "talent": "Cran",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "341",
+            "att_phy": "307",
+            "def_phy": "185",
+            "att_spe": "158",
+            "def_spe": "165",
+            "vitesse": "162"
+        },
+        "capacites": {
+            "a": "Façade",
+            "b": "Poing de Feu",
+            "c": "Repos",
+            "d": "Blabla Dodo"
+        },
+        "poids": 125.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 50,
+        "nom": "Hyporoi",
+        "types": { "a": "Eau", "b": "Dragon" },
+        "sprite": "/images/sprites/hyporoi.png",
+        "talent": "Glissade",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "301",
+            "att_phy": "247",
+            "def_phy": "198",
+            "att_spe": "213",
+            "def_spe": "221",
+            "vitesse": "194"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Colère",
+            "c": "Danse Draco",
+            "d": "Bâillement"
+        },
+        "poids": 152.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 51,
+        "nom": "Donphan",
+        "types": { "a": "Sol", "b": "" },
+        "sprite": "/images/sprites/donphan.png",
+        "talent": "Fermeté",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "310",
+            "att_phy": "261",
+            "def_phy": "285",
+            "att_spe": "135",
+            "def_spe": "174",
+            "vitesse": "110"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Eclats Glace",
+            "c": "Tour Rapide",
+            "d": "Piège de Roc"
+        },
+        "poids": 120.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 52,
+        "nom": "Leuphorie",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/leuphorie.png",
+        "talent": "Médic Nature",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "647",
+            "att_phy": "41",
+            "def_phy": "63",
+            "att_spe": "191",
+            "def_spe": "302",
+            "vitesse": "171"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Laser Glace",
+            "c": "E-Coque",
+            "d": "Aromathérapi"
+        },
+        "poids": 46.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 53,
+        "nom": "Raikou",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/raikou.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "322",
+            "att_phy": "183",
+            "def_phy": "169",
+            "att_spe": "258",
+            "def_spe": "218",
+            "vitesse": "291"
+        },
+        "capacites": {
+            "a": "Fatal-Foudre",
+            "b": "Puis. Cachée",
+            "c": "Plénitude",
+            "d": "Danse Pluie"
+        },
+        "poids": 178.0,
+        "pc": "/images/types/eau.png"
+    },
+    {
+        "id": 54,
+        "nom": "Entei",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/entei.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "378",
+            "att_phy": "251",
+            "def_phy": "192",
+            "att_spe": "200",
+            "def_spe": "194",
+            "vitesse": "239"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Puis. Cachée",
+            "c": "Plénitude",
+            "d": "Feu Follet"
+        },
+        "poids": 198.0,
+        "pc": "/images/types/electrik.png"
+    },
+    {
+        "id": 55,
+        "nom": "Suicune",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/suicune.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "350",
+            "att_phy": "153",
+            "def_phy": "267",
+            "att_spe": "260",
+            "def_spe": "265",
+            "vitesse": "220"
+        },
+        "capacites": {
+            "a": "Hydrocanon",
+            "b": "Laser Glace",
+            "c": "Plénitude",
+            "d": "Hurlement"
+        },
+        "poids": 187.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 56,
+        "nom": "Tyranocif",
+        "types": { "a": "Roche", "b": "Ténèbres" },
+        "sprite": "/images/sprites/tyranocif.png",
+        "talent": "Sable Volant",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "342",
+            "att_phy": "328",
+            "def_phy": "266",
+            "att_spe": "179",
+            "def_spe": "236",
+            "vitesse": "191"
+        },
+        "capacites": {
+            "a": "Mâchouille",
+            "b": "Lame de Roc",
+            "c": "Séisme",
+            "d": "Danse Draco"
+        },
+        "poids": 202.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 57,
+        "nom": "Lugia",
+        "types": { "a": "Psy", "b": "Vol" },
+        "sprite": "/images/sprites/lugia.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "371",
+            "att_phy": "207",
+            "def_phy": "270",
+            "att_spe": "221",
+            "def_spe": "328",
+            "vitesse": "255"
+        },
+        "capacites": {
+            "a": "Aéroblast",
+            "b": "Telluriforce",
+            "c": "Plénitude",
+            "d": "Atterrissage"
+        },
+        "poids": 216.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 58,
+        "nom": "Ho-Oh",
+        "types": { "a": "Feu", "b": "Vol" },
+        "sprite": "/images/sprites/ho-oh.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "355",
+            "att_phy": "307",
+            "def_phy": "222",
+            "att_spe": "211",
+            "def_spe": "336",
+            "vitesse": "247"
+        },
+        "capacites": {
+            "a": "Feu Sacré",
+            "b": "Rapace",
+            "c": "Séisme",
+            "d": "Atterrissage"
+        },
+        "poids": 199.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 59,
+        "nom": "Celebi",
+        "types": { "a": "Psy", "b": "Plante" },
+        "sprite": "/images/sprites/celebi.png",
+        "talent": "Médic Nature",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "358",
+            "att_phy": "236",
+            "def_phy": "239",
+            "att_spe": "250",
+            "def_spe": "241",
+            "vitesse": "254"
+        },
+        "capacites": {
+            "a": "Nœud Herbe",
+            "b": "Telluriforce",
+            "c": "Soin",
+            "d": "Cage-Eclair"
+        },
+        "poids": 5.0,
         "pc": "Aucun"
     }
 ]

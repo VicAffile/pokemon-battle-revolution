@@ -8,6 +8,15 @@
         "effet": "Abri protège de tout effet, direct ou indirect, qu'une capacité adverse pourrait causer. Ceci n'inclut pas les dégâts causés par un éventuel changement de climat ou de statut. Les chances de réussite de cette capacité sont les suivantes : une utilisation consécutiveles chances sont 65535/65535, deux 32767/65535, trois 16383/65535 et quatre et plus 8191/65535."
     },
     {
+        "nom": "Aéroblast",
+        "type": "Vol",
+        "puissance": "100",
+        "precision": "95%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "1/8 de chances de faire un coup critique."
+    },
+    {
         "nom": "Aile d'Acier",
         "type": "Acier",
         "puissance": "70",
@@ -60,6 +69,15 @@
         "pp": "5",
         "categorie": "Non-offensive",
         "effet": "Restaure la moitié des PV max du lanceur sous des conditions météo normales, 2/3 si le soleil brille et 1/4 sous les autres conditions météo (Pluie, Brume...)."
+    },
+    {
+        "nom": "Bâillement",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Durant le tour où Bâillement est utilisé, l'utilisateur baille sur la cible sans plus d'effets notable. À la fin du tour suivant la cible s'endort si elle n'est pas déjà soit victime d'un problème de statut majeur, soit sous l'effet d'une capacité protectrice telle que Rune Protect ou Brouhaha, soit derrière un clone, soit possédant le talent Insomnia auquel cas Bâillement échouera immédiatement. La cible ne sera pas affectée par Bâillement si elle se retire avant que la capacité ne fasse effet."
     },
     {
         "nom": "Balance",
@@ -161,6 +179,24 @@
         "effet": "En sacrifiant 25% de ses PV maximum, le lanceur crée un clone, copie conforme du point de vue du type et des statistiques. Les PV du clone sont ceux perdus par le lanceur pour l'utiliser. Par exemple, si un Pokémon perd 36 PV pour la création du clone, le clone aura 36 PV. Une fois le clone créé, celui-ci prendra les dégâts causés par l'adversaire à la place du lanceur, jusqu'à sa destruction. Le clone prendra aussi les capacités de statuts (telles que Cage-Éclair et Onde Folie) et de diminution de statistiques (telles que Jet de Sable) lancées après son apparition, ce qui en immunisera son lanceur tant que le clone est présent. Si le clone est détruit par une capacité drainant des PV, les PV seront drainés du clone. Clonage ne protège pas des effets de Requiem, Provoc, Entrave, Encore, Tourmente, Dépit, Buée Noire, Boost, Saisie, Échange, Imitation, Cyclone et Hurlement, ni des capacités sonores, mais bloque Regard Noir, Tourmagik (et leurs équivalents), Anti-Soin, Embargo, Échange Psy ou encore Balance. Si les PV du lanceur sont inférieurs ou égaux à 25% de ses PV maximum, Clonage échouera. De fait, Munja ne peut utiliser Clonage, puisqu'il n'a qu'un PV, bien qu'il puisse l'apprendre. Le clone peut être transmis par Relais. Les capacités comme Toxik ou Onde Folie n'affectent pas le clone, mais le statut du Pokémon qui a lancé Clonage est affecté par Synchro. Les capacités comme Vampigraine ou Racines, qui drainent des PV, les rendront au Pokémon qui a lancé Clonage, et non au clone."
     },
     {
+        "nom": "Close Combat",
+        "type": "Combat",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Baisse les statistiques de Défense Physique et de Défense Spéciale du lanceur d'un niveau."
+    },
+    {
+        "nom": "Colère",
+        "type": "Dragon",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Dure deux à trois tours, empêchant toute autre action (y compris le changement de Pokémon) tant qu'elle n'a pas cessé. Lorsque Colère s'achève, le Pokémon lanceur devient confus. Un seul PP est utilisé par lancement (pour tous les tours). Si le dernier tour de Colère est interrompu par un échec, Détection ou Abri, la capacité s'arrête et le Pokémon lanceur de Colère ne devient pas confus."
+    },
+    {
         "nom": "Coup Bas",
         "type": "Ténèbres",
         "puissance": "80",
@@ -186,6 +222,15 @@
         "pp": "20",
         "categorie": "Non-offensive",
         "effet": "Augmente l'Attaque Physique et la Vitesse d'un niveau."
+    },
+    {
+        "nom": "Danse Pluie",
+        "type": "Eau",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Lorsque cette capacité est utilisée, une pluie torrentielle s'enclenche sur le terrain durant 5 tours. Cette pluie provoque plusieurs effets : la puissance des capacités de type Eau est augmentée de 50% et celle des capacités de type Feu diminuée de 50%, la puissance de Lance-Soleil est diminuée de 50%, la précision de Fatal-Foudre passe à 100%, Aurore, Synthèse et Rayon Lune ne restaurent plus qu'un quart des PV maximum du Pokémon, un Pokémon possédant la Capacité Spéciale Cuvette récupère 1/16ème de ses Points de Vie maximum à la fin de chaque tour, un Pokémon possédant la capacité spéciale Glissade voit sa Vitesse doublée et Les Pokémon possédant la Capacité Spéciale Peau Sèche récupèrent 1/8ème de leurs PV maximum à la fin de chaque tour."
     },
     {
         "nom": "Danse-Lames",
@@ -242,6 +287,15 @@
         "effet": "Plonge toujours la cible dans la confusion si la capacité la touche."
     },
     {
+        "nom": "Eclats Glace",
+        "type": "Glace",
+        "puissance": "40",
+        "precision": "100%",
+        "pp": "30",
+        "categorie": "Physique",
+        "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
         "nom": "Eco-Sphère",
         "type": "Plante",
         "puissance": "80",
@@ -287,6 +341,15 @@
         "effet": "Restaure jusqu'à 50% des PV maximum du lanceur, la capacité échouera si les PV du lanceur sont déjà au maximum."
     },
     {
+        "nom": "Façade",
+        "type": "Normal",
+        "puissance": "70",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Sa puissance de base devient 140 si l'utilisateur est empoisonné, paralysé ou brûlé."
+    },
+    {
         "nom": "Fatal-Foudre",
         "type": "Electrik",
         "puissance": "120",
@@ -303,6 +366,15 @@
         "pp": "15",
         "categorie": "Non-offensive",
         "effet": "Brûle la cible. La capacité est sans effet sur les types Feu, bien que non-offensive, elle active le talent Torche."
+    },
+    {
+        "nom": "Feu Sacré",
+        "type": "Feu",
+        "puissance": "100",
+        "precision": "95%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "50% de chances de brûler son adversaire. À noter qu'un Pokémon gelé peut malgré tout utiliser Feu Sacré, qui non seulement le dégèle mais attaque également le Pokémon adverse de façon normale."
     },
     {
         "nom": "Giga-Sangsue",
@@ -348,6 +420,15 @@
         "pp": "20",
         "categorie": "Non-offensive",
         "effet": "Le Pokémon adverse est remplacé par l'un des autres Pokémon de son équipe aléatoirement. Si l'adversaire n'a qu'un seul Pokémon restant, la capacité échoue. Il en est de même si le Pokémon adverse dispose du talent Ventouse ou a utilisé la capacité Racines. La capacité a également une priorité négative."
+    },
+    {
+        "nom": "Hydrocanon",
+        "type": "Eau",
+        "puissance": "120",
+        "precision": "80%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "Aucun effet supplémentaire."
     },
     {
         "nom": "Lame de Roc",
@@ -413,6 +494,15 @@
         "effet": "Augmente l'Attaque Spéciale du lanceur de deux niveaux."
     },
     {
+        "nom": "Mâchouille",
+        "type": "Ténèbres",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "20% de chances de baisser la Défense Physique de la cible d'un niveau."
+    },
+    {
         "nom": "Malédiction",
         "type": "",
         "puissance": "/",
@@ -429,6 +519,15 @@
         "pp": "10",
         "categorie": "Physique",
         "effet": "Réduit d'un niveau la Vitesse du lanceur."
+    },
+    {
+        "nom": "Mégacorne",
+        "type": "Insecte",
+        "puissance": "120",
+        "precision": "85%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Aucun effet supplémentaire."
     },
     {
         "nom": "Morsure",
@@ -449,7 +548,7 @@
         "effet": "Crée un mur divisant par deux l'attaque spéciale des Pokémon adverses pendant 5 tours. L'effet se poursuit même si le lanceur est retiré. La capacité Casse-Brique neutralise cette capacité, et Saisie se l'approprie. En Match Double, les dégâts sont réduits d'un tiers au lieu de moitié."
     },
     {
-        "nom": "Noeud Herbe",
+        "nom": "Nœud Herbe",
         "type": "Plante",
         "puissance": "?",
         "precision": "100",
