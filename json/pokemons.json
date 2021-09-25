@@ -1228,7 +1228,7 @@
         "types": { "a": "Normal", "b": "" },
         "sprite": "/images/sprites/leuphorie.png",
         "talent": "Médic Nature",
-        "sexe": "/images/sexes/male.svg",
+        "sexe": "/images/sexes/femelle.svg",
         "stats": {
             "pv": "647",
             "att_phy": "41",
@@ -2228,6 +2228,150 @@
             "d": "Piège de Roc"
         },
         "poids": 950.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 94,
+        "nom": "Rayquaza",
+        "types": { "a": "Dragon", "b": "Vol" },
+        "sprite": "/images/sprites/rayquaza.png",
+        "talent": "Air Lock",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "350",
+            "att_phy": "342",
+            "def_phy": "188",
+            "att_spe": "345",
+            "def_spe": "210",
+            "vitesse": "231"
+        },
+        "capacites": {
+            "a": "Dracogriffe",
+            "b": "Séisme",
+            "c": "Surchauffe",
+            "d": "Danse Draco"
+        },
+        "poids": 206.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 95,
+        "nom": "Jirachi",
+        "types": { "a": "Acier", "b": "Psy" },
+        "sprite": "/images/sprites/jirachi.png",
+        "talent": "Sérénité",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "352",
+            "att_phy": "227",
+            "def_phy": "225",
+            "att_spe": "216",
+            "def_spe": "202",
+            "vitesse": "282"
+        },
+        "capacites": {
+            "a": "Tête de Fer",
+            "b": "Poing-Eclair",
+            "c": "Poing de Feu",
+            "d": "Poinglace"
+        },
+        "poids": 1.1,
+        "pc": "Aucun"
+    },
+    {
+        "id": 96,
+        "nom": "Deoxys (normal)",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/deoxys_normal.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "240",
+            "att_phy": "322",
+            "def_phy": "128",
+            "att_spe": "339",
+            "def_spe": "113",
+            "vitesse": "348"
+        },
+        "capacites": {
+            "a": "Ball'Ombre",
+            "b": "Vit. Extrême",
+            "c": "Piège de Roc",
+            "d": "Picots"
+        },
+        "poids": 60.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 97,
+        "nom": "Deoxys (attaque)",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/deoxys_attaque.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "228",
+            "att_phy": "399",
+            "def_phy": "61",
+            "att_spe": "407",
+            "def_spe": "55",
+            "vitesse": "366"
+        },
+        "capacites": {
+            "a": "Ball'Ombre",
+            "b": "Laser Glace",
+            "c": "Vit. Extrême",
+            "d": "Surpuissance"
+        },
+        "poids": 60.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 98,
+        "nom": "Deoxys (défense)",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/deoxys_defense.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "249",
+            "att_phy": "150",
+            "def_phy": "409",
+            "att_spe": "176",
+            "def_spe": "358",
+            "vitesse": "210"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Soin",
+            "c": "Toxik",
+            "d": "Picots"
+        },
+        "poids": 60.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 99,
+        "nom": "Deoxys (vitesse)",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/deoxys_vitesse.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "241",
+            "att_phy": "225",
+            "def_phy": "213",
+            "att_spe": "214",
+            "def_spe": "189",
+            "vitesse": "410"
+        },
+        "capacites": {
+            "a": "Vit. Extrême",
+            "b": "Surpuissance",
+            "c": "Piège de Roc",
+            "d": "Picots"
+        },
+        "poids": 60.8,
         "pc": "Aucun"
     }
 ]

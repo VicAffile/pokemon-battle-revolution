@@ -354,6 +354,10 @@ body section#liste .case .case-info p {
           justify-content: center;
 }
 
+body section#liste .case .case-info p.deoxys {
+  font-size: xx-small;
+}
+
 body section#liste .case .case-info p img {
   margin-left: 5px;
   width: 10%;

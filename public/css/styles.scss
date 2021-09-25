@@ -209,6 +209,9 @@ body {
                         font-weight: bold;
                         display: flex;
                         justify-content: center;
+                        &.deoxys {
+                            font-size: xx-small;
+                        }
                         img {
                             margin-left: 5px;
                             width: 10%;

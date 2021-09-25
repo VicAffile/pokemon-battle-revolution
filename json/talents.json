@@ -11,6 +11,10 @@
         "effet": "Un Pokémon doté de ce talent récupère 25 % de ses PV max s'il est touché par une capacité de type Électrik et il ne subit pas les dégâts de ces capacités."
     },
     {
+        "nom": "Air Lock",
+        "effet": "Un Pokémon doté de ce talent désactive tous les effets des modifications du climat. Ainsi, même si les modifications de climat sont toujours affichées, elles n'auront aucune utilité. Les altérations de climat récupèrent leurs effets une fois le Pokémon avec Air Lock échangé."
+    },
+    {
         "nom": "Annule Garde",
         "effet": "Un Pokémon doté de ce talent provoque une Précision de 100 % pour toutes ses capacités, ainsi que les coups qu’il encaisse."
     },
@@ -133,6 +137,10 @@
     {
         "nom": "Sécheresse",
         "effet": "Lorsqu'un Pokémon doté du talent Sécheresse est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi un ensoleillement."
+    },
+    {
+        "nom": "Sérénité",
+        "effet": "Si un Pokémon doté de ce talent utilise une capacité avec un effet additionnel (par exemple, Tonnerre qui peut paralyser, Laser Glace qui gèle, Aile d'Acier qui augmente la Défense…), ce dernier a deux fois plus de chance de se produire. Sérénité ne fonctionne pas avec les capacités de statut (comme Berceuse ou Feu Follet)."
     },
     {
         "nom": "Soin Poison",

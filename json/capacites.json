@@ -791,6 +791,15 @@
         "effet": "Si le Pokémon ciblé par la capacité est retiré pendant le tour où Poursuite est utilisée, la puissance de la capacité double pour monter à 80 et inflige ses dégâts avant que le Pokémon ne soit remplacé. Les Pokémon utilisant Relais ne reçoivent pas de dommage. Si un Pokémon utilise Poursuite et sa cible Demi-Tour, le résultat dépend des vitesses relatives des deux adversaires : si le Pokémon utilisant Poursuite est plus rapide il inflige des dégâts standard, puis l'adversaire inflige les dégâts de sa capacité et switche et si le Pokémon utilisant Demi-Tour est plus rapide il inflige ses dégâts puis subit Poursuite avec une puissance doublée (identique à celle infligée pour un switch standard), et enfin effectue son remplacement."
     },
     {
+        "nom": "Protection",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Le lanceur crée un mur divisant par deux l'Attaque des Pokémon adverses pendant 5 tours. L'effet se poursuit même si le lanceur est retiré. La capacité Casse-Brique neutralise cette capacité, et Saisie se l'approprie. En Match Double, les dégâts sont réduits d'un tiers au lieu de moitié."
+    },
+    {
         "nom": "Provoc",
         "type": "Ténèbres",
         "puissance": "/",
