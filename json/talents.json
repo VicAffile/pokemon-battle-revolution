@@ -39,6 +39,10 @@
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Feu augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
     {
+        "nom": "Brise Moule",
+        "effet": "Un Pokémon doté de ce talent ignore les effets d'affaiblissement ou d'annulation (de dégâts ou d'effets) que le talent de son adversaire peut déclencher."
+    },
+    {
         "nom": "Chanceux",
         "effet": "Un Pokémon doté de ce talent voit son taux de coups critiques augmenter. En pratique, le niveau en coup critique de la capacité est multiplié par deux (avant application de tout autre modificateur)."
     },
@@ -85,6 +89,10 @@
     {
         "nom": "Glissade",
         "effet": "Si le climat est pluvieux, le Pokémon doté de Glissade voit sa statistique de Vitesse multipliée par deux."
+    },
+    {
+        "nom": "Insomnia",
+        "effet": "Un Pokémon doté de ce talent ne peut jamais être endormi, peu importe le moyen utilisé. Ainsi par exemple, même la capacité Repos ne peut pas être utilisée par ce Pokémon : celle-ci échoue automatiquement."
     },
     {
         "nom": "Isograisse",

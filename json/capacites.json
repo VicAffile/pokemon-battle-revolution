@@ -233,6 +233,24 @@
         "effet": "Attaque toujours en premier sauf si la cible utilise aussi une capacité de priorité, dans ce cas le premier à attaquer sera déterminé normalement. Si l'adversaire utilise une capacité non-offensive ou parvient à attaquer avant l'utilisateur, la capacité échouera."
     },
     {
+        "nom": "Coup Double",
+        "type": "Normal",
+        "puissance": "35",
+        "precision": "90%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Inflige des dégâts en frappant deux fois par tour. Si le premier coup détruit un clone, le Pokémon lui-même subira les dégâts du second coup."
+    },
+    {
+        "nom": "Crocs Feu",
+        "type": "Feu",
+        "puissance": "65",
+        "precision": "95%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "10% de chances de brûler l'adversaire et également 10% de chances d'apeurer l'adversaire si l'utilisateur attaque en premier. Les deux effets peuvent se produire simultanément."
+    },
+    {
         "nom": "Crocs Givre",
         "type": "Glace",
         "puissance": "65",
@@ -287,6 +305,15 @@
         "effet": "30% de chances d'empoisonner l'adversaire."
     },
     {
+        "nom": "Distorsion",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "5",
+        "categorie": "Non-offensive",
+        "effet": "Fait toujours effet en dernier, et inverse l'ordre dans lequel les Pokémon attaquent pendant 5 tours : le Pokémon le plus lent attaque avant le Pokémon le plus rapide. N'inverse que les capacités à priorité similaire : les capacités avec une plus grande priorité, comme Vive-Attaque, restent prioritaires sur les autres. Utiliser Distorsion une seconde fois en annule les effets. Si un Pokémon possède une vitesse de 1809 ou plus, les effets de Distorsion sont ignorés."
+    },
+    {
         "nom": "Dracochoc",
         "type": "Dragon",
         "puissance": "90",
@@ -339,6 +366,15 @@
         "pp": "5",
         "categorie": "Non-offensive",
         "effet": "Oblige la cible à faire usage de la dernière capacité qu'elle a utilisée. L'effet de Encore dure entre 2 et 6 tours"
+    },
+    {
+        "nom": "Etincelle",
+        "type": "Electrik",
+        "puissance": "65",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "30% de chances de paralyser la cible."
     },
     {
         "nom": "Exploforce",
@@ -413,6 +449,15 @@
         "effet": "Fait subir à l'utilisateur un contrecoup égal à la moitié des PV perdus par la cible."
     },
     {
+        "nom": "Fulmifer",
+        "type": "Acier",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Inflige des dégâts égaux à 1,5 fois ceux engendrés par la dernière capacité de l'adversaire. Si le lanceur est plus rapide que la cible, la capacité échoue. Cette capacité ne prend pas en compte les rapports entre les types."
+    },
+    {
         "nom": "Giclédo",
         "type": "Eau",
         "puissance": "?",
@@ -440,6 +485,15 @@
         "effet": "Tous les Pokémon présents dans l'équipe de l'utilisateur de Glas de Soin sont soignés de la brûlure, du gel, de la paralysie, du poison et du sommeil. N'affecte pas les possesseurs de la capacité spéciale Anti-Bruit."
     },
     {
+        "nom": "Gonflette",
+        "type": "Combat",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Monte l'Attaque Physique et la Défense Physique d'un niveau."
+    },
+    {
         "nom": "Griffe Ombre",
         "type": "Spectre",
         "puissance": "70",
@@ -465,6 +519,15 @@
         "pp": "5",
         "categorie": "Physique",
         "effet": "Plus l'utilisateur est lent par rapport à la cible, plus Gyroballe lui inflige de dégâts. La puissance de Gyroballe est calculée comme suit : Puissance = 25 x (Vitesse de la cible/Vitesse de l'utilisateur). Ce calcul tient compte d'une éventuelle augmentation ou baisse de la vitesse causées par exemple par la Paralysie, Hâte… Le maximum de puissance possible pour Gyroballe est 150."
+    },
+    {
+        "nom": "Hâte",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "30",
+        "categorie": "Non-offensive",
+        "effet": "Augmente de deux niveaux la Vitesse du Pokémon lanceur."
     },
     {
         "nom": "Hurlement",
@@ -987,6 +1050,15 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "10% de chances de baisser la Défense Spéciale de la cible d'un niveau."
+    },
+    {
+        "nom": "Tempête Verte",
+        "type": "Plante",
+        "puissance": "140",
+        "precision": "90%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "Baisse de deux niveaux l'Attaque Spéciale du lanceur."
     },
     {
         "nom": "Tête de Fer",

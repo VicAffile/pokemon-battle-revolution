@@ -2373,5 +2373,317 @@
         },
         "poids": 60.8,
         "pc": "Aucun"
+    },
+    {
+        "id": 100,
+        "nom": "Torterra",
+        "types": { "a": "Plante", "b": "Sol" },
+        "sprite": "/images/sprites/torterra.png",
+        "talent": "Engrais",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "345",
+            "att_phy": "291",
+            "def_phy": "246",
+            "att_spe": "185",
+            "def_spe": "211",
+            "vitesse": "154"
+        },
+        "capacites": {
+            "a": "Martobois",
+            "b": "Séisme",
+            "c": "Lame de Roc",
+            "d": "Piège de Roc"
+        },
+        "poids": 310.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 101,
+        "nom": "Simiabraz",
+        "types": { "a": "Feu", "b": "Combat" },
+        "sprite": "/images/sprites/simiabraz.png",
+        "talent": "Brasier",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "267",
+            "att_phy": "266",
+            "def_phy": "180",
+            "att_spe": "284",
+            "def_spe": "180",
+            "vitesse": "276"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Close Combat",
+            "c": "Nœud Herbe",
+            "d": "Lame de Roc"
+        },
+        "poids": 55.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 102,
+        "nom": "Pingoléon",
+        "types": { "a": "Eau", "b": "Acier" },
+        "sprite": "/images/sprites/pingoleon.png",
+        "talent": "Torrent",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "303",
+            "att_phy": "183",
+            "def_phy": "229",
+            "att_spe": "274",
+            "def_spe": "243",
+            "vitesse": "181"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Nœud Herbe",
+            "d": "Hâte"
+        },
+        "poids": 84.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 103,
+        "nom": "Etouraptor",
+        "types": { "a": "Normal", "b": "Vol" },
+        "sprite": "/images/sprites/etouraptor.png",
+        "talent": "Intimidation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "314",
+            "att_phy": "293",
+            "def_phy": "181",
+            "att_spe": "109",
+            "def_spe": "138",
+            "vitesse": "255"
+        },
+        "capacites": {
+            "a": "Rapace",
+            "b": "Retour",
+            "c": "Close Combat",
+            "d": "Poursuite"
+        },
+        "poids": 24.9,
+        "pc": "Aucun"
+    },
+    {
+        "id": 104,
+        "nom": "Luxray",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/luxray.png",
+        "talent": "Intimidation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "295",
+            "att_phy": "298",
+            "def_phy": "203",
+            "att_spe": "214",
+            "def_spe": "206",
+            "vitesse": "196"
+        },
+        "capacites": {
+            "a": "Etincelle",
+            "b": "Mâchouille",
+            "c": "Crocs Feu",
+            "d": "Crocs Givre"
+        },
+        "poids": 42.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 105,
+        "nom": "Roserade",
+        "types": { "a": "Plante", "b": "Poison" },
+        "sprite": "/images/sprites/roserade.png",
+        "talent": "Médic Nature",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "262",
+            "att_phy": "158",
+            "def_phy": "173",
+            "att_spe": "288",
+            "def_spe": "247",
+            "vitesse": "230"
+        },
+        "capacites": {
+            "a": "Tempête Verte",
+            "b": "Puis. Cachée",
+            "c": "Poudre Dodo",
+            "d": "Pics Toxik"
+        },
+        "poids": 14.5,
+        "pc": "/images/types/feu.png"
+    },
+    {
+        "id": 106,
+        "nom": "Charkos",
+        "types": { "a": "Roche", "b": "" },
+        "sprite": "/images/sprites/charkos.png",
+        "talent": "Brise Moule",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "348",
+            "att_phy": "370",
+            "def_phy": "159",
+            "att_spe": "144",
+            "def_spe": "158",
+            "vitesse": "151"
+        },
+        "capacites": {
+            "a": "Fracass'Tête",
+            "b": "Séisme",
+            "c": "Mâchouille",
+            "d": "Poliroche"
+        },
+        "poids": 102.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 107,
+        "nom": "Bastiodon",
+        "types": { "a": "Roche", "b": "Acier" },
+        "sprite": "/images/sprites/bastiodon.png",
+        "talent": "Fermeté",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "258",
+            "att_phy": "178",
+            "def_phy": "395",
+            "att_spe": "94",
+            "def_spe": "312",
+            "vitesse": "85"
+        },
+        "capacites": {
+            "a": "Fulmifer",
+            "b": "Séisme",
+            "c": "Provoc",
+            "d": "Piège de Roc"
+        },
+        "poids": 149.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 108,
+        "nom": "Mustéflott",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/musteflott.png",
+        "talent": "Glissade",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "334",
+            "att_phy": "234",
+            "def_phy": "156",
+            "att_spe": "192",
+            "def_spe": "137",
+            "vitesse": "266"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Poinglace",
+            "c": "Gonflette",
+            "d": "Relais"
+        },
+        "poids": 33.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 109,
+        "nom": "Capidextre",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/capidextre.png",
+        "talent": "Technicien",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "310",
+            "att_phy": "254",
+            "def_phy": "173",
+            "att_spe": "129",
+            "def_spe": "191",
+            "vitesse": "270"
+        },
+        "capacites": {
+            "a": "Coup Double",
+            "b": "Poursuite",
+            "c": "Machination",
+            "d": "Relais"
+        },
+        "poids": 20.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 110,
+        "nom": "Magirêve",
+        "types": { "a": "Spectre", "b": "" },
+        "sprite": "/images/sprites/magireve.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "272",
+            "att_phy": "119",
+            "def_phy": "184",
+            "att_spe": "271",
+            "def_spe": "244",
+            "vitesse": "244"
+        },
+        "capacites": {
+            "a": "Ball'Ombre",
+            "b": "Eco-Sphère",
+            "c": "Plénitude",
+            "d": "Clonage"
+        },
+        "poids": 4.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 111,
+        "nom": "Corboss",
+        "types": { "a": "Ténèbres", "b": "Vol" },
+        "sprite": "/images/sprites/corboss.png",
+        "talent": "Insomnia",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "346",
+            "att_phy": "292",
+            "def_phy": "119",
+            "att_spe": "253",
+            "def_spe": "119",
+            "vitesse": "180"
+        },
+        "capacites": {
+            "a": "Coup Bas",
+            "b": "Poursuite",
+            "c": "Canicule",
+            "d": "Surpuissance"
+        },
+        "poids": 27.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 112,
+        "nom": "Archéodong",
+        "types": { "a": "Acier", "b": "Psy" },
+        "sprite": "/images/sprites/archeodong.png",
+        "talent": "Lévitation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "279",
+            "att_phy": "228",
+            "def_phy": "258",
+            "att_spe": "183",
+            "def_spe": "260",
+            "vitesse": "101"
+        },
+        "capacites": {
+            "a": "Gyroballe",
+            "b": "Séisme",
+            "c": "Distorsion",
+            "d": "Piège de Roc"
+        },
+        "poids": 187.0,
+        "pc": "Aucun"
     }
 ]
