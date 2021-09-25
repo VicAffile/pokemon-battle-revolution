@@ -17,6 +17,15 @@
         "effet": "1/8 de chances de faire un coup critique."
     },
     {
+        "nom": "Aéropique",
+        "type": "Vol",
+        "puissance": "60",
+        "precision": "",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "Inflige des dégâts sans prendre en compte d'éventuelles modifications de la précision ou de l'esquive de la cible ou du lanceur, étant une capacité qui n'échoue jamais."
+    },
+    {
         "nom": "Aile d'Acier",
         "type": "Acier",
         "puissance": "70",
@@ -44,15 +53,6 @@
         "effet": "Tous les Pokémon présents dans l'équipe du lanceur d'Aromathérapi seront soignés de leurs problèmes de statut."
     },
     {
-        "nom": "Aurasphère",
-        "type": "Combat",
-        "puissance": "90",
-        "precision": "/",
-        "pp": "20",
-        "categorie": "Spéciale",
-        "effet": "N'échoue jamais sauf si la cible utilise Abri ou Détection ou encore si elle se trouve dans le premier tour de Rebond, Plongée, Tunnel, Vol ou Revenant."
-    },
-    {
         "nom": "Atterrissage",
         "type": "Vol",
         "puissance": "/",
@@ -62,6 +62,15 @@
         "effet": "Atterrissage restaure jusqu'à la moitié des PV maximum du lanceur. Si le lanceur est du type Vol et qu'Atterrissage a réussi, alors jusqu'à la fin du tour, le Pokémon perd son type Vol, faisant ainsi disparaître les immunités, faiblesses et résistances associées à ce type pour ce tour. Cependant, Atterrissage ne désactive pas Lévitation. Si l'utilisateur de cette capacité est de type Vol pur, il devient de type Inconnu."
     },
     {
+        "nom": "Aurasphère",
+        "type": "Combat",
+        "puissance": "90",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Spéciale",
+        "effet": "N'échoue jamais sauf si la cible utilise Abri ou Détection ou encore si elle se trouve dans le premier tour de Rebond, Plongée, Tunnel, Vol ou Revenant."
+    },
+    {
         "nom": "Aurore",
         "type": "Normal",
         "puissance": "/",
@@ -69,6 +78,15 @@
         "pp": "5",
         "categorie": "Non-offensive",
         "effet": "Restaure la moitié des PV max du lanceur sous des conditions météo normales, 2/3 si le soleil brille et 1/4 sous les autres conditions météo (Pluie, Brume...)."
+    },
+    {
+        "nom": "Avalanche",
+        "type": "Glace",
+        "puissance": "60",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "Attaque toujours en dernier sauf si la cible utilise une capacité de priorité équivalente, auquel cas l'ordre d'attaque est déterminé selon la Vitesse des deux parties. Si le lanceur subit des dégâts durant le tour, la puissance d'Avalanche est doublée, passant à 120."
     },
     {
         "nom": "Bâillement",
@@ -395,6 +413,15 @@
         "effet": "Fait subir à l'utilisateur un contrecoup égal à la moitié des PV perdus par la cible."
     },
     {
+        "nom": "Giclédo",
+        "type": "Eau",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "Inflige des dégâts en utilisant la formule suivante pour déterminer la puissance de base de la capacité : 150 x (PV actuels de l 'utilisateur / PV maximum de l'utilisateur), arrondi au nombre entier inférieur. La capacité perd en puissance au fur et à mesure que l'utilisateur perd des PV, sa puissance varie donc entre 1 et 150. Giclédo touche les adversaires adjacents en cas de combat double."
+    },
+    {
         "nom": "Giga-Sangsue",
         "type": "Plante",
         "puissance": "60",
@@ -710,6 +737,15 @@
         "effet": "10% de chances de brûler la cible."
     },
     {
+        "nom": "Poing Météor",
+        "type": "Acier",
+        "puissance": "100",
+        "precision": "85%",
+        "pp": "10",
+        "categorie": "Physique",
+        "effet": "20 % de chances d'augmenter d'un niveau l'Attaque Physique de l'utilisateur."
+    },
+    {
         "nom": "Poing-Eclair",
         "type": "Electrik",
         "puissance": "75",
@@ -890,6 +926,15 @@
         "effet": "Endort la cible. Spore ne pourra pas fonctionner si la cible a déjà un problème de statut majeur comme la paralysie, le gel, l'empoisonnement ou la brûlure. Spore ne peut pas affecter les cibles qui possèdent les talents Insomnia ou Esprit Vital"
     },
     {
+        "nom": "Stockage",
+        "type": "Normal",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "L'utilisateur accumule de l'énergie. La puissance de Relâche et les PV récupérés avec Avale dépendent du nombre de fois où Stockage a été utilisée. Cette capacité peut être utilisée jusqu'à trois fois. De plus, la Défense Physique et la Défense Spéciale du lanceur augmentent d'un niveau, mais après avoir utilisé Relâche ou Avale, cette modification s'annule."
+    },
+    {
         "nom": "Surchauffe",
         "type": "Feu",
         "puissance": "140",
@@ -933,6 +978,15 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "10% de chances de baisser la Défense Spéciale de la cible d'un niveau."
+    },
+    {
+        "nom": "Tête de Fer",
+        "type": "Acier",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "30% de chances d'apeurer la cible."
     },
     {
         "nom": "Tonnerre",

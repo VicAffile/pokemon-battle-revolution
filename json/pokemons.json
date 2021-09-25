@@ -1701,5 +1701,533 @@
         },
         "poids": 360.0,
         "pc": "Aucun"
+    },
+    {
+        "id": 72,
+        "nom": "Elecsprint",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/elecsprint.png",
+        "talent": "Statik",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "303",
+            "att_phy": "183",
+            "def_phy": "159",
+            "att_spe": "249",
+            "def_spe": "128",
+            "vitesse": "276"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Lance-Flamme",
+            "c": "Rayon Signal",
+            "d": "Cage-Eclair"
+        },
+        "poids": 42.2,
+        "pc": "Aucun"
+    },
+    {
+        "id": 73,
+        "nom": "Sharpedo",
+        "types": { "a": "Eau", "b": "Ténèbres" },
+        "sprite": "/images/sprites/sharpedo.png",
+        "talent": "Peau Dure",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "263",
+            "att_phy": "306",
+            "def_phy": "89",
+            "att_spe": "224",
+            "def_spe": "94",
+            "vitesse": "222"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Mâchouille",
+            "c": "Séisme",
+            "d": "Crocs Givre"
+        },
+        "poids": 88.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 74,
+        "nom": "Camérupt",
+        "types": { "a": "Feu", "b": "Sol" },
+        "sprite": "/images/sprites/camerupt.png",
+        "talent": "Solide Roc",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "275",
+            "att_phy": "206",
+            "def_phy": "167",
+            "att_spe": "236",
+            "def_spe": "183",
+            "vitesse": "114"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Telluriforce",
+            "c": "Poliroche",
+            "d": "Explosion"
+        },
+        "poids": 220.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 75,
+        "nom": "Chartor",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/chartor.png",
+        "talent": "Ecran Fumée",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "279",
+            "att_phy": "209",
+            "def_phy": "302",
+            "att_spe": "194",
+            "def_spe": "183",
+            "vitesse": "96"
+        },
+        "capacites": {
+            "a": "Surchauffe",
+            "b": "Tour Rapide",
+            "c": "Piège de Roc",
+            "d": "Explosion"
+        },
+        "poids": 80.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 76,
+        "nom": "Libégon",
+        "types": { "a": "Sol", "b": "Dragon" },
+        "sprite": "/images/sprites/libegon.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "314",
+            "att_phy": "276",
+            "def_phy": "206",
+            "att_spe": "170",
+            "def_spe": "189",
+            "vitesse": "255"
+        },
+        "capacites": {
+            "a": "Colère",
+            "b": "Séisme",
+            "c": "Lame de Roc",
+            "d": "Demi-Tour"
+        },
+        "poids": 82.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 77,
+        "nom": "Altaria",
+        "types": { "a": "Dragon", "b": "Vol" },
+        "sprite": "/images/sprites/altaria.png",
+        "talent": "Médic Nature",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "299",
+            "att_phy": "181",
+            "def_phy": "229",
+            "att_spe": "156",
+            "def_spe": "281",
+            "vitesse": "188"
+        },
+        "capacites": {
+            "a": "Dracogriffe",
+            "b": "Aéropique",
+            "c": "Séisme",
+            "d": "Danse Draco"
+        },
+        "poids": 20.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 78,
+        "nom": "Kaorine",
+        "types": { "a": "Sol", "b": "Psy" },
+        "sprite": "/images/sprites/kaorine.png",
+        "talent": "Médic Nature",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "275",
+            "att_phy": "193",
+            "def_phy": "261",
+            "att_spe": "203",
+            "def_spe": "283",
+            "vitesse": "144"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Tour Rapide",
+            "c": "Protection",
+            "d": "Piège de Roc"
+        },
+        "poids": 108.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 79,
+        "nom": "Vacilys",
+        "types": { "a": "Roche", "b": "Plante" },
+        "sprite": "/images/sprites/vacilys.png",
+        "talent": "Ventouse",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "332",
+            "att_phy": "213",
+            "def_phy": "245",
+            "att_spe": "184",
+            "def_spe": "254",
+            "vitesse": "124"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Stockage",
+            "c": "Soin",
+            "d": "Toxik"
+        },
+        "poids": 60.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 80,
+        "nom": "Armaldo",
+        "types": { "a": "Roche", "b": "Insecte" },
+        "sprite": "/images/sprites/armaldo.png",
+        "talent": "Armurbaston",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "285",
+            "att_phy": "327",
+            "def_phy": "216",
+            "att_spe": "147",
+            "def_spe": "198",
+            "vitesse": "136"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Plaie-Croix",
+            "c": "Séisme",
+            "d": "Danse-Lames"
+        },
+        "poids": 68.2,
+        "pc": "Aucun"
+    },
+    {
+        "id": 81,
+        "nom": "Milobellus",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/milobellus.png",
+        "talent": "Ecaille Spé.",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "347",
+            "att_phy": "136",
+            "def_phy": "211",
+            "att_spe": "258",
+            "def_spe": "280",
+            "vitesse": "214"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Soin",
+            "d": "Voile Miroir"
+        },
+        "poids": 162.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 82,
+        "nom": "Absol",
+        "types": { "a": "Ténèbres", "b": "" },
+        "sprite": "/images/sprites/absol.png",
+        "talent": "Chanceux",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "264",
+            "att_phy": "302",
+            "def_phy": "133",
+            "att_spe": "160",
+            "def_spe": "135",
+            "vitesse": "213"
+        },
+        "capacites": {
+            "a": "Coup Bas",
+            "b": "Lame de Roc",
+            "c": "Surpuissance",
+            "d": "Danse-Lames"
+        },
+        "poids": 47.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 83,
+        "nom": "Oniglali",
+        "types": { "a": "Glace", "b": "" },
+        "sprite": "/images/sprites/oniglali.png",
+        "talent": "Attention",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "296",
+            "att_phy": "194",
+            "def_phy": "226",
+            "att_spe": "175",
+            "def_spe": "217",
+            "vitesse": "196"
+        },
+        "capacites": {
+            "a": "Eclats Glace",
+            "b": "Picots",
+            "c": "Provoc",
+            "d": "Explosion"
+        },
+        "poids": 256.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 84,
+        "nom": "Kaimorse",
+        "types": { "a": "Glace", "b": "Eau" },
+        "sprite": "/images/sprites/kaimorse.png",
+        "talent": "Isograisse",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "358",
+            "att_phy": "159",
+            "def_phy": "219",
+            "att_spe": "228",
+            "def_spe": "194",
+            "vitesse": "193"
+        },
+        "capacites": {
+            "a": "Avalanche",
+            "b": "Séisme",
+            "c": "Malédiction",
+            "d": "Repos"
+        },
+        "poids": 150.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 85,
+        "nom": "Drattak",
+        "types": { "a": "Dragon", "b": "Vol" },
+        "sprite": "/images/sprites/drattak.png",
+        "talent": "Intimidation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "323",
+            "att_phy": "313",
+            "def_phy": "178",
+            "att_spe": "249",
+            "def_spe": "203",
+            "vitesse": "212"
+        },
+        "capacites": {
+            "a": "Colère",
+            "b": "Séisme",
+            "c": "Lame de Roc",
+            "d": "Danse Draco"
+        },
+        "poids": 102.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 86,
+        "nom": "Métalosse",
+        "types": { "a": "Acier", "b": "Psy" },
+        "sprite": "/images/sprites/metalosse.png",
+        "talent": "Corps Sain",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "322",
+            "att_phy": "329",
+            "def_phy": "321",
+            "att_spe": "200",
+            "def_spe": "220",
+            "vitesse": "186"
+        },
+        "capacites": {
+            "a": "Poing Météor",
+            "b": "Séisme",
+            "c": "Pisto-Poing",
+            "d": "Piège de Roc"
+        },
+        "poids": 550.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 87,
+        "nom": "Regirock",
+        "types": { "a": "Roche", "b": "" },
+        "sprite": "/images/sprites/regirock.png",
+        "talent": "Corps Sain",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "295",
+            "att_phy": "251",
+            "def_phy": "440",
+            "att_spe": "117",
+            "def_spe": "276",
+            "vitesse": "116"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Poinglace",
+            "c": "Repos",
+            "d": "Malédiction"
+        },
+        "poids": 230.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 88,
+        "nom": "Regice",
+        "types": { "a": "Glace", "b": "" },
+        "sprite": "/images/sprites/regice.png",
+        "talent": "Corps Sain",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "310",
+            "att_phy": "130",
+            "def_phy": "243",
+            "att_spe": "245",
+            "def_spe": "459",
+            "vitesse": "142"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Tonnerre",
+            "c": "Repos",
+            "d": "Explosion"
+        },
+        "poids": 175.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 89,
+        "nom": "Registeel",
+        "types": { "a": "Acier", "b": "" },
+        "sprite": "/images/sprites/registeel.png",
+        "talent": "Corps Sain",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "312",
+            "att_phy": "189",
+            "def_phy": "351",
+            "att_spe": "161",
+            "def_spe": "340",
+            "vitesse": "130"
+        },
+        "capacites": {
+            "a": "Tête de Fer",
+            "b": "Poinglace",
+            "c": "Cage-Eclair",
+            "d": "Piège de Roc"
+        },
+        "poids": 205.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 90,
+        "nom": "Latias",
+        "types": { "a": "Dragon", "b": "Psy" },
+        "sprite": "/images/sprites/latias.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "308",
+            "att_phy": "149",
+            "def_phy": "204",
+            "att_spe": "242",
+            "def_spe": "296",
+            "vitesse": "271"
+        },
+        "capacites": {
+            "a": "Dracochoc",
+            "b": "Tonnerre",
+            "c": "Surf",
+            "d": "Soin"
+        },
+        "poids": 40.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 91,
+        "nom": "Latios",
+        "types": { "a": "Dragon", "b": "Psy" },
+        "sprite": "/images/sprites/latios.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "304",
+            "att_phy": "190",
+            "def_phy": "170",
+            "att_spe": "335",
+            "def_spe": "239",
+            "vitesse": "243"
+        },
+        "capacites": {
+            "a": "Dracochoc",
+            "b": "Tonnerre",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 60.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 92,
+        "nom": "Kyogre",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/kyogre.png",
+        "talent": "Crachin",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "338",
+            "att_phy": "216",
+            "def_phy": "214",
+            "att_spe": "358",
+            "def_spe": "287",
+            "vitesse": "232"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Fatal-Foudre",
+            "c": "Laser Glace",
+            "d": "Giclédo"
+        },
+        "poids": 352.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 93,
+        "nom": "Groudon",
+        "types": { "a": "Sol", "b": "" },
+        "sprite": "/images/sprites/groudon.png",
+        "talent": "Sécheresse",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "349",
+            "att_phy": "367",
+            "def_phy": "313",
+            "att_spe": "199",
+            "def_spe": "202",
+            "vitesse": "200"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Dracogriffe",
+            "c": "Cage-Eclair",
+            "d": "Piège de Roc"
+        },
+        "poids": 950.0,
+        "pc": "Aucun"
     }
 ]

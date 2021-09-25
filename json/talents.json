@@ -19,6 +19,10 @@
         "effet": "Un Pokémon doté de ce talent ne sera pas sensible aux capacités dites sonores."
     },
     {
+        "nom": "Armurbaston",
+        "effet": "Un Pokémon doté de ce talent bloque les coups critiques. Ainsi, l'adversaire n'effectue jamais ce genre de coups et s'en tient à des coups plus basiques."
+    },
+    {
         "nom": "Attention",
         "effet": "Un Pokémon doté de ce talent ne peut pas être apeuré."
     },
@@ -31,12 +35,28 @@
         "effet": "Un Pokémon doté de ce talent voit la puissance de ses capacités de type Feu augmentée de 50 % lorsque ses PV sont inférieurs à 1/3 de ses PV maximums."
     },
     {
+        "nom": "Chanceux",
+        "effet": "Un Pokémon doté de ce talent voit son taux de coups critiques augmenter. En pratique, le niveau en coup critique de la capacité est multiplié par deux (avant application de tout autre modificateur)."
+    },
+    {
         "nom": "Corps Sain",
         "effet": "Un Pokémon doté de ce talent est immunisé aux baisses de statistiques imposées par son adversaire, que ce soit par des capacités ou un talent (par exemple, Intimidation). Il reste tout de même sensible aux diminutions qu'il peut s'imposer lui-même par des capacités comme Malédiction..."
     },
     {
+        "nom": "Crachin",
+        "effet": "Lorsqu'un Pokémon doté du talent Crachin est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi la pluie."
+    },
+    {
         "nom": "Cran",
         "effet": "Un Pokémon doté de ce talent voit sa statistique d'Attaque augmenter de 50 % s'il a une altération principale de son statut : brûlure, empoisonnement, gel, paralysie ou sommeil. La confusion n'active pas ce talent. Par ailleurs, Cran annule la diminution d'attaque causée par une éventuelle brûlure, ainsi, seul le bonus d'Attaque de 50 % est appliqué comme modification de cette statistique."
+    },
+    {
+        "nom": "Ecaille Spé.",
+        "effet": "Si un Pokémon doté du talent Écaille Spé. subit une altération principale de statut (paralysie, empoisonnement, gel, sommeil ou brûlure), alors sa statistique de Défense Physique augmente de 50 %."
+    },
+    {
+        "nom": "Ecran Fumée",
+        "effet": "Un Pokémon doté de ce talent est immunisé aux réductions de statistiques imposées par son adversaire, que ce soit par des capacités ou un talent. Il reste tout de même sensible aux diminutions qu'il peut s'imposer lui-même par des capacités comme Surchauffe."
     },
     {
         "nom": "Engrais",
@@ -83,6 +103,10 @@
         "effet": "Un Pokémon doté de Médic Nature soigne son statut lorsqu'il est quitte le combat."
     },
     {
+        "nom": "Peau Dure",
+        "effet": "Lorsque le Pokémon doté de Peau Dure subit une attaque directe, il inflige à son adversaire des dégâts équivalents à 1/8 de ses PV."
+    },
+    {
         "nom": "Point Poison",
         "effet": "Si un Pokémon effectue une attaque directe sur un adversaire doté de ce talent, il a 30 % de chances d'être empoisonné."
     },
@@ -107,8 +131,16 @@
         "effet": "Lorsqu'un Pokémon doté du talent Sable Volant est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi une tempête de sable."
     },
     {
+        "nom": "Sécheresse",
+        "effet": "Lorsqu'un Pokémon doté du talent Sécheresse est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi un ensoleillement."
+    },
+    {
         "nom": "Soin Poison",
         "effet": "Si un Pokémon doté de ce talent est empoisonné, aussi bien par poison simple que par empoisonnement grave, il récupère 1/8 de ses PV maximums (au lieu d'en perdre) entre chaque tour, tout en étant immunisé au poison."
+    },
+    {
+        "nom": "Solide Roc",
+        "effet": "Si un Pokémon doté de ce talent est touché par une capacité « super efficace », les dégâts infligés par celle-ci sont réduits d'un quart. Ainsi, au lieu d'appliquer un coefficient multiplicateur de 2, un coefficient de 1,5 est comptabilisé. Pour une double faiblesse, le coefficient multiplicateur passera de 4 à 3."
     },
     {
         "nom": "Statik",
@@ -141,5 +173,9 @@
     {
         "nom": "Turbo",
         "effet": "Un Pokémon doté de Turbo voit sa statistique de Vitesse augmenter d'un niveau entre chaque tour. Si le Pokémon est posé sur le terrain lors d'un switch non provoqué par un K.O., l'effet de Turbo ne s'active pas le tour où il a été posé."
+    },
+    {
+        "nom": "Ventouse",
+        "effet": "Un Pokémon doté du talent Ventouse ne peut pas être forcé par son adversaire à quitter le combat ou à être échangé par une capacité comme Hurlement, Cyclone ou Projection. Il peut toutefois toujours quitter de lui-même le combat en utilisant des capacités de fuite, comme Relais ou Téléport."
     }
 ]
