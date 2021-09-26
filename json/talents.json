@@ -15,6 +15,10 @@
         "effet": "Un Pokémon doté de ce talent désactive tous les effets des modifications du climat. Ainsi, même si les modifications de climat sont toujours affichées, elles n'auront aucune utilité. Les altérations de climat récupèrent leurs effets une fois le Pokémon avec Air Lock échangé."
     },
     {
+        "nom": "Alerte Neige",
+        "effet": "Lorsqu'un Pokémon doté du talent Alerte Neige est envoyé au combat, il modifie immédiatement le climat, provoquant ainsi la grêle."
+    },
+    {
         "nom": "Annule Garde",
         "effet": "Un Pokémon doté de ce talent provoque une Précision de 100 % pour toutes ses capacités, ainsi que les coups qu’il encaisse."
     },
@@ -47,6 +51,10 @@
         "effet": "Un Pokémon doté de ce talent voit son taux de coups critiques augmenter. En pratique, le niveau en coup critique de la capacité est multiplié par deux (avant application de tout autre modificateur)."
     },
     {
+        "nom": "Corps Ardent",
+        "effet": "Si un Pokémon utilise une capacité directe et que celle-ci inflige bien des dégâts sur un Pokémon doté de ce talent, il a 30 % de chances d'être brûlé."
+    },
+    {
         "nom": "Corps Sain",
         "effet": "Un Pokémon doté de ce talent est immunisé aux baisses de statistiques imposées par son adversaire, que ce soit par des capacités ou un talent (par exemple, Intimidation). Il reste tout de même sensible aux diminutions qu'il peut s'imposer lui-même par des capacités comme Malédiction..."
     },
@@ -75,6 +83,10 @@
         "effet": "Un Pokémon doté de ce talent ne peut pas être touché par des capacités OHKO."
     },
     {
+        "nom": "Feuil. Garde",
+        "effet": "Un Pokémon doté de ce talent évite toute altération de statut (brûlure, gel, paralysie, poison et sommeil) si le climat est ensoleillé."
+    },
+    {
         "nom": "Intimidation",
         "effet": "Lors de l'envoi au combat du Pokémon, le Pokémon adverse perd un niveau de statistique d'Attaque. Intimidation n'a aucun effet si le Pokémon adverse possède les talents Corps Sain, Écran Fumée ou Hyper Cutter."
     },
@@ -91,6 +103,10 @@
         "effet": "Si le climat est pluvieux, le Pokémon doté de Glissade voit sa statistique de Vitesse multipliée par deux."
     },
     {
+        "nom": "Impassible",
+        "effet": "Un Pokémon doté de ce talent voit sa statistique de Vitesse augmenter d'un niveau (soit 50 % d'amélioration par rapport à la statistique de départ), lorsqu'il est apeuré."
+    },
+    {
         "nom": "Insomnia",
         "effet": "Un Pokémon doté de ce talent ne peut jamais être endormi, peu importe le moyen utilisé. Ainsi par exemple, même la capacité Repos ne peut pas être utilisée par ce Pokémon : celle-ci échoue automatiquement."
     },
@@ -101,6 +117,10 @@
     {
         "nom": "Lévitation",
         "effet": "Un Pokémon doté de Lévitation ne peut pas être touché par des capacités de type Sol, excepté Jet de Sable. Lévitation permet également d'échapper aux Picots, aux Pics Toxik et au talent Piège Sable."
+    },
+    {
+        "nom": "Magnépiège",
+        "effet": "Si un Pokémon de type Acier rencontre un adversaire doté du talent Magnépiège, alors il ne pourra plus s'enfuir, ni être échangé. Il peut toutefois forcer la fin du combat grâce à des capacités comme Cyclone ou Hurlement. Si le Pokémon piégé possède le talent Fuite alors la fuite ou l'échange pourra toujours se réaliser."
     },
     {
         "nom": "Marque Ombre",
@@ -115,8 +135,16 @@
         "effet": "Un Pokémon doté de Médic Nature soigne son statut lorsqu'il est quitte le combat."
     },
     {
+        "nom": "Motorisé",
+        "effet": "Un Pokémon doté de Motorisé est totalement insensible aux capacités de type Électrik, aussi bien en terme de dégâts infligés que d'effets. En parallèle, chaque fois qu'il est touché par une capacité de ce type, il bénéficie d'une augmentation d'un niveau en Vitesse."
+    },
+    {
         "nom": "Peau Dure",
         "effet": "Lorsque le Pokémon doté de Peau Dure subit une attaque directe, il inflige à son adversaire des dégâts équivalents à 1/8 de ses PV."
+    },
+    {
+        "nom": "Peau Sèche",
+        "effet": "Un Pokémon doté du talent Peau Sèche voit ses PV influencés par les variations de climat : sous la pluie le Pokémon récupère 1/8 de ses PV à la fin de chaque tour et sous ensoleillement le Pokémon perd 1/8 de ses PV à la fin de chaque tour. En parallèle, les capacité de type Feu infligent 25 % de dégâts en plus, alors que les capacités Eau soignent jusqu'à 25 % des PV maximums du Pokémon."
     },
     {
         "nom": "Point Poison",
@@ -135,6 +163,10 @@
         "effet": "Un Pokémon doté de ce talent ne peut pas perdre de Précision."
     },
     {
+        "nom": "Rideau Neige",
+        "effet": "Un Pokémon doté de ce talent voit son Esquive augmenter de 20 % lorsque le climat est altéré par la grêle. En outre, si un Pokémon n'étant pas de type Glace parvient à l'obtenir, il est alors immunisé aux dégâts provoqués par cette grêle."
+    },
+    {
         "nom": "Rivalité",
         "effet": "Si le Pokémon est du même sexe que son adversaire la puissance de ses attaques est augmentée de 25%, s'ils sont tous deux de sexe différent la puissance de ses attaques est diminuée de 25% et si l'adversaire est asexué le talent n'a pas d'effet."
     },
@@ -149,6 +181,10 @@
     {
         "nom": "Sérénité",
         "effet": "Si un Pokémon doté de ce talent utilise une capacité avec un effet additionnel (par exemple, Tonnerre qui peut paralyser, Laser Glace qui gèle, Aile d'Acier qui augmente la Défense…), ce dernier a deux fois plus de chance de se produire. Sérénité ne fonctionne pas avec les capacités de statut (comme Berceuse ou Feu Follet)."
+    },
+    {
+        "nom": "Sniper",
+        "effet": "Si un Pokémon doté de ce talent effectue un coup critique, les dégâts provoqués par cette attaque sont multipliés par 1,5 par rapport à un coup critique standard."
     },
     {
         "nom": "Soin Poison",
@@ -169,6 +205,10 @@
     {
         "nom": "Technicien",
         "effet": "Si un Pokémon doté de ce talent utilise une capacité dont la puissance de base (sans prise en compte du STAB et autres coefficients multiplicateurs) est inférieure ou égale à 60, alors sa puissance est augmentée de 50 %."
+    },
+    {
+        "nom": "Télécharge",
+        "effet": "Un Pokémon doté de Télécharge voit sa statistique d'Attaque Physique ou d'Attaque Spéciale augmenter d'un niveau selon la statistique défensive la plus faible du Pokémon adverse. Plus clairement, le talent agit ainsi : si le Pokémon adverse a une faible Défense Physique, la statistique d'Attaque Physique est augmentée, si le Pokémon adverse a une faible Défense Spéciale, la statistique d'Attaque Spéciale est augmentée et en cas d'égalité entre la Défense Physique et la Défense Spéciale, la statistique d'Attaque Physique ou d'Attaque Spéciale est augmentée. Lors d'un combat en Combat Duo, un des Pokémon adverses est choisi au hasard."
     },
     {
         "nom": "Tempo Perso",
@@ -193,5 +233,9 @@
     {
         "nom": "Ventouse",
         "effet": "Un Pokémon doté du talent Ventouse ne peut pas être forcé par son adversaire à quitter le combat ou à être échangé par une capacité comme Hurlement, Cyclone ou Projection. Il peut toutefois toujours quitter de lui-même le combat en utilisant des capacités de fuite, comme Relais ou Téléport."
+    },
+    {
+        "nom": "Voile Sable",
+        "effet": "En cas de tempête de sable, Voile Sable a deux effets : l'Esquive du détenteur de ce talent est augmentée, réduisant ainsi la Précision des capacités de l'adversaire de 20 % et il immunise le Pokémon détenteur aux dégâts de la tempête de sable."
     }
 ]

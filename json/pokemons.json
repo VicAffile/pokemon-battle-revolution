@@ -2685,5 +2685,533 @@
         },
         "poids": 187.0,
         "pc": "Aucun"
+    },
+    {
+        "id": 113,
+        "nom": "Spiritomb",
+        "types": { "a": "Spectre", "b": "Ténèbres" },
+        "sprite": "/images/sprites/spiritomb.png",
+        "talent": "Pression",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "239",
+            "att_phy": "243",
+            "def_phy": "277",
+            "att_spe": "190",
+            "def_spe": "249",
+            "vitesse": "127"
+        },
+        "capacites": {
+            "a": "Coup Bas",
+            "b": "Poursuite",
+            "c": "Feu Follet",
+            "d": "Balance"
+        },
+        "poids": 108.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 114,
+        "nom": "Carchacrok",
+        "types": { "a": "Dragon", "b": "Sol" },
+        "sprite": "/images/sprites/carchacrok.png",
+        "talent": "Voile Sable",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "351",
+            "att_phy": "291",
+            "def_phy": "215",
+            "att_spe": "178",
+            "def_spe": "204",
+            "vitesse": "272"
+        },
+        "capacites": {
+            "a": "Dracogriffe",
+            "b": "Séisme",
+            "c": "Lame de Roc",
+            "d": "Danse-Lames"
+        },
+        "poids": 95.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 115,
+        "nom": "Lucario",
+        "types": { "a": "Combat", "b": "Acier" },
+        "sprite": "/images/sprites/lucario.png",
+        "talent": "Attention",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "306",
+            "att_phy": "256",
+            "def_phy": "204",
+            "att_spe": "213",
+            "def_spe": "177",
+            "vitesse": "223"
+        },
+        "capacites": {
+            "a": "Close Combat",
+            "b": "Poinglace",
+            "c": "Vit. Extrême",
+            "d": "Danse-Lames"
+        },
+        "poids": 54.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 116,
+        "nom": "Hippodocus",
+        "types": { "a": "Sol", "b": "" },
+        "sprite": "/images/sprites/hippodocus.png",
+        "talent": "Sable Volant",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "374",
+            "att_phy": "238",
+            "def_phy": "272",
+            "att_spe": "159",
+            "def_spe": "206",
+            "vitesse": "89"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Hurlement",
+            "c": "Repos",
+            "d": "Piège de Roc"
+        },
+        "poids": 300.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 117,
+        "nom": "Drascore",
+        "types": { "a": "Poison", "b": "Ténèbres" },
+        "sprite": "/images/sprites/drascore.png",
+        "talent": "Sniper",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "303",
+            "att_phy": "219",
+            "def_phy": "277",
+            "att_spe": "129",
+            "def_spe": "204",
+            "vitesse": "242"
+        },
+        "capacites": {
+            "a": "Poison-Croix",
+            "b": "Tranche-Nuit",
+            "c": "Crocs Givre",
+            "d": "Pics Toxik"
+        },
+        "poids": 61.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 118,
+        "nom": "Coatox",
+        "types": { "a": "Poison", "b": "Combat" },
+        "sprite": "/images/sprites/coatox.png",
+        "talent": "Peau Sèche",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "329",
+            "att_phy": "283",
+            "def_phy": "164",
+            "att_spe": "174",
+            "def_spe": "169",
+            "vitesse": "208"
+        },
+        "capacites": {
+            "a": "Coup-Croix",
+            "b": "Direct Toxik",
+            "c": "Coup Bas",
+            "d": "Danse-Lames"
+        },
+        "poids": 44.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 119,
+        "nom": "Blizzaroi",
+        "types": { "a": "Plante", "b": "Glace" },
+        "sprite": "/images/sprites/blizzaroi.png",
+        "talent": "Alerte Neige",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "323",
+            "att_phy": "233",
+            "def_phy": "180",
+            "att_spe": "222",
+            "def_spe": "211",
+            "vitesse": "154"
+        },
+        "capacites": {
+            "a": "Blizzard",
+            "b": "Mitra-Poing",
+            "c": "Abri",
+            "d": "Vampigraine"
+        },
+        "poids": 135.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 120,
+        "nom": "Dimoret",
+        "types": { "a": "Ténèbres", "b": "Glace" },
+        "sprite": "/images/sprites/dimoret.png",
+        "talent": "Pression",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "275",
+            "att_phy": "281",
+            "def_phy": "174",
+            "att_spe": "106",
+            "def_spe": "206",
+            "vitesse": "297"
+        },
+        "capacites": {
+            "a": "Poinglace",
+            "b": "Poursuite",
+            "c": "Balayage",
+            "d": "Eclats Glace"
+        },
+        "poids": 34.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 121,
+        "nom": "Magnézone",
+        "types": { "a": "Electrik", "b": "Acier" },
+        "sprite": "/images/sprites/magnezone.png",
+        "talent": "Magnépiège",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "301",
+            "att_phy": "135",
+            "def_phy": "274",
+            "att_spe": "317",
+            "def_spe": "217",
+            "vitesse": "183"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Puis. Cachée",
+            "c": "Cage-Eclair",
+            "d": "Vol Magnétik"
+        },
+        "poids": 180.0,
+        "pc": "/images/types/glace.png"
+    },
+    {
+        "id": 122,
+        "nom": "Coudlangue",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/coudlangue.png",
+        "talent": "Tempo Perso",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "356",
+            "att_phy": "214",
+            "def_phy": "240",
+            "att_spe": "210",
+            "def_spe": "236",
+            "vitesse": "134"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Laser Glace",
+            "c": "Clonage",
+            "d": "Mitra-Poing"
+        },
+        "poids": 140.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 123,
+        "nom": "Rhinastoc",
+        "types": { "a": "Sol", "b": "Roche" },
+        "sprite": "/images/sprites/rhinastoc.png",
+        "talent": "Solide Roc",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "392",
+            "att_phy": "370",
+            "def_phy": "309",
+            "att_spe": "112",
+            "def_spe": "143",
+            "vitesse": "122"
+        },
+        "capacites": {
+            "a": "Lame de Roc",
+            "b": "Séisme",
+            "c": "Mégacorne",
+            "d": "Poinglace"
+        },
+        "poids": 282.8,
+        "pc": "Aucun"
+    },
+    {
+        "id": 124,
+        "nom": "Bouldeneu",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/bouldeneu.png",
+        "talent": "Feuil. Garde",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "327",
+            "att_phy": "220",
+            "def_phy": "276",
+            "att_spe": "258",
+            "def_spe": "109",
+            "vitesse": "132"
+        },
+        "capacites": {
+            "a": "Bomb-Beurk",
+            "b": "Clonage",
+            "c": "Vampigraine",
+            "d": "Para-Spore"
+        },
+        "poids": 128.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 125,
+        "nom": "Elekable",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/elekable.png",
+        "talent": "Motorisé",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "313",
+            "att_phy": "284",
+            "def_phy": "158",
+            "att_spe": "230",
+            "def_spe": "220",
+            "vitesse": "221"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Lance-Flamme",
+            "c": "Poinglace",
+            "d": "Séisme"
+        },
+        "poids": 138.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 126,
+        "nom": "Maganon",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/maganon.png",
+        "talent": "Corps Ardent",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "293",
+            "att_phy": "249",
+            "def_phy": "151",
+            "att_spe": "291",
+            "def_spe": "228",
+            "vitesse": "184"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Tonnerre",
+            "c": "Lance-Soleil",
+            "d": "Zénith"
+        },
+        "poids": 68.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 127,
+        "nom": "Togekiss",
+        "types": { "a": "Normal", "b": "Vol" },
+        "sprite": "/images/sprites/togekiss.png",
+        "talent": "Sérénité",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "302",
+            "att_phy": "107",
+            "def_phy": "206",
+            "att_spe": "290",
+            "def_spe": "258",
+            "vitesse": "233"
+        },
+        "capacites": {
+            "a": "Lame d'Air",
+            "b": "Aurasphère",
+            "c": "Atterrissage",
+            "d": "Cage-Eclair"
+        },
+        "poids": 38.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 128,
+        "nom": "Yanmega",
+        "types": { "a": "Insecte", "b": "Vol" },
+        "sprite": "/images/sprites/yanmega.png",
+        "talent": "Turbo",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "310",
+            "att_phy": "173",
+            "def_phy": "206",
+            "att_spe": "277",
+            "def_spe": "146",
+            "vitesse": "229"
+        },
+        "capacites": {
+            "a": "Bourdon",
+            "b": "Lame d'Air",
+            "c": "Abri",
+            "d": "Hypnose"
+        },
+        "poids": 51.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 129,
+        "nom": "Phyllali",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/phyllali.png",
+        "talent": "Feuil. Garde",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "257",
+            "att_phy": "234",
+            "def_phy": "279",
+            "att_spe": "137",
+            "def_spe": "157",
+            "vitesse": "232"
+        },
+        "capacites": {
+            "a": "Lame-Feuille",
+            "b": "Danse-Lames",
+            "c": "Vœu",
+            "d": "Relais"
+        },
+        "poids": 25.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 130,
+        "nom": "Givrali",
+        "types": { "a": "Glace", "b": "" },
+        "sprite": "/images/sprites/givrali.png",
+        "talent": "Rideau Neige",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "269",
+            "att_phy": "137",
+            "def_phy": "245",
+            "att_spe": "285",
+            "def_spe": "202",
+            "vitesse": "186"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Ball'Ombre",
+            "c": "Puis. Cachée",
+            "d": "Vœu"
+        },
+        "poids": 25.9,
+        "pc": "/images/types/combat.png"
+    },
+    {
+        "id": 131,
+        "nom": "Scorvol",
+        "types": { "a": "Sol", "b": "Vol" },
+        "sprite": "/images/sprites/scorvol.png",
+        "talent": "Voile Sable",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "298",
+            "att_phy": "229",
+            "def_phy": "286",
+            "att_spe": "110",
+            "def_spe": "210",
+            "vitesse": "249"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Lame de Roc",
+            "c": "Demi-Tour",
+            "d": "Atterrissage"
+        },
+        "poids": 42.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 132,
+        "nom": "Mammochon",
+        "types": { "a": "Glace", "b": "Sol" },
+        "sprite": "/images/sprites/mammochon.png",
+        "talent": "Rideau Neige",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "360",
+            "att_phy": "332",
+            "def_phy": "175",
+            "att_spe": "165",
+            "def_spe": "175",
+            "vitesse": "210"
+        },
+        "capacites": {
+            "a": "Séisme",
+            "b": "Eclats Glace",
+            "c": "Morsure",
+            "d": "Surpuissance"
+        },
+        "poids": 291.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 133,
+        "nom": "Porygon-Z",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/porygon_z.png",
+        "talent": "Télécharge",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "306",
+            "att_phy": "193",
+            "def_phy": "165",
+            "att_spe": "306",
+            "def_spe": "196",
+            "vitesse": "229"
+        },
+        "capacites": {
+            "a": "Triplattaque",
+            "b": "Tonnerre",
+            "c": "Laser Glace",
+            "d": "Machination"
+        },
+        "poids": 34.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 134,
+        "nom": "Gallame",
+        "types": { "a": "Psy", "b": "Combat" },
+        "sprite": "/images/sprites/gallame.png",
+        "talent": "Impassible",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "264",
+            "att_phy": "292",
+            "def_phy": "148",
+            "att_spe": "162",
+            "def_spe": "266",
+            "vitesse": "223"
+        },
+        "capacites": {
+            "a": "Psykoud'Boul",
+            "b": "Close Combat",
+            "c": "Ombre Portée",
+            "d": "Gonflette"
+        },
+        "poids": 52.0,
+        "pc": "Aucun"
     }
 ]

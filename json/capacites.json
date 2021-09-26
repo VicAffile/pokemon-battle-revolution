@@ -107,6 +107,15 @@
         "effet": "Balance additionne le nombre de PV de l'utilisateur à celui de l'adversaire et divise cette somme par deux, le résultat devient le nombre de PV de chacun des deux Pokémon. Si cette valeur est supérieure aux PV de l'un des Pokémon, celui-ci aura sa jauge de PV remplie. Cette capacité ne prend pas en compte les changements de Précision/Esquive."
     },
     {
+        "nom": "Balayage",
+        "type": "Combat",
+        "puissance": "?",
+        "precision": "100%",
+        "pp": "20",
+        "categorie": "Physique",
+        "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
+    },
+    {
         "nom": "Ball'Ombre",
         "type": "Spectre",
         "puissance": "80",
@@ -125,6 +134,15 @@
         "effet": "Permet au lanceur d'utiliser une capacité au hasard parmi son panel de capacités lorsqu'il est endormi. La capacité ne fonctionne donc uniquement que lorsque le lanceur est endormi. Cependant, elle ne peut pas s'utiliser elle-même, et si la capacité choisit Repos, la capacié échouera."
     },
     {
+        "nom": "Blizzard",
+        "type": "Glace",
+        "puissance": "120",
+        "precision": "70%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "10% de chances de geler l'adversaire. Sous la grêle, Blizzard n'échoue jamais. Blizzard touche les adversaires adjacents en Match Double."
+    },
+    {
         "nom": "Bluff",
         "type": "Normal",
         "puissance": "40",
@@ -141,6 +159,15 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "30% de chances d'empoisonner la cible."
+    },
+    {
+        "nom": "Bourdon",
+        "type": "Insecte",
+        "puissance": "90",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "10 % de chances de diminuer d'un niveau la Défense Spéciale de la cible. Il s'agit d'une capacité sonore, donc il est impossible de l'utiliser sur un Pokémon qui possède le talent Anti-Bruit. Mais elle a l'avantage de pouvoir passer les clones et infliger des dégâts directement au Pokémon."
     },
     {
         "nom": "Boutefeu",
@@ -240,6 +267,15 @@
         "pp": "10",
         "categorie": "Physique",
         "effet": "Inflige des dégâts en frappant deux fois par tour. Si le premier coup détruit un clone, le Pokémon lui-même subira les dégâts du second coup."
+    },
+    {
+        "nom": "Coup-Croix",
+        "type": "Combat",
+        "puissance": "100",
+        "precision": "80%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique."
     },
     {
         "nom": "Crocs Feu",
@@ -548,6 +584,15 @@
         "effet": "Aucun effet supplémentaire."
     },
     {
+        "nom": "Hypnose",
+        "type": "Psy",
+        "puissance": "/",
+        "precision": "70%",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "endort la cible. Malgré son type Psy, elle fonctionne tout de même sur les Pokémon de type Ténèbres."
+    },
+    {
         "nom": "Lame de Roc",
         "type": "Roche",
         "puissance": "100",
@@ -686,7 +731,7 @@
         "nom": "Nœud Herbe",
         "type": "Plante",
         "puissance": "?",
-        "precision": "100",
+        "precision": "100%",
         "pp": "20",
         "categorie": "Spéciale",
         "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
@@ -699,6 +744,15 @@
         "pp": "30",
         "categorie": "Physique",
         "effet": "Frappe en premier sans se soucier de la vitesse de la cible. En revanche, si la cible utilise également une capacité prioritaire, l'ordre d'attaque sera déterminé en fonction de la vitesse des deux lanceurs."
+    },
+    {
+        "nom": "Para-Spore",
+        "type": "Plante",
+        "puissance": "/",
+        "precision": "75%",
+        "pp": "30",
+        "categorie": "Non-offensive",
+        "effet": "paralyse la cible, sauf si celle-ci souffre déjà d'un problème de statut majeur."
     },
     {
         "nom": "Paresse",
@@ -1097,6 +1151,24 @@
         "effet": "Empoisonne gravement la cible"
     },
     {
+        "nom": "Tranche-Nuit",
+        "type": "Ténèbres",
+        "puissance": "70",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "1/8 de chances de faire un coup critique."
+    },
+    {
+        "nom": "Triplattaque",
+        "type": "Normal",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "20% de chances de brûler, geler ou paralyser la cible. Chaque statut a 6,67% de chances d'être infligé."
+    },
+    {
         "nom": "Vampigraine",
         "type": "Plante",
         "puissance": "/",
@@ -1131,6 +1203,15 @@
         "pp": "20",
         "categorie": "Spéciale",
         "effet": "Si le lanceur de Voile Miroir est touché par une capacité de catégorie spéciale pendant le tour où Voile Miroir est utilisé, le lanceur occasionnera deux fois plus de dommages à la cible qu'elle-même lui en a infligé, sans prendre en compte le type des deux parties, bien que Voile Miroir ne puisse toucher les cibles de type Ténèbres."
+    },
+    {
+        "nom": "Vol Magnétik",
+        "type": "Electrik",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "L'utilisateur devient immunisé aux capacités de type Sol, aux Picots et aux Pics Toxik pendant 5 tours. L'effet de cette capacité peut être transmis avec Relais."
     },
     {
         "nom": "Zénith",
