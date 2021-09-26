@@ -43,7 +43,7 @@
         {% for capacite in capacites %}
         <div class="capacite">
             <div class="general">
-                <p><img class="types" src="{% if capacite.nom == 'Malédiction' %} {% if pokemon.type.a == 'Spectre' %} /images/types/spectre.png {% elseif pokemon.type.b == 'Spectre' %} /images/types/spectre.png {% else %} /images/types/inconnu.png {% endif %} {% elseif capacite.nom == 'Puis. Cachée' %} {{pokemon.pc}} {% else %} {% for type in types %} {% if type.nom == capacite.type %} {{type.image}} {% endif %} {% endfor %} {% endif %}"
+                <p><img class="types" src="{% if capacite.nom == 'Malédiction' %} {% if pokemon.type.a == 'Spectre' %} /images/types/spectre.png {% elseif pokemon.type.b == 'Spectre' %} /images/types/spectre.png {% else %} /images/types/inconnu.png {% endif %} {% elseif capacite.nom == 'Puis. Cachée' %} {{pokemon.pc}} {% elseif capacite.nom == 'Jugement' %} {{types_pokemon[0].image}} {% else %} {% for type in types %} {% if type.nom == capacite.type %} {{type.image}} {% endif %} {% endfor %} {% endif %}"
                         alt="Type de la capacite {{capacite.nom}} de {{pokemon.nom}}"> - <span>{{capacite.nom}}</span></p>
                 <p>Catégorie : {{capacite.categorie}}</p>
                 <p>Puissance : {{capacite.puissance}}</p>

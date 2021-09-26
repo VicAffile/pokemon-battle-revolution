@@ -323,6 +323,15 @@
         "effet": "Danse-Lames augmente l'Attaque Physique de l'utilisateur de deux niveaux."
     },
     {
+        "nom": "Déflagration",
+        "type": "Feu",
+        "puissance": "120",
+        "precision": "85%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "10% de chances de brûler la cible."
+    },
+    {
         "nom": "Demi-Tour",
         "type": "Insecte",
         "puissance": "70",
@@ -494,6 +503,15 @@
         "effet": "Inflige des dégâts égaux à 1,5 fois ceux engendrés par la dernière capacité de l'adversaire. Si le lanceur est plus rapide que la cible, la capacité échoue. Cette capacité ne prend pas en compte les rapports entre les types."
     },
     {
+        "nom": "Fulmigraine",
+        "type": "Plante",
+        "puissance": "120",
+        "precision": "85%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "40% de chances de baisser la Défense Spéciale de l'adversaire de deux niveaux."
+    },
+    {
         "nom": "Giclédo",
         "type": "Eau",
         "puissance": "?",
@@ -593,6 +611,15 @@
         "effet": "endort la cible. Malgré son type Psy, elle fonctionne tout de même sur les Pokémon de type Ténèbres."
     },
     {
+        "nom": "Jugement",
+        "type": "",
+        "puissance": "100",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Spéciale",
+        "effet": "Du fait de son effet (Jugement change de type en fonction de la plaque tenue) et du talent d'Arceus, elle dispose tout le temps du STAB quand Arceus l'utilise, faisant alors monter sa puissance à 150 (sauf si un Pokémon l'utilise avec Métronome sans être de type Normal), avec en plus une précision de 100%. De plus, avec le bonus de la plaque, cette capacité atteint une puissance encore 20% supérieure, pour 180 au total (sauf pour le type Normal, car Arceus n'a pas besoin de plaque pour avoir ce type)."
+    },
+    {
         "nom": "Lame de Roc",
         "type": "Roche",
         "puissance": "100",
@@ -654,6 +681,15 @@
         "pp": "10",
         "categorie": "Spéciale",
         "effet": "10% de chances de réduire d'un niveau la Défense Spéciale de la cible."
+    },
+    {
+        "nom": "Lumiqueue",
+        "type": "Insecte",
+        "puissance": "/",
+        "precision": "/",
+        "pp": "20",
+        "categorie": "Non-offensive",
+        "effet": "Augmente l'Attaque Spéciale du lanceur de deux niveaux."
     },
     {
         "nom": "Machination",
@@ -735,6 +771,15 @@
         "pp": "20",
         "categorie": "Spéciale",
         "effet": "La puissance varie selon le poids p de la cible : p < 10kg = 20, 10.1kg < p < 25kg = 40, 25.1kg < p < 50kg = 60, 50.1kg < p < 100kg = 80, 100.1kg < p < 200kg = 100, 200.1kg < p = 120."
+    },
+    {
+        "nom": "Onde Folie",
+        "type": "Spectre",
+        "puissance": "/",
+        "precision": "100%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Plonge la cible dans la confusion."
     },
     {
         "nom": "Ombre Portée",
@@ -1007,6 +1052,15 @@
         "effet": "Aucun effet supplémentaire."
     },
     {
+        "nom": "Revenant",
+        "type": "Spectre",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "5",
+        "categorie": "Physique",
+        "effet": "Fait disparaître l'utilisateur pour un tour, le rendant invulnérable, avant de frapper au tour suivant, et ce, même si l'adversaire a utilisé Abri ou Détection. En revanche, la capacité ne fonctionne pas si l'adversaire a utilisé une technique comme Tunnel, Plongée ou Vol ou même Revenant et qu'il se trouve donc en dehors du terrain. Cependant, le lanceur reste vulnérable aux effets de la météo, comme la Grêle ou la Tempête de Sable."
+    },
+    {
         "nom": "Riposte",
         "type": "Combat",
         "puissance": "?",
@@ -1041,6 +1095,15 @@
         "pp": "10",
         "categorie": "Non-offensive",
         "effet": "Permet au lanceur de récupérer jusqu'à la moitié de ses PV Max."
+    },
+    {
+        "nom": "Spatio-Rift",
+        "type": "Dragon",
+        "puissance": "100",
+        "precision": "95%",
+        "pp": "5",
+        "categorie": "Spéciale",
+        "effet": "1/8 de chances de faire un coup critique."
     },
     {
         "nom": "Spore",
@@ -1169,6 +1232,15 @@
         "effet": "20% de chances de brûler, geler ou paralyser la cible. Chaque statut a 6,67% de chances d'être infligé."
     },
     {
+        "nom": "Trou Noir",
+        "type": "Ténèbres",
+        "puissance": "/",
+        "precision": "80%",
+        "pp": "10",
+        "categorie": "Non-offensive",
+        "effet": "Endort la cible."
+    },
+    {
         "nom": "Vampigraine",
         "type": "Plante",
         "puissance": "/",
@@ -1176,6 +1248,15 @@
         "pp": "10",
         "categorie": "Non-offensive",
         "effet": "Draine à la fin de chaque tour 1/8ème des PV de la cible. Si le lanceur est retiré, la capacité continue son effet vers le Pokémon remplacé, mais elle prend fin dès que la cible quitte le combat ou tombe K.O.. Si la cible a moins de 16 PV, Vampigraine ne drainera que 1 PV du Pokémon adverse à chaque tour."
+    },
+    {
+        "nom": "Vibrobscur",
+        "type": "Ténèbres",
+        "puissance": "80",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Spéciale",
+        "effet": "20% de chances d'apeurer la cible."
     },
     {
         "nom": "Vit. Extrême",

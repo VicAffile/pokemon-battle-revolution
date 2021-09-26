@@ -3213,5 +3213,797 @@
         },
         "poids": 52.0,
         "pc": "Aucun"
+    },
+    {
+        "id": 135,
+        "nom": "Noctunoir",
+        "types": { "a": "Spectre", "b": "" },
+        "sprite": "/images/sprites/noctunoir.png",
+        "talent": "Pression",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "247",
+            "att_phy": "280",
+            "def_phy": "315",
+            "att_spe": "150",
+            "def_spe": "328",
+            "vitesse": "102"
+        },
+        "capacites": {
+            "a": "Ombre Portée",
+            "b": "Poinglace",
+            "c": "Séisme",
+            "d": "Distorsion"
+        },
+        "poids": 106.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 136,
+        "nom": "Momartik",
+        "types": { "a": "Glace", "b": "Spectre" },
+        "sprite": "/images/sprites/momartik.png",
+        "talent": "Rideau Neige",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "271",
+            "att_phy": "175",
+            "def_phy": "135",
+            "att_spe": "195",
+            "def_spe": "161",
+            "vitesse": "252"
+        },
+        "capacites": {
+            "a": "Laser Glace",
+            "b": "Ball'Ombre",
+            "c": "Psyko",
+            "d": "Picots"
+        },
+        "poids": 26.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 137,
+        "nom": "Motisma",
+        "types": { "a": "Electrik", "b": "Spectre" },
+        "sprite": "/images/sprites/motisma.png",
+        "talent": "Lévitation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "228",
+            "att_phy": "118",
+            "def_phy": "210",
+            "att_spe": "230",
+            "def_spe": "172",
+            "vitesse": "220"
+        },
+        "capacites": {
+            "a": "Tonnerre",
+            "b": "Ball'Ombre",
+            "c": "Clonage",
+            "d": "Balance"
+        },
+        "poids": 0.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 138,
+        "nom": "Créhelf",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/crehelf.png",
+        "talent": "Lévitation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "293",
+            "att_phy": "186",
+            "def_phy": "313",
+            "att_spe": "186",
+            "def_spe": "287",
+            "vitesse": "195"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Demi-Tour",
+            "c": "Bâillement",
+            "d": "Protection"
+        },
+        "poids": 0.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 139,
+        "nom": "Créfollet",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/crefollet.png",
+        "talent": "Lévitation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "305",
+            "att_phy": "233",
+            "def_phy": "232",
+            "att_spe": "237",
+            "def_spe": "253",
+            "vitesse": "192"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Tonnerre",
+            "c": "Laser Glace",
+            "d": "Piège de Roc"
+        },
+        "poids": 0.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 140,
+        "nom": "Créfadet",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/crefadet.png",
+        "talent": "Lévitation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "295",
+            "att_phy": "266",
+            "def_phy": "154",
+            "att_spe": "280",
+            "def_spe": "183",
+            "vitesse": "314"
+        },
+        "capacites": {
+            "a": "Déflagration",
+            "b": "Provoc",
+            "c": "Piège de Roc",
+            "d": "Explosion"
+        },
+        "poids": 0.3,
+        "pc": "Aucun"
+    },
+    {
+        "id": 141,
+        "nom": "Dialga",
+        "types": { "a": "Acier", "b": "Dragon" },
+        "sprite": "/images/sprites/dialga.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "327",
+            "att_phy": "240",
+            "def_phy": "276",
+            "att_spe": "332",
+            "def_spe": "253",
+            "vitesse": "214"
+        },
+        "capacites": {
+            "a": "Dracochoc",
+            "b": "Luminocanon",
+            "c": "Lance-Flamme",
+            "d": "Tonnerre"
+        },
+        "poids": 683.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 142,
+        "nom": "Palkia",
+        "types": { "a": "Eau", "b": "Dragon" },
+        "sprite": "/images/sprites/palkia.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "326",
+            "att_phy": "231",
+            "def_phy": "221",
+            "att_spe": "369",
+            "def_spe": "276",
+            "vitesse": "237"
+        },
+        "capacites": {
+            "a": "Spatio-Rift",
+            "b": "Surf",
+            "c": "Lance-Flamme",
+            "d": "Tonnerre"
+        },
+        "poids": 336.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 143,
+        "nom": "Heatran",
+        "types": { "a": "Feu", "b": "Acier" },
+        "sprite": "/images/sprites/heatran.png",
+        "talent": "Torche",
+        "sexe": "/images/sexes/male.svg",
+        "stats": {
+            "pv": "316",
+            "att_phy": "192",
+            "def_phy": "267",
+            "att_spe": "299",
+            "def_spe": "245",
+            "vitesse": "211"
+        },
+        "capacites": {
+            "a": "Lance-Flamme",
+            "b": "Telluriforce",
+            "c": "Dracochoc",
+            "d": "Explosion"
+        },
+        "poids": 430.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 144,
+        "nom": "Regigigas",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/regigigas.png",
+        "talent": "Début Calme",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "381",
+            "att_phy": "369",
+            "def_phy": "251",
+            "att_spe": "190",
+            "def_spe": "255",
+            "vitesse": "255"
+        },
+        "capacites": {
+            "a": "Retour",
+            "b": "Séisme",
+            "c": "Onde Folie",
+            "d": "Cage-Eclair"
+        },
+        "poids": 420.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 145,
+        "nom": "Giratina",
+        "types": { "a": "Spectre", "b": "Dragon" },
+        "sprite": "/images/sprites/giratina.png",
+        "talent": "Pression",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "437",
+            "att_phy": "189",
+            "def_phy": "289",
+            "att_spe": "246",
+            "def_spe": "298",
+            "vitesse": "245"
+        },
+        "capacites": {
+            "a": "Dracochoc",
+            "b": "Ball'Ombre",
+            "c": "Repos",
+            "d": "Blabla Dodo"
+        },
+        "poids": 750.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 146,
+        "nom": "Cresselia",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/cresselia.png",
+        "talent": "Lévitation",
+        "sexe": "/images/sexes/femelle.svg",
+        "stats": {
+            "pv": "394",
+            "att_phy": "144",
+            "def_phy": "282",
+            "att_spe": "170",
+            "def_spe": "312",
+            "vitesse": "209"
+        },
+        "capacites": {
+            "a": "Psyko",
+            "b": "Tonnerre",
+            "c": "Mur Lumière",
+            "d": "Cage-Eclair"
+        },
+        "poids": 82.6,
+        "pc": "Aucun"
+    },
+    {
+        "id": 147,
+        "nom": "Phione",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/phione.png",
+        "talent": "Hydratation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "295",
+            "att_phy": "190",
+            "def_phy": "210",
+            "att_spe": "151",
+            "def_spe": "201",
+            "vitesse": "205"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Demi-Tour",
+            "c": "Danse Pluie",
+            "d": "Repos"
+        },
+        "poids": 3.1,
+        "pc": "Aucun"
+    },
+    {
+        "id": 148,
+        "nom": "Manaphy",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/manaphy.png",
+        "talent": "Hydratation",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "350",
+            "att_phy": "215",
+            "def_phy": "248",
+            "att_spe": "245",
+            "def_spe": "254",
+            "vitesse": "246"
+        },
+        "capacites": {
+            "a": "Surf",
+            "b": "Laser Glace",
+            "c": "Lumiqueue",
+            "d": "Repos"
+        },
+        "poids": 1.4,
+        "pc": "Aucun"
+    },
+    {
+        "id": 149,
+        "nom": "Darkrai",
+        "types": { "a": "Ténèbres", "b": "" },
+        "sprite": "/images/sprites/darkrai.png",
+        "talent": "Mauvais Rêve",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "299",
+            "att_phy": "185",
+            "def_phy": "238",
+            "att_spe": "318",
+            "def_spe": "233",
+            "vitesse": "281"
+        },
+        "capacites": {
+            "a": "Vibrobscur",
+            "b": "Tonnerre",
+            "c": "Laser Glace",
+            "d": "Trou Noir"
+        },
+        "poids": 50.5,
+        "pc": "Aucun"
+    },
+    {
+        "id": 150,
+        "nom": "Shaymin",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/shaymin.png",
+        "talent": "Médic Nature",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "336",
+            "att_phy": "188",
+            "def_phy": "232",
+            "att_spe": "249",
+            "def_spe": "251",
+            "vitesse": "273"
+        },
+        "capacites": {
+            "a": "Fulmigraine",
+            "b": "Telluriforce",
+            "c": "Puis. Cachée",
+            "d": "Repos"
+        },
+        "poids": 2.1,
+        "pc": "/images/types/glace.png"
+    },
+    {
+        "id": 151,
+        "nom": "Arceus",
+        "types": { "a": "Normal", "b": "" },
+        "sprite": "/images/sprites/arceus_normal.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "380",
+            "att_phy": "312",
+            "def_phy": "245",
+            "att_spe": "235",
+            "def_spe": "273",
+            "vitesse": "279"
+        },
+        "capacites": {
+            "a": "Vit. Extrême",
+            "b": "Séisme",
+            "c": "Griffe Ombre",
+            "d": "Danse-Lames"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 152,
+        "nom": "Arceus",
+        "types": { "a": "Feu", "b": "" },
+        "sprite": "/images/sprites/arceus_feu.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "371",
+            "att_phy": "221",
+            "def_phy": "270",
+            "att_spe": "303",
+            "def_spe": "269",
+            "vitesse": "277"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Tonnerre",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 153,
+        "nom": "Arceus",
+        "types": { "a": "Eau", "b": "" },
+        "sprite": "/images/sprites/arceus_eau.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "370",
+            "att_phy": "309",
+            "def_phy": "256",
+            "att_spe": "238",
+            "def_spe": "273",
+            "vitesse": "266"
+        },
+        "capacites": {
+            "a": "Cascade",
+            "b": "Dracogriffe",
+            "c": "Danse-Lames",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 154,
+        "nom": "Arceus",
+        "types": { "a": "Electrik", "b": "" },
+        "sprite": "/images/sprites/arceus_electrik.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "382",
+            "att_phy": "269",
+            "def_phy": "275",
+            "att_spe": "289",
+            "def_spe": "253",
+            "vitesse": "280"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Laser Glace",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 155,
+        "nom": "Arceus",
+        "types": { "a": "Plante", "b": "" },
+        "sprite": "/images/sprites/arceus_plante.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "380",
+            "att_phy": "264",
+            "def_phy": "250",
+            "att_spe": "258",
+            "def_spe": "250",
+            "vitesse": "280"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Lame de Roc",
+            "c": "Cage-Eclair",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 156,
+        "nom": "Arceus",
+        "types": { "a": "Glace", "b": "" },
+        "sprite": "/images/sprites/arceus_glace.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "391",
+            "att_phy": "273",
+            "def_phy": "245",
+            "att_spe": "256",
+            "def_spe": "246",
+            "vitesse": "269"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Séisme",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 157,
+        "nom": "Arceus",
+        "types": { "a": "Combat", "b": "" },
+        "sprite": "/images/sprites/arceus_combat.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "387",
+            "att_phy": "246",
+            "def_phy": "267",
+            "att_spe": "295",
+            "def_spe": "260",
+            "vitesse": "291"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Laser Glace",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 158,
+        "nom": "Arceus",
+        "types": { "a": "Poison", "b": "" },
+        "sprite": "/images/sprites/arceus_poison.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "380",
+            "att_phy": "228",
+            "def_phy": "275",
+            "att_spe": "262",
+            "def_spe": "288",
+            "vitesse": "287"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Exploforce",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 159,
+        "nom": "Arceus",
+        "types": { "a": "Sol", "b": "" },
+        "sprite": "/images/sprites/arceus_sol.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "386",
+            "att_phy": "225",
+            "def_phy": "256",
+            "att_spe": "313",
+            "def_spe": "267",
+            "vitesse": "287"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Lance-Flamme",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 160,
+        "nom": "Arceus",
+        "types": { "a": "Vol", "b": "" },
+        "sprite": "/images/sprites/arceus_vol.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "379",
+            "att_phy": "268",
+            "def_phy": "254",
+            "att_spe": "272",
+            "def_spe": "256",
+            "vitesse": "256"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Séisme",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 161,
+        "nom": "Arceus",
+        "types": { "a": "Psy", "b": "" },
+        "sprite": "/images/sprites/arceus_psy.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "379",
+            "att_phy": "241",
+            "def_phy": "299",
+            "att_spe": "262",
+            "def_spe": "253",
+            "vitesse": "282"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Ball'Ombre",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 162,
+        "nom": "Arceus",
+        "types": { "a": "Insecte", "b": "" },
+        "sprite": "/images/sprites/arceus_insecte.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "371",
+            "att_phy": "281",
+            "def_phy": "245",
+            "att_spe": "262",
+            "def_spe": "252",
+            "vitesse": "258"
+        },
+        "capacites": {
+            "a": "Plaie-Croix",
+            "b": "Lame de Roc",
+            "c": "Danse-Lames",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 163,
+        "nom": "Arceus",
+        "types": { "a": "Roche", "b": "" },
+        "sprite": "/images/sprites/arceus_roche.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "391",
+            "att_phy": "273",
+            "def_phy": "274",
+            "att_spe": "261",
+            "def_spe": "247",
+            "vitesse": "268"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Nœud Herbe",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 164,
+        "nom": "Arceus",
+        "types": { "a": "Spectre", "b": "" },
+        "sprite": "/images/sprites/arceus_spectre.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "363",
+            "att_phy": "316",
+            "def_phy": "250",
+            "att_spe": "244",
+            "def_spe": "254",
+            "vitesse": "267"
+        },
+        "capacites": {
+            "a": "Revenant",
+            "b": "Casse-Brique",
+            "c": "Danse-Lames",
+            "d": "Vit. Extrême"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 165,
+        "nom": "Arceus",
+        "types": { "a": "Dragon", "b": "" },
+        "sprite": "/images/sprites/arceus_dragon.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "387",
+            "att_phy": "236",
+            "def_phy": "257",
+            "att_spe": "280",
+            "def_spe": "269",
+            "vitesse": "308"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Lance-Flamme",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 166,
+        "nom": "Arceus",
+        "types": { "a": "Ténèbres", "b": "" },
+        "sprite": "/images/sprites/arceus_tenebres.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "388",
+            "att_phy": "261",
+            "def_phy": "254",
+            "att_spe": "261",
+            "def_spe": "256",
+            "vitesse": "282"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Exploforce",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
+    },
+    {
+        "id": 167,
+        "nom": "Arceus",
+        "types": { "a": "Acier", "b": "" },
+        "sprite": "/images/sprites/arceus_acier.png",
+        "talent": "Multi-Type",
+        "sexe": "Aucun",
+        "stats": {
+            "pv": "382",
+            "att_phy": "236",
+            "def_phy": "247",
+            "att_spe": "328",
+            "def_spe": "252",
+            "vitesse": "263"
+        },
+        "capacites": {
+            "a": "Jugement",
+            "b": "Surf",
+            "c": "Plénitude",
+            "d": "Soin"
+        },
+        "poids": 320.0,
+        "pc": "Aucun"
     }
 ]

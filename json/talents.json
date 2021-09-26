@@ -67,6 +67,10 @@
         "effet": "Un Pokémon doté de ce talent voit sa statistique d'Attaque augmenter de 50 % s'il a une altération principale de son statut : brûlure, empoisonnement, gel, paralysie ou sommeil. La confusion n'active pas ce talent. Par ailleurs, Cran annule la diminution d'attaque causée par une éventuelle brûlure, ainsi, seul le bonus d'Attaque de 50 % est appliqué comme modification de cette statistique."
     },
     {
+        "nom": "Début Calme",
+        "effet": "Un Pokémon doté de ce talent voit ses statistiques d'Attaque Physique et de Vitesse divisées par deux lors des cinq premiers tours où il est au combat. Le compteur est remis à zéro s'il est switché. Si ce talent est annulé à l’aide de Suc Digestif ou Échange, l’Attaque Physique et la Vitesse du Pokémon redeviennent normales. Le Pokémon recevant le talent par Échange voit ses capacités diminuer et doit attendre les 5 tours effectifs."
+    },
+    {
         "nom": "Ecaille Spé.",
         "effet": "Si un Pokémon doté du talent Écaille Spé. subit une altération principale de statut (paralysie, empoisonnement, gel, sommeil ou brûlure), alors sa statistique de Défense Physique augmente de 50 %."
     },
@@ -85,6 +89,10 @@
     {
         "nom": "Feuil. Garde",
         "effet": "Un Pokémon doté de ce talent évite toute altération de statut (brûlure, gel, paralysie, poison et sommeil) si le climat est ensoleillé."
+    },
+    {
+        "nom": "Hydratation",
+        "effet": "Un Pokémon doté de ce talent voit toutes ses altérations principales de statut (brûlure, gel, paralysie, empoisonnement et sommeil) soignées quand il pleut."
     },
     {
         "nom": "Intimidation",
@@ -131,12 +139,20 @@
         "effet": "Lorsqu'un Pokémon doté du talent Matinal s'endort, il se réveille deux fois plus rapidement que prévu."
     },
     {
+        "nom": "Mauvais Rêve",
+        "effet": "Lorsque le Pokémon adverse est endormi, il perd 1/8 de ses PV maximums à la fin de chaque tour. Les PV de la cible continuent à diminuer même si le Pokémon avec Mauvais Rêve possède tous ses PV."
+    },
+    {
         "nom": "Médic Nature",
         "effet": "Un Pokémon doté de Médic Nature soigne son statut lorsqu'il est quitte le combat."
     },
     {
         "nom": "Motorisé",
         "effet": "Un Pokémon doté de Motorisé est totalement insensible aux capacités de type Électrik, aussi bien en terme de dégâts infligés que d'effets. En parallèle, chaque fois qu'il est touché par une capacité de ce type, il bénéficie d'une augmentation d'un niveau en Vitesse."
+    },
+    {
+        "nom": "Multi-Type",
+        "effet": "En fonction de la Plaque portée, le Pokémon est amené à changer de type, ce qui se manifeste par un changement d'apparence."
     },
     {
         "nom": "Peau Dure",
