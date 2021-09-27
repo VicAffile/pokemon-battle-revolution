@@ -15,19 +15,17 @@ if (localStorage.getItem('mon_equipe_pokemon_battle_revolution') == undefined) {
 function ajouter_liste(bouton) {
     let pokemon = bouton.parentNode.parentNode;
     let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
-    let liste = pokemon.parentNode.getElementsByClassName('case');
+    let id = parseInt(pokemon.dataset.id)
     if (equipe[0][0] == 0 || equipe[1][0] == 0 || equipe[2][0] == 0 || equipe[3][0] == 0 || equipe[4][0] == 0 || equipe[5][0] == 0) {
-        for (let i = 0; i < liste.length; i++) {
-            if (liste[i] == pokemon && non_choisi(i + 1)) {
-                for (let membre of equipe) {
-                    if (membre[0] == 0) {
-                        membre[0] = i + 1;
-                        membre[1] = pokemon.querySelector('img').src;
-                        localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
-                        localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
-                        afficher_equipe();
-                        return;
-                    }
+        if (non_choisi(id)) {
+            for (let membre of equipe) {
+                if (membre[0] == 0) {
+                    membre[0] = id;
+                    membre[1] = pokemon.querySelector('img').src;
+                    localStorage.removeItem('mon_equipe_pokemon_battle_revolution');
+                    localStorage.setItem('mon_equipe_pokemon_battle_revolution', JSON.stringify(equipe));
+                    afficher_equipe();
+                    return;
                 }
             }
         }

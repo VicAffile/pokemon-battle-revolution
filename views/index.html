@@ -3,7 +3,7 @@
 <section id="liste" class="premiere">
 
     {% for pokemon in pokemons %}
-    <div class="case">
+    <div class="case" data-id="{{pokemon.id}}">
         <div class="boutons">
             <a href="/{{pokemon.id}}"><button>Voir</button></a>
             <button onclick="ajouter_liste(this)">Ajouter</button>
