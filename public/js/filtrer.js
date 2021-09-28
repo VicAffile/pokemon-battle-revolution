@@ -24,7 +24,7 @@ function reset() {
     document.querySelector('#sexe').value = 'Tous';
     document.querySelector('#type1').value = 'Tous';
     document.querySelector('#type2').value = 'Tous';
-    tri();
+    filtrer();
 }
 
 
