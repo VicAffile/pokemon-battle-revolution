@@ -22,7 +22,7 @@ app.set('views', __dirname + '/views');
 
 
 app.get('/', (req, res) => {
-    const donnee = { titre: 'Liste des Pokémons', pokemons: pokemons, types: types, talents: talents };
+    const donnee = { titre: 'Liste des Pokémons', pokemons: pokemons, types: types, talents: talents, capacites: capacites };
     res.render('index', donnee);
 });
 
