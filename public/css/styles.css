@@ -9,9 +9,6 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
 }
 
 body header {
@@ -231,8 +228,149 @@ body header #equipe:hover .boutons {
   opacity: 0.9;
 }
 
+body #bouton {
+  z-index: 200;
+  position: fixed;
+  top: 25px;
+  left: 15px;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+}
+
+@media all and (min-width: 820px) {
+  body #bouton {
+    display: none;
+  }
+}
+
+body #bouton.afficher span {
+  background-color: transparent;
+}
+
+body #bouton.afficher span::before {
+  -webkit-transform: translateY(0px) rotateZ(45deg);
+          transform: translateY(0px) rotateZ(45deg);
+}
+
+body #bouton.afficher span::after {
+  -webkit-transform: translateY(0px) rotateZ(-45deg);
+          transform: translateY(0px) rotateZ(-45deg);
+}
+
+body #bouton span {
+  -webkit-transition: background-color 0.25s ease-in-out;
+  transition: background-color 0.25s ease-in-out;
+  position: relative;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+  display: block;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body #bouton span::before, body #bouton span::after {
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 4px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+body #bouton span::before {
+  -webkit-transform: translateY(-10px);
+          transform: translateY(-10px);
+}
+
+body #bouton span::after {
+  -webkit-transform: translateY(10px);
+          transform: translateY(10px);
+}
+
+body section#filtre {
+  position: fixed;
+  top: 200px;
+  left: 5%;
+  padding: 10px;
+  width: 280px;
+  border: solid white 2px;
+  border-radius: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+@media all and (max-width: 820px) {
+  body section#filtre {
+    display: none;
+    z-index: 200;
+    top: inherit;
+    left: 0px;
+    bottom: 0px;
+    margin: 2%;
+    width: calc(96% - 20px);
+    background-color: rgba(255, 255, 255, 0.9);
+  }
+}
+
+body section#filtre.afficher {
+  display: block;
+}
+
+body section#filtre #entete {
+  margin-bottom: 10px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+body section#filtre #entete h2 {
+  margin: 0px;
+}
+
+body section#filtre form {
+  width: 100%;
+}
+
+body section#filtre form label {
+  padding: 2px;
+  color: black;
+  font-size: medium;
+  font-weight: bold;
+}
+
+body section#filtre form .filtre {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section#filtre form .filtre p {
+  margin: 0px 5px 0px 5px;
+}
+
 body section#liste {
-  max-width: 90%;
+  position: absolute;
+  right: 5%;
+  width: 60%;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -247,11 +385,22 @@ body section#liste {
   -webkit-box-align: start;
       -ms-flex-align: start;
           align-items: flex-start;
+  /*
+            @media all and (max-width: 560px) {
+                width: 100%;
+            }*/
 }
 
-@media all and (max-width: 560px) {
+@media all and (max-width: 9500px) {
   body section#liste {
-    width: 100%;
+    right: 5px;
+  }
+}
+
+@media all and (max-width: 820px) {
+  body section#liste {
+    max-width: 100%;
+    width: auto;
   }
 }
 
@@ -328,7 +477,7 @@ body section#liste .case .boutons :nth-child(2):hover {
 }
 
 body section#liste .case .image {
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 body section#liste .case .image img {
@@ -405,6 +554,8 @@ body section#boutons button {
 }
 
 body section#pokemon {
+  margin-left: auto;
+  margin-right: auto;
   max-width: 100%;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -456,7 +607,7 @@ body section#pokemon #infos #sprite {
   border-top: solid white 2px;
   border-left: solid white 2px;
   border-radius: 10px 0px 0px 0px;
-  background-color: rgba(255, 255, 255, 0.2);
+  background-color: rgba(255, 255, 255, 0.4);
 }
 
 body section#pokemon #infos #sprite img {

@@ -15,7 +15,7 @@ if (localStorage.getItem('mon_equipe_pokemon_battle_revolution') == undefined) {
 function ajouter_liste(bouton) {
     let pokemon = bouton.parentNode.parentNode;
     let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
-    let id = parseInt(pokemon.dataset.id)
+    let id = parseInt(pokemon.dataset.id);
     if (equipe[0][0] == 0 || equipe[1][0] == 0 || equipe[2][0] == 0 || equipe[3][0] == 0 || equipe[4][0] == 0 || equipe[5][0] == 0) {
         if (non_choisi(id)) {
             for (let membre of equipe) {
@@ -30,7 +30,7 @@ function ajouter_liste(bouton) {
             }
         }
     } else {
-        console.log("Tu as déjà six Pokémon.")
+        console.log("Tu as déjà six Pokémon.");
     }
 }
 
@@ -52,7 +52,7 @@ function ajouter_detail(bouton) {
             }
         }
     } else {
-        console.log("Tu as déjà six Pokémon.")
+        console.log("Tu as déjà six Pokémon.");
     }
 }
 
@@ -131,7 +131,7 @@ function non_choisi(id) {
     let equipe = JSON.parse(localStorage.getItem('mon_equipe_pokemon_battle_revolution'));
     for (let pokemon of equipe) {
         if (pokemon[0] == id) {
-            console.log("Tu as déjà choisi ce Pokémon.")
+            console.log("Tu as déjà choisi ce Pokémon.");
             return false;
         }
     }

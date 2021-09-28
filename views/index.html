@@ -1,9 +1,51 @@
 {% extends 'layout.html' %} {% block content %}
 
+
+<div id="bouton">
+    <span></span>
+</div>
+
+
+<section id="filtre">
+    <div id="entete">
+        <h2>Filtrer</h2>
+        <button onclick="reset()">Reset</button>
+    </div>
+    <form>
+        <div class="filtre">
+            <label for="sexe">Sexe : </label>
+            <select name="sexe" id="sexe">
+                <option value="Tous">TOUS</option>
+                <option value="Male">Male</option>
+                <option value="Femelle">Femelle</option>
+                <option value="Aucun">AUCUN</option>
+            </select>
+        </div>
+        <div class="filtre">
+            <label for="type1 type2">Types : </label>
+            <select name="type1" id="type1">
+                <option value="Tous">TOUS</option>
+                {% for type in types %}
+                    {% if type.nom != "Inconnu" %} <option value="{{type.nom}}">{{type.nom}}</option> {% endif %}
+                {% endfor %}
+            </select>
+            <p>et</p>
+            <select name="type2" id="type2">
+                <option value="Tous">TOUS</option>
+                {% for type in types %}
+                    {% if type.nom != "Inconnu" %} <option value="{{type.nom}}">{{type.nom}}</option> {% endif %}
+                {% endfor %}
+                <option value="Aucun">AUCUN</option>
+            </select>
+        </div>
+    </form>
+</section>
+
+
 <section id="liste" class="premiere">
 
     {% for pokemon in pokemons %}
-    <div class="case" data-id="{{pokemon.id}}">
+    <div class="case" data-id="{{pokemon.id}}" data-sexe="{% if pokemon.sexe == '/images/sexes/male.svg' %}Male{% elseif pokemon.sexe == '/images/sexes/femelle.svg' %}Femelle{% else %}Aucun{% endif %}" data-types="{{pokemon.types.a}}{% if pokemon.types.b != '' %} {{pokemon.types.b}}{% endif %}">
         <div class="boutons">
             <a href="/{{pokemon.id}}"><button>Voir</button></a>
             <button onclick="ajouter_liste(this)">Ajouter</button>
@@ -21,5 +63,9 @@
     {% endfor %}
 
 </section>
+
+
+<script src="js/bouton.js"></script>
+<script src="js/filtrer.js"></script>
 
 {% endblock %}
