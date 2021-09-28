@@ -4,16 +4,15 @@ const all_cartes = document.querySelectorAll('.case');
 function effacer() {
     let cartes = document.querySelectorAll('.case');
     for (let carte of cartes) {
-        liste.removeChild(carte)
+        liste.removeChild(carte);
     }
 }
 
 
 function filtrer() {
     let cartes = Array.from(all_cartes);
-    cartes = sexe(cartes);
-    cartes = types(cartes);
-    effacer()
+    cartes = talent(types(sexe(cartes)));
+    effacer();
     for (let carte of cartes) {
         liste.appendChild(carte);
     }
@@ -24,6 +23,7 @@ function reset() {
     document.querySelector('#sexe').value = 'Tous';
     document.querySelector('#type1').value = 'Tous';
     document.querySelector('#type2').value = 'Tous';
+    document.querySelector('#talent').value = 'Tous';
     filtrer();
 }
 
@@ -74,6 +74,21 @@ function types(cartes) {
 }
 
 
+function talent(cartes) {
+    const talent = document.getElementById('talent').value;
+    if (talent != 'Tous') {
+        for (let i = 0; i < cartes.length; i++) {
+            if (cartes[i].dataset.talent != talent) {
+                cartes.splice(i, 1);
+                i--;
+            }
+        }
+    }
+    return cartes;
+}
+
+
 document.querySelector('#sexe').addEventListener('change', filtrer);
 document.querySelector('#type1').addEventListener('change', filtrer);
 document.querySelector('#type2').addEventListener('change', filtrer);
+document.querySelector('#talent').addEventListener('change', filtrer);

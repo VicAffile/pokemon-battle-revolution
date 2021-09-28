@@ -38,6 +38,15 @@
                 <option value="Aucun">AUCUN</option>
             </select>
         </div>
+        <div class="filtre">
+            <label for="talent">Talent : </label>
+            <select name="talent" id="talent">
+                <option value="Tous">TOUS</option>
+                {% for talent in talents %}
+                    <option value="{{talent.nom}}">{{talent.nom}}</option>
+                {% endfor %}
+            </select>
+        </div>
     </form>
 </section>
 
@@ -45,7 +54,8 @@
 <section id="liste" class="premiere">
 
     {% for pokemon in pokemons %}
-    <div class="case" data-id="{{pokemon.id}}" data-sexe="{% if pokemon.sexe == '/images/sexes/male.svg' %}Male{% elseif pokemon.sexe == '/images/sexes/femelle.svg' %}Femelle{% else %}Aucun{% endif %}" data-types="{{pokemon.types.a}}{% if pokemon.types.b != '' %} {{pokemon.types.b}}{% endif %}">
+    <div class="case" data-id="{{pokemon.id}}" data-sexe="{% if pokemon.sexe == '/images/sexes/male.svg' %}Male{% elseif pokemon.sexe == '/images/sexes/femelle.svg' %}Femelle{% else %}Aucun{% endif %}" data-types="{{pokemon.types.a}}{% if pokemon.types.b != '' %} {{pokemon.types.b}}{% endif %}"
+        data-talent="{{pokemon.talent}}">
         <div class="boutons">
             <a href="/{{pokemon.id}}"><button>Voir</button></a>
             <button onclick="ajouter_liste(this)">Ajouter</button>

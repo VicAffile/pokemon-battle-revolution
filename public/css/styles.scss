@@ -199,9 +199,10 @@
                     z-index: 200;
                     top: inherit;
                     left: 0px;
-                    bottom: 0px;
-                    margin: 2%;
-                    width: calc(96% - 20px);
+                    bottom: -5px;
+                    width: calc(100% - 20px);
+                    border: none;
+                    border-radius: 0px;
                     background-color: rgba(255, 255, 255, 0.9);
                 }
                 &.afficher {
