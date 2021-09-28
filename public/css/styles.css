@@ -306,11 +306,14 @@ body section#filtre {
 
 @media all and (max-width: 820px) {
   body section#filtre {
-    display: none;
+    -webkit-transition: 1s ease-in-out;
+    transition: 1s ease-in-out;
     z-index: 200;
     top: inherit;
     left: 0px;
     bottom: -5px;
+    -webkit-transform: translateY(500px);
+            transform: translateY(500px);
     width: calc(100% - 20px);
     border: none;
     border-radius: 0px;
@@ -319,7 +322,10 @@ body section#filtre {
 }
 
 body section#filtre.afficher {
-  display: block;
+  -webkit-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  -webkit-transform: translateY(0px);
+          transform: translateY(0px);
 }
 
 body section#filtre #entete {

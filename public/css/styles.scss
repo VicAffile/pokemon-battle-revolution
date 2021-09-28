@@ -195,18 +195,20 @@
                 border-radius: 10px;
                 background-color: rgba(255, 255, 255, 0.5);
                 @media all and (max-width: 820px) {
-                    display: none;
+                    transition: 1s ease-in-out;
                     z-index: 200;
                     top: inherit;
                     left: 0px;
                     bottom: -5px;
+                    transform: translateY(500px);
                     width: calc(100% - 20px);
                     border: none;
                     border-radius: 0px;
                     background-color: rgba(255, 255, 255, 0.9);
                 }
                 &.afficher {
-                    display: block;
+                    transition: 0.5s ease-in-out;
+                    transform: translateY(0px);
                 }
                 #entete {
                     margin-bottom: 10px;
