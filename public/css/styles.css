@@ -942,11 +942,11 @@ body section#pokemon #affinitees .affinitees .intitule#faiblesse {
 }
 
 body section#pokemon #affinitees .affinitees .intitule#resistance {
-  min-width: 167px;
+  min-width: 115px;
 }
 
 body section#pokemon #affinitees .affinitees .intitule#double-resistance {
-  min-width: 115px;
+  min-width: 167px;
 }
 
 body section#pokemon #affinitees .affinitees .intitule#immunitee {
