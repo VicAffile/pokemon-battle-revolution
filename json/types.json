@@ -1,73 +1,127 @@
 [{
         "nom": "Acier",
-        "image": "/images/types/acier.png"
+        "image": "/images/types/acier.png",
+        "faiblesses": ["Combat", "Feu", "Sol"],
+        "resistances": ["Acier", "Dragon", "Glace", "Insecte", "Normal", "Plante", "Psy", "Roche", "Spectre", "Ténèbres", "Vol"],
+        "immunitees": ["Poison"]
     },
     {
         "nom": "Combat",
-        "image": "/images/types/combat.png"
+        "image": "/images/types/combat.png",
+        "faiblesses": ["Psy", "Vol"],
+        "resistances": ["Insecte", "Roche", "Ténèbres"],
+        "immunitees": []
     },
     {
         "nom": "Dragon",
-        "image": "/images/types/dragon.png"
+        "image": "/images/types/dragon.png",
+        "faiblesses": ["Dragon", "Glace"],
+        "resistances": ["Eau", "Electrik", "Feu", "Plante"],
+        "immunitees": []
     },
     {
         "nom": "Eau",
-        "image": "/images/types/eau.png"
+        "image": "/images/types/eau.png",
+        "faiblesses": ["Electrik", "Plante"],
+        "resistances": ["Acier", "Eau", "Feu", "Glace"],
+        "immunitees": []
     },
     {
         "nom": "Electrik",
-        "image": "/images/types/electrik.png"
+        "image": "/images/types/electrik.png",
+        "faiblesses": ["Sol"],
+        "resistances": ["Acier", "Electrik", "Vol"],
+        "immunitees": []
     },
     {
         "nom": "Feu",
-        "image": "/images/types/feu.png"
+        "image": "/images/types/feu.png",
+        "faiblesses": ["Eau", "Roche", "Sol"],
+        "resistances": ["Acier", "Feu", "Glace", "Insecte", "Plante"],
+        "immunitees": []
     },
     {
         "nom": "Glace",
-        "image": "/images/types/glace.png"
+        "image": "/images/types/glace.png",
+        "faiblesses": ["Acier", "Combat", "Feu", "Roche"],
+        "resistances": ["Glace"],
+        "immunitees": []
     },
     {
         "nom": "Inconnu",
-        "image": "/images/types/inconnu.png"
+        "image": "/images/types/inconnu.png",
+        "faiblesses": [],
+        "resistances": [],
+        "immunitees": []
     },
     {
         "nom": "Insecte",
-        "image": "/images/types/insecte.png"
+        "image": "/images/types/insecte.png",
+        "faiblesses": ["Feu", "Roche", "Vol"],
+        "resistances": ["Combat", "Plante", "Sol"],
+        "immunitees": []
     },
     {
         "nom": "Normal",
-        "image": "/images/types/normal.png"
+        "image": "/images/types/normal.png",
+        "faiblesses": ["Combat"],
+        "resistances": [],
+        "immunitees": ["Spectre"]
     },
     {
         "nom": "Plante",
-        "image": "/images/types/plante.png"
+        "image": "/images/types/plante.png",
+        "faiblesses": ["Feu", "Glace", "Insecte", "Poison", "Vol"],
+        "resistances": ["Eau", "Electrik", "Plante", "Sol"],
+        "immunitees": []
     },
     {
         "nom": "Poison",
-        "image": "/images/types/poison.png"
+        "image": "/images/types/poison.png",
+        "faiblesses": ["Psy", "Sol"],
+        "resistances": ["Combat", "Insecte", "Plante", "Poison"],
+        "immunitees": []
     },
     {
         "nom": "Psy",
-        "image": "/images/types/psy.png"
+        "image": "/images/types/psy.png",
+        "faiblesses": ["Insecte", "Spectre", "Ténèbres"],
+        "resistances": ["Combat", "Psy"],
+        "immunitees": []
     },
     {
         "nom": "Roche",
-        "image": "/images/types/roche.png"
+        "image": "/images/types/roche.png",
+        "faiblesses": ["Acier", "Combat", "Eau", "Plante", "Sol"],
+        "resistances": ["Feu", "Normal", "Poison", "Vol"],
+        "immunitees": []
     },
     {
         "nom": "Sol",
-        "image": "/images/types/sol.png"
+        "image": "/images/types/sol.png",
+        "faiblesses": ["Eau", "Glace", "Plante"],
+        "resistances": ["Poison", "Roche"],
+        "immunitees": ["Electrik"]
     },
     {
         "nom": "Spectre",
-        "image": "/images/types/spectre.png"
+        "image": "/images/types/spectre.png",
+        "faiblesses": ["Spectre", "Ténèbres"],
+        "resistances": ["Insecte", "Poison"],
+        "immunitees": ["Combat", "Normal"]
     },
     {
         "nom": "Ténèbres",
-        "image": "/images/types/tenebres.png"
+        "image": "/images/types/tenebres.png",
+        "faiblesses": ["Combat", "Insecte"],
+        "resistances": ["Spectre", "Ténèbres"],
+        "immunitees": ["Psy"]
     },
     {
         "nom": "Vol",
-        "image": "/images/types/vol.png"
+        "image": "/images/types/vol.png",
+        "faiblesses": ["Electrik", "Glace", "Roche"],
+        "resistances": ["Combat", "Insecte", "Plante"],
+        "immunitees": ["Sol"]
     }
 ]

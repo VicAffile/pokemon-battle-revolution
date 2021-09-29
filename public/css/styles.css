@@ -870,6 +870,131 @@ body section#pokemon #capacites .capacite .effet {
   }
 }
 
+body section#pokemon #affinitees {
+  width: 60%;
+  background-color: rgba(255, 255, 255, 0.9);
+  border: solid white 2px;
+  border-radius: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+@media all and (max-width: 870px) {
+  body section#pokemon #affinitees {
+    width: 80%;
+  }
+}
+
+@media all and (max-width: 650px) {
+  body section#pokemon #affinitees {
+    width: 90%;
+  }
+}
+
+@media all and (max-width: 530px) {
+  body section#pokemon #affinitees {
+    width: 98%;
+  }
+}
+
+body section#pokemon #affinitees .affinitees {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: nowrap;
+      flex-wrap: nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body section#pokemon #affinitees .affinitees .intitule {
+  font-weight: bold;
+}
+
+body section#pokemon #affinitees .affinitees .intitule#double-faiblesse {
+  min-width: 156px;
+}
+
+body section#pokemon #affinitees .affinitees .intitule#faiblesse {
+  min-width: 102px;
+}
+
+body section#pokemon #affinitees .affinitees .intitule#resistance {
+  min-width: 167px;
+}
+
+body section#pokemon #affinitees .affinitees .intitule#double-resistance {
+  min-width: 115px;
+}
+
+body section#pokemon #affinitees .affinitees .intitule#immunitee {
+  min-width: 109px;
+}
+
+body section#pokemon #affinitees .affinitees div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+body section#pokemon #affinitees .affinitees div p {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body section#pokemon #affinitees .affinitees div p img {
+  -o-object-fit: contain;
+     object-fit: contain;
+  width: 90px;
+}
+
+@media all and (max-width: 530px) {
+  body section#pokemon #affinitees .affinitees div p img {
+    width: 70px;
+  }
+}
+
 body section.premiere {
   margin-top: 150px;
 }

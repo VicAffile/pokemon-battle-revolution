@@ -57,6 +57,53 @@
         </div>
         {% endfor %}
     </div>
+    <div id="affinitees">
+        {% if affinites.double_faiblesses != "" %}
+        <div class="affinitees">
+            <p id="double-faiblesse" class="intitule">Double faiblesse(s) : </p>
+            <div>
+                {% for faiblesse in affinites.double_faiblesses %}
+                <p><img src="{% for type in types %}{% if faiblesse == type.nom %}{{type.image}}{% endif %}{% endfor %}" alt="Double faiblesse {{faiblesse}}"></p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %} {% if affinites.faiblesses != "" %}
+        <div class="affinitees">
+            <p id="faiblesse" class="intitule">Faiblesse(s) : </p>
+            <div>
+                {% for faiblesse in affinites.faiblesses %}
+                <p><img src="{% for type in types %}{% if faiblesse == type.nom %}{{type.image}}{% endif %}{% endfor %}" alt="Faiblesse {{faiblesse}}"></p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %} {% if affinites.resistances != "" %}
+        <div class="affinitees">
+            <p id="resistance" class="intitule">Résistance(s) : </p>
+            <div>
+                {% for resistance in affinites.resistances %}
+                <p><img src="{% for type in types %}{% if resistance == type.nom %}{{type.image}}{% endif %}{% endfor %}" alt="Résistance {{resistance}}"></p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %} {% if affinites.double_resistances != "" %}
+        <div class="affinitees">
+            <p id="double-resistance" class="intitule">Double résistance(s) : </p>
+            <div>
+                {% for resistance in affinites.double_resistances %}
+                <p><img src="{% for type in types %}{% if resistance == type.nom %}{{type.image}}{% endif %}{% endfor %}" alt="Double résistance {{resistance}}"></p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %} {% if affinites.immunitees != "" %}
+        <div class="affinitees">
+            <p id="immunitee" class="intitule">Immunitée(s) : </p>
+            <div>
+                {% for immunitee in affinites.immunitees %}
+                <p><img src="{% for type in types %}{% if immunitee == type.nom %}{{type.image}}{% endif %}{% endfor %}" alt="Immunitée {{immunitee}}"></p>
+                {% endfor %}
+            </div>
+        </div>
+        {% endif %}
 </section>
 
 

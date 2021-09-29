@@ -544,6 +544,71 @@
                         }
                     }
                 }
+                #affinitees {
+                    width: 60%;
+                    background-color: rgba(255, 255, 255, 0.9);
+                    border: solid white 2px;
+                    border-radius: 10px;
+                    display: flex;
+                    flex-direction: column;
+                    flex-wrap: nowrap;
+                    justify-content: flex-start;
+                    align-items: flex-start;
+                    @media all and (max-width: 870px) {
+                        width: 80%;
+                    }
+                    @media all and (max-width: 650px) {
+                        width: 90%;
+                    }
+                    @media all and (max-width: 530px) {
+                        width: 98%;
+                    }
+                    .affinitees {
+                        width: 100%;
+                        display: flex;
+                        flex-direction: row;
+                        flex-wrap: nowrap;
+                        justify-content: flex-start;
+                        align-items: flex-start;
+                        .intitule {
+                            font-weight: bold;
+                            &#double-faiblesse {
+                                min-width: 156px;
+                            }
+                            &#faiblesse {
+                                min-width: 102px;
+                            }
+                            &#resistance {
+                                min-width: 167px;
+                            }
+                            &#double-resistance {
+                                min-width: 115px;
+                            }
+                            &#immunitee {
+                                min-width: 109px;
+                            }
+                        }
+                        div {
+                            display: flex;
+                            flex-direction: row;
+                            flex-wrap: wrap;
+                            justify-content: flex-start;
+                            align-items: flex-start;
+                            p {
+                                display: flex;
+                                justify-content: center;
+                                align-items: center;
+                                img {
+                                    object-fit: contain;
+                                    width: 90px;
+                                    @media all and (max-width: 530px) {
+                                        width: 70px;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
             }
             &.premiere {
                 margin-top: 150px;
