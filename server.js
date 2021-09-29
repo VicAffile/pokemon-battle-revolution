@@ -141,6 +141,29 @@ function affinites(pokemon) {
         table_types = resistances(table_types, recherche_api(pokemon.types.b, types).resistances);
         table_types = immunitees(table_types, recherche_api(pokemon.types.b, types).immunitees);
     }
+    if (pokemon.talent == "Absorb Eau" || pokemon.talent == "Peau Sèche") {
+        table_types[3].effet = 0;
+    }
+    if (pokemon.talent == "Absorb Volt" || pokemon.talent == "Motorisé") {
+        table_types[4].effet = 0;
+    }
+    if (pokemon.talent == "Garde Mystik") {
+        for (let i = 0; i < 17; i++) {
+            if (table_types[i].effet <= 1) {
+                table_types[i].effet = 0;
+            }
+        }
+    }
+    if (pokemon.talent == "Isograisse") {
+        table_types[5].effet /= 2;
+        table_types[6].effet /= 2;
+    }
+    if (pokemon.talent == "Lévitation") {
+        table_types[13].effet = 0;
+    }
+    if (pokemon.talent == "Torche") {
+        table_types[5].effet = 0;
+    }
     for (let i = 0; i < 17; i++) {
         if (table_types[i].effet == 4) {
             affinites.double_faiblesses.push(table_types[i].nom);
