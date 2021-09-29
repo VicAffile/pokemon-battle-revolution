@@ -343,6 +343,27 @@ body section#filtre #entete h2 {
   margin: 0px;
 }
 
+body section#filtre #entete .boutons button {
+  width: 60px;
+  border: solid black 2px;
+  border-radius: 10px;
+  font-weight: bold;
+}
+
+body section#filtre #entete .boutons button:first-child {
+  -webkit-transition: background-color 1s ease-in-out;
+  transition: background-color 1s ease-in-out;
+  background-color: red;
+}
+
+body section#filtre #entete .boutons button:first-child.save {
+  background-color: green;
+}
+
+body section#filtre #entete .boutons button + button {
+  margin-left: 10px;
+}
+
 body section#filtre form {
   width: 100%;
 }
@@ -355,6 +376,7 @@ body section#filtre form label {
 }
 
 body section#filtre form .filtre {
+  margin: 5px 0px 5px 0px;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;

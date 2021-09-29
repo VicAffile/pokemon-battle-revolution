@@ -1,14 +1,24 @@
 const all_cartes = document.querySelectorAll('.case');
 
 
+document.querySelector('#sexe').addEventListener('change', filtrer);
+document.querySelector('#type1').addEventListener('change', filtrer);
+document.querySelector('#type2').addEventListener('change', filtrer);
+document.querySelector('#talent').addEventListener('change', filtrer);
+document.querySelector('#capacite').addEventListener('change', filtrer);
+
+
 if (localStorage.getItem('filtres_pokemon_battle_revolution') != undefined) {
     let parametres = JSON.parse(localStorage.getItem('filtres_pokemon_battle_revolution'));
-    document.querySelector('#sexe').value = parametres[0];
-    document.querySelector('#type1').value = parametres[1][0];
-    document.querySelector('#type2').value = parametres[1][1]
-    document.querySelector('#talent').value = parametres[2];
-    document.querySelector('#capacite').value = parametres[3];
-    filtrer();
+    if (parametres[0] == 1) {
+        document.getElementById('filtre').querySelector('button').classList.toggle('save');
+        document.querySelector('#sexe').value = parametres[1];
+        document.querySelector('#type1').value = parametres[2][0];
+        document.querySelector('#type2').value = parametres[2][1]
+        document.querySelector('#talent').value = parametres[3];
+        document.querySelector('#capacite').value = parametres[4];
+        filtrer();
+    }
 }
 
 
@@ -105,7 +115,6 @@ function capacite(cartes) {
     if (capacite != 'Tous') {
         for (let i = 0; i < cartes.length; i++) {
             const movepool = cartes[i].dataset.capacites.split(",");
-            console.log(movepool)
             if (movepool[0] != capacite && movepool[1] != capacite && movepool[2] != capacite && movepool[3] != capacite) {
                 cartes.splice(i, 1);
                 i--;
@@ -114,10 +123,3 @@ function capacite(cartes) {
     }
     return cartes;
 }
-
-
-document.querySelector('#sexe').addEventListener('change', filtrer);
-document.querySelector('#type1').addEventListener('change', filtrer);
-document.querySelector('#type2').addEventListener('change', filtrer);
-document.querySelector('#talent').addEventListener('change', filtrer);
-document.querySelector('#capacite').addEventListener('change', filtrer);
