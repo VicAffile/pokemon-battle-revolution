@@ -33,7 +33,6 @@ app.get('/:id', (req, res) => {
     if (pokemon == undefined) {
         res.status(404).send("Ce Pokémon n'existe pas.");
     }
-    affinites(pokemon)
     const donnee = { titre: pokemon.nom, pokemon: pokemon, types: types, types_pokemon: [recherche_api(pokemon.types.a, types), recherche_api(pokemon.types.b, types)], talent: recherche_api(pokemon.talent, talents), capacites: [recherche_api(pokemon.capacites.a, capacites), recherche_api(pokemon.capacites.b, capacites), recherche_api(pokemon.capacites.c, capacites), recherche_api(pokemon.capacites.d, capacites)], affinites: affinites(pokemon) };
     res.render('pokemon', donnee);
 });
