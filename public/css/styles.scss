@@ -267,13 +267,16 @@
                 flex-wrap: wrap;
                 justify-content: space-around;
                 align-items: flex-start;
-                @media all and (max-width: 9500px) {
+                @media all and (max-width: 950px) {
                     right: 5px;
                 }
                 @media all and (max-width: 820px) {
                     max-width: 100%;
                     width: 100%;
                     right: inherit;
+                    &.afficher {
+                        padding-bottom: 230px;
+                    }
                 }
                 .case {
                     margin: 10px;

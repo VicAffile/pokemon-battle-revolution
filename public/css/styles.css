@@ -416,7 +416,7 @@ body section#liste {
           align-items: flex-start;
 }
 
-@media all and (max-width: 9500px) {
+@media all and (max-width: 950px) {
   body section#liste {
     right: 5px;
   }
@@ -427,6 +427,9 @@ body section#liste {
     max-width: 100%;
     width: 100%;
     right: inherit;
+  }
+  body section#liste.afficher {
+    padding-bottom: 230px;
   }
 }
 

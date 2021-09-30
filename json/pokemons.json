@@ -20,7 +20,9 @@
             "d": "Poudre Dodo"
         },
         "poids": 100.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Starter"
     },
     {
         "id": 2,
@@ -44,7 +46,9 @@
             "d": "Danse Draco"
         },
         "poids": 90.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Starter"
     },
     {
         "id": 3,
@@ -68,7 +72,9 @@
             "d": "Riposte"
         },
         "poids": 85.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Starter"
     },
     {
         "id": 4,
@@ -92,7 +98,9 @@
             "d": "Demi-Tour"
         },
         "poids": 39.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 5,
@@ -116,7 +124,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 6.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 6,
@@ -140,7 +150,9 @@
             "d": "Pics Toxik"
         },
         "poids": 60.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 7,
@@ -164,7 +176,9 @@
             "d": "Coup Bas"
         },
         "poids": 62.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 8,
@@ -188,7 +202,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 40.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 9,
@@ -212,7 +228,9 @@
             "d": "Feu Follet"
         },
         "poids": 155.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 10,
@@ -236,7 +254,9 @@
             "d": "Plénitude"
         },
         "poids": 48.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 11,
@@ -260,7 +280,9 @@
             "d": "Pisto-Poing"
         },
         "poids": 130.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 12,
@@ -284,7 +306,9 @@
             "d": "Pics Toxik"
         },
         "poids": 55.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 13,
@@ -308,7 +332,9 @@
             "d": "Explosion"
         },
         "poids": 300.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 14,
@@ -332,7 +358,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 78.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 15,
@@ -356,7 +384,9 @@
             "d": "Malédiction"
         },
         "poids": 30.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 16,
@@ -380,7 +410,9 @@
             "d": "Balance"
         },
         "poids": 40.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 17,
@@ -404,7 +436,9 @@
             "d": "Bluff"
         },
         "poids": 80.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 18,
@@ -428,7 +462,9 @@
             "d": "Soin"
         },
         "poids": 80.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 19,
@@ -452,7 +488,9 @@
             "d": "Grobisou"
         },
         "poids": 40.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 20,
@@ -476,7 +514,9 @@
             "d": "Lame de Roc"
         },
         "poids": 88.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 21,
@@ -500,7 +540,9 @@
             "d": "Danse Draco"
         },
         "poids": 235.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 22,
@@ -524,7 +566,9 @@
             "d": "Toxik"
         },
         "poids": 220.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 23,
@@ -548,7 +592,9 @@
             "d": "Vœu"
         },
         "poids": 29.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Evolition"
     },
     {
         "id": 24,
@@ -572,7 +618,9 @@
             "d": "Relais"
         },
         "poids": 24.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Evolition"
     },
     {
         "id": 25,
@@ -596,7 +644,9 @@
             "d": "Surpuissance"
         },
         "poids": 25.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Evolition"
     },
     {
         "id": 26,
@@ -620,7 +670,9 @@
             "d": "Piège de Roc"
         },
         "poids": 35.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Fossile"
     },
     {
         "id": 27,
@@ -644,7 +696,9 @@
             "d": "Danse-Lames"
         },
         "poids": 40.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Fossile"
     },
     {
         "id": 28,
@@ -668,7 +722,9 @@
             "d": "Piège de Roc"
         },
         "poids": 59.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Fossile"
     },
     {
         "id": 29,
@@ -692,7 +748,9 @@
             "d": "Blabla Dodo"
         },
         "poids": 460.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 30,
@@ -716,7 +774,9 @@
             "d": "Glas de Soin"
         },
         "poids": 55.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Légendaire"
     },
     {
         "id": 31,
@@ -740,7 +800,9 @@
             "d": "Atterrissage"
         },
         "poids": 52.6,
-        "pc": "/images/types/glace.png"
+        "pc": "/images/types/glace.png",
+        "generation": 1,
+        "categorie": "Légendaire"
     },
     {
         "id": 32,
@@ -764,7 +826,9 @@
             "d": "Atterrissage"
         },
         "poids": 60.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Légendaire"
     },
     {
         "id": 33,
@@ -788,7 +852,9 @@
             "d": "Danse Draco"
         },
         "poids": 210.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Aucun"
     },
     {
         "id": 34,
@@ -812,7 +878,9 @@
             "d": "Lance-Flamme"
         },
         "poids": 122.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Légendaire"
     },
     {
         "id": 35,
@@ -836,7 +904,9 @@
             "d": "Relais"
         },
         "poids": 4.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 1,
+        "categorie": "Légendaire"
     },
     {
         "id": 36,
@@ -860,7 +930,9 @@
             "d": "Aromathérapi"
         },
         "poids": 100.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Starter"
     },
     {
         "id": 37,
@@ -884,7 +956,9 @@
             "d": "Zénith"
         },
         "poids": 79.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Starter"
     },
     {
         "id": 38,
@@ -908,7 +982,9 @@
             "d": "Danse Draco"
         },
         "poids": 88.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Starter"
     },
     {
         "id": 39,
@@ -932,7 +1008,9 @@
             "d": "Provoc"
         },
         "poids": 75.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 40,
@@ -956,7 +1034,9 @@
             "d": "Clonage"
         },
         "poids": 61.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 41,
@@ -980,7 +1060,9 @@
             "d": "Relais"
         },
         "poids": 26.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Evolition"
     },
     {
         "id": 42,
@@ -1004,7 +1086,9 @@
             "d": "Relais"
         },
         "poids": 27.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Evolition"
     },
     {
         "id": 43,
@@ -1028,7 +1112,9 @@
             "d": "Paresse"
         },
         "poids": 27.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 44,
@@ -1052,7 +1138,9 @@
             "d": "Rune Protect"
         },
         "poids": 28.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 45,
@@ -1076,7 +1164,9 @@
             "d": "Pics Toxik"
         },
         "poids": 125.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 46,
@@ -1100,7 +1190,9 @@
             "d": "Explosion"
         },
         "poids": 400.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 47,
@@ -1124,7 +1216,9 @@
             "d": "Demi-Tour"
         },
         "poids": 118.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 48,
@@ -1148,7 +1242,9 @@
             "d": "Blabla Dodo"
         },
         "poids": 54.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 49,
@@ -1172,7 +1268,9 @@
             "d": "Blabla Dodo"
         },
         "poids": 125.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 50,
@@ -1196,7 +1294,9 @@
             "d": "Bâillement"
         },
         "poids": 152.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 51,
@@ -1220,7 +1320,9 @@
             "d": "Piège de Roc"
         },
         "poids": 120.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 52,
@@ -1244,7 +1346,9 @@
             "d": "Aromathérapi"
         },
         "poids": 46.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 53,
@@ -1268,7 +1372,9 @@
             "d": "Danse Pluie"
         },
         "poids": 178.0,
-        "pc": "/images/types/eau.png"
+        "pc": "/images/types/eau.png",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 54,
@@ -1292,7 +1398,9 @@
             "d": "Feu Follet"
         },
         "poids": 198.0,
-        "pc": "/images/types/electrik.png"
+        "pc": "/images/types/electrik.png",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 55,
@@ -1316,7 +1424,9 @@
             "d": "Hurlement"
         },
         "poids": 187.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 56,
@@ -1340,7 +1450,9 @@
             "d": "Danse Draco"
         },
         "poids": 202.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Aucun"
     },
     {
         "id": 57,
@@ -1364,7 +1476,9 @@
             "d": "Atterrissage"
         },
         "poids": 216.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 58,
@@ -1388,7 +1502,9 @@
             "d": "Atterrissage"
         },
         "poids": 199.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 59,
@@ -1412,7 +1528,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 5.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 2,
+        "categorie": "Légendaire"
     },
     {
         "id": 60,
@@ -1436,7 +1554,9 @@
             "d": "Danse-Lames"
         },
         "poids": 52.2,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Starter"
     },
     {
         "id": 61,
@@ -1460,7 +1580,9 @@
             "d": "Rapace"
         },
         "poids": 52.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Starter"
     },
     {
         "id": 62,
@@ -1484,7 +1606,9 @@
             "d": "Piège de Roc"
         },
         "poids": 81.9,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Starter"
     },
     {
         "id": 63,
@@ -1508,7 +1632,9 @@
             "d": "Poursuite"
         },
         "poids": 19.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 64,
@@ -1532,7 +1658,9 @@
             "d": "Feu Follet"
         },
         "poids": 48.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 65,
@@ -1556,7 +1684,9 @@
             "d": "Spore"
         },
         "poids": 39.2,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 66,
@@ -1580,7 +1710,9 @@
             "d": "Mitra-Poing"
         },
         "poids": 130.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 67,
@@ -1604,7 +1736,9 @@
             "d": "Relais"
         },
         "poids": 12.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 68,
@@ -1628,7 +1762,9 @@
             "d": "Feu Follet"
         },
         "poids": 1.2,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 69,
@@ -1652,7 +1788,9 @@
             "d": "Mâchouille"
         },
         "poids": 84.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 70,
@@ -1676,7 +1814,9 @@
             "d": "Représailles"
         },
         "poids": 253.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 71,
@@ -1700,7 +1840,9 @@
             "d": "Poliroche"
         },
         "poids": 360.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 72,
@@ -1724,7 +1866,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 42.2,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 73,
@@ -1748,7 +1892,9 @@
             "d": "Crocs Givre"
         },
         "poids": 88.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 74,
@@ -1772,7 +1918,9 @@
             "d": "Explosion"
         },
         "poids": 220.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 75,
@@ -1796,7 +1944,9 @@
             "d": "Explosion"
         },
         "poids": 80.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 76,
@@ -1820,7 +1970,9 @@
             "d": "Demi-Tour"
         },
         "poids": 82.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 77,
@@ -1844,7 +1996,9 @@
             "d": "Danse Draco"
         },
         "poids": 20.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 78,
@@ -1868,7 +2022,9 @@
             "d": "Piège de Roc"
         },
         "poids": 108.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 79,
@@ -1892,7 +2048,9 @@
             "d": "Toxik"
         },
         "poids": 60.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Fossile"
     },
     {
         "id": 80,
@@ -1916,7 +2074,9 @@
             "d": "Danse-Lames"
         },
         "poids": 68.2,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Fossile"
     },
     {
         "id": 81,
@@ -1940,7 +2100,9 @@
             "d": "Voile Miroir"
         },
         "poids": 162.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 82,
@@ -1964,7 +2126,9 @@
             "d": "Danse-Lames"
         },
         "poids": 47.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 83,
@@ -1988,7 +2152,9 @@
             "d": "Explosion"
         },
         "poids": 256.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 84,
@@ -2012,7 +2178,9 @@
             "d": "Repos"
         },
         "poids": 150.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 85,
@@ -2036,7 +2204,9 @@
             "d": "Danse Draco"
         },
         "poids": 102.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 86,
@@ -2060,7 +2230,9 @@
             "d": "Piège de Roc"
         },
         "poids": 550.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Aucun"
     },
     {
         "id": 87,
@@ -2084,7 +2256,9 @@
             "d": "Malédiction"
         },
         "poids": 230.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 88,
@@ -2108,7 +2282,9 @@
             "d": "Explosion"
         },
         "poids": 175.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 89,
@@ -2132,7 +2308,9 @@
             "d": "Piège de Roc"
         },
         "poids": 205.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 90,
@@ -2156,7 +2334,9 @@
             "d": "Soin"
         },
         "poids": 40.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 91,
@@ -2180,7 +2360,9 @@
             "d": "Soin"
         },
         "poids": 60.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 92,
@@ -2204,7 +2386,9 @@
             "d": "Giclédo"
         },
         "poids": 352.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 93,
@@ -2228,7 +2412,9 @@
             "d": "Piège de Roc"
         },
         "poids": 950.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 94,
@@ -2252,7 +2438,9 @@
             "d": "Danse Draco"
         },
         "poids": 206.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 95,
@@ -2276,7 +2464,9 @@
             "d": "Poinglace"
         },
         "poids": 1.1,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 96,
@@ -2300,7 +2490,9 @@
             "d": "Picots"
         },
         "poids": 60.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 97,
@@ -2324,7 +2516,9 @@
             "d": "Surpuissance"
         },
         "poids": 60.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 98,
@@ -2348,7 +2542,9 @@
             "d": "Picots"
         },
         "poids": 60.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 99,
@@ -2372,7 +2568,9 @@
             "d": "Picots"
         },
         "poids": 60.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 3,
+        "categorie": "Légendaire"
     },
     {
         "id": 100,
@@ -2396,7 +2594,9 @@
             "d": "Piège de Roc"
         },
         "poids": 310.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Starter"
     },
     {
         "id": 101,
@@ -2420,7 +2620,9 @@
             "d": "Lame de Roc"
         },
         "poids": 55.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Starter"
     },
     {
         "id": 102,
@@ -2444,7 +2646,9 @@
             "d": "Hâte"
         },
         "poids": 84.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Starter"
     },
     {
         "id": 103,
@@ -2468,7 +2672,9 @@
             "d": "Poursuite"
         },
         "poids": 24.9,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 104,
@@ -2492,7 +2698,9 @@
             "d": "Crocs Givre"
         },
         "poids": 42.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 105,
@@ -2516,7 +2724,9 @@
             "d": "Pics Toxik"
         },
         "poids": 14.5,
-        "pc": "/images/types/feu.png"
+        "pc": "/images/types/feu.png",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 106,
@@ -2540,7 +2750,9 @@
             "d": "Poliroche"
         },
         "poids": 102.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Fossile"
     },
     {
         "id": 107,
@@ -2564,7 +2776,9 @@
             "d": "Piège de Roc"
         },
         "poids": 149.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Fossile"
     },
     {
         "id": 108,
@@ -2588,7 +2802,9 @@
             "d": "Relais"
         },
         "poids": 33.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 109,
@@ -2612,7 +2828,9 @@
             "d": "Relais"
         },
         "poids": 20.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 110,
@@ -2636,7 +2854,9 @@
             "d": "Clonage"
         },
         "poids": 4.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 111,
@@ -2660,7 +2880,9 @@
             "d": "Surpuissance"
         },
         "poids": 27.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 112,
@@ -2684,7 +2906,9 @@
             "d": "Piège de Roc"
         },
         "poids": 187.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 113,
@@ -2708,7 +2932,9 @@
             "d": "Balance"
         },
         "poids": 108.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 114,
@@ -2732,7 +2958,9 @@
             "d": "Danse-Lames"
         },
         "poids": 95.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 115,
@@ -2756,7 +2984,9 @@
             "d": "Danse-Lames"
         },
         "poids": 54.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 116,
@@ -2780,7 +3010,9 @@
             "d": "Piège de Roc"
         },
         "poids": 300.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 117,
@@ -2804,7 +3036,9 @@
             "d": "Pics Toxik"
         },
         "poids": 61.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 118,
@@ -2828,7 +3062,9 @@
             "d": "Danse-Lames"
         },
         "poids": 44.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 119,
@@ -2852,7 +3088,9 @@
             "d": "Vampigraine"
         },
         "poids": 135.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 120,
@@ -2876,7 +3114,9 @@
             "d": "Eclats Glace"
         },
         "poids": 34.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 121,
@@ -2900,7 +3140,9 @@
             "d": "Vol Magnétik"
         },
         "poids": 180.0,
-        "pc": "/images/types/glace.png"
+        "pc": "/images/types/glace.png",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 122,
@@ -2924,7 +3166,9 @@
             "d": "Mitra-Poing"
         },
         "poids": 140.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 123,
@@ -2948,7 +3192,9 @@
             "d": "Poinglace"
         },
         "poids": 282.8,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 124,
@@ -2972,7 +3218,9 @@
             "d": "Para-Spore"
         },
         "poids": 128.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 125,
@@ -2996,7 +3244,9 @@
             "d": "Séisme"
         },
         "poids": 138.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 126,
@@ -3020,7 +3270,9 @@
             "d": "Zénith"
         },
         "poids": 68.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 127,
@@ -3044,7 +3296,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 38.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 128,
@@ -3068,7 +3322,9 @@
             "d": "Hypnose"
         },
         "poids": 51.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 129,
@@ -3092,7 +3348,9 @@
             "d": "Relais"
         },
         "poids": 25.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Evolition"
     },
     {
         "id": 130,
@@ -3116,7 +3374,9 @@
             "d": "Vœu"
         },
         "poids": 25.9,
-        "pc": "/images/types/combat.png"
+        "pc": "/images/types/combat.png",
+        "generation": 4,
+        "categorie": "Evolition"
     },
     {
         "id": 131,
@@ -3140,7 +3400,9 @@
             "d": "Atterrissage"
         },
         "poids": 42.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 132,
@@ -3164,7 +3426,9 @@
             "d": "Surpuissance"
         },
         "poids": 291.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 133,
@@ -3188,7 +3452,9 @@
             "d": "Machination"
         },
         "poids": 34.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 134,
@@ -3212,7 +3478,9 @@
             "d": "Gonflette"
         },
         "poids": 52.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 135,
@@ -3236,7 +3504,9 @@
             "d": "Distorsion"
         },
         "poids": 106.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 136,
@@ -3260,7 +3530,9 @@
             "d": "Picots"
         },
         "poids": 26.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 137,
@@ -3284,7 +3556,9 @@
             "d": "Balance"
         },
         "poids": 0.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Aucun"
     },
     {
         "id": 138,
@@ -3308,7 +3582,9 @@
             "d": "Protection"
         },
         "poids": 0.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 139,
@@ -3332,7 +3608,9 @@
             "d": "Piège de Roc"
         },
         "poids": 0.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 140,
@@ -3356,7 +3634,9 @@
             "d": "Explosion"
         },
         "poids": 0.3,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 141,
@@ -3380,7 +3660,9 @@
             "d": "Tonnerre"
         },
         "poids": 683.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 142,
@@ -3404,7 +3686,9 @@
             "d": "Tonnerre"
         },
         "poids": 336.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 143,
@@ -3428,7 +3712,9 @@
             "d": "Explosion"
         },
         "poids": 430.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 144,
@@ -3452,7 +3738,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 420.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 145,
@@ -3476,7 +3764,9 @@
             "d": "Blabla Dodo"
         },
         "poids": 750.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 146,
@@ -3500,7 +3790,9 @@
             "d": "Cage-Eclair"
         },
         "poids": 82.6,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 147,
@@ -3524,7 +3816,9 @@
             "d": "Repos"
         },
         "poids": 3.1,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 148,
@@ -3548,7 +3842,9 @@
             "d": "Repos"
         },
         "poids": 1.4,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 149,
@@ -3572,7 +3868,9 @@
             "d": "Trou Noir"
         },
         "poids": 50.5,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 150,
@@ -3596,7 +3894,9 @@
             "d": "Repos"
         },
         "poids": 2.1,
-        "pc": "/images/types/glace.png"
+        "pc": "/images/types/glace.png",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 151,
@@ -3620,7 +3920,9 @@
             "d": "Danse-Lames"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 152,
@@ -3644,7 +3946,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 153,
@@ -3668,7 +3972,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 154,
@@ -3692,7 +3998,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 155,
@@ -3716,7 +4024,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 156,
@@ -3740,7 +4050,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 157,
@@ -3764,7 +4076,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 158,
@@ -3788,7 +4102,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 159,
@@ -3812,7 +4128,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 160,
@@ -3836,7 +4154,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 161,
@@ -3860,7 +4180,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 162,
@@ -3884,7 +4206,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 163,
@@ -3908,7 +4232,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 164,
@@ -3932,7 +4258,9 @@
             "d": "Vit. Extrême"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 165,
@@ -3956,7 +4284,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 166,
@@ -3980,7 +4310,9 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     },
     {
         "id": 167,
@@ -4004,6 +4336,8 @@
             "d": "Soin"
         },
         "poids": 320.0,
-        "pc": "Aucun"
+        "pc": "Aucun",
+        "generation": 4,
+        "categorie": "Légendaire"
     }
 ]

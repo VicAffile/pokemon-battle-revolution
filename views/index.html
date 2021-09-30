@@ -53,10 +53,31 @@
         <div class="filtre">
             <label for="capacite">Capacité : </label>
             <select name="capacite" id="capacite">
-                <option value="Tous">TOUS</option>
+                <option value="Toutes">TOUTES</option>
                 {% for capacite in capacites %}
                     <option value="{{capacite.nom}}">{{capacite.nom}}</option>
                 {% endfor %}
+            </select>
+        </div>
+        <div class="filtre">
+            <label for="generation">Génération </label>
+            <select name="generation" id="generation">
+                <option value="Toutes">TOUTE</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+            </select>
+        </div>
+        <div class="filtre">
+            <label for="categorie">Catégorie : </label>
+            <select name="categorie" id="categorie">
+                <option value="Toutes">TOUTES</option>
+                <option value="Starter">Starter</option>
+                <option value="Evolition">Evolition</option>
+                <option value="Fossile">Fossile</option>
+                <option value="Légendaire">Légendaire</option>
+                <option value="Aucun">AUCUNE</option>
             </select>
         </div>
     </form>
@@ -67,7 +88,7 @@
 
     {% for pokemon in pokemons %}
     <div class="case" data-id="{{pokemon.id}}" data-sexe="{% if pokemon.sexe == '/images/sexes/male.svg' %}Male{% elseif pokemon.sexe == '/images/sexes/femelle.svg' %}Femelle{% else %}Aucun{% endif %}" data-types="{{pokemon.types.a}}{% if pokemon.types.b != '' %} {{pokemon.types.b}}{% endif %}"
-        data-talent="{{pokemon.talent}}" data-capacites="{{pokemon.capacites.a}},{{pokemon.capacites.b}},{{pokemon.capacites.c}},{{pokemon.capacites.d}}">
+        data-talent="{{pokemon.talent}}" data-capacites="{{pokemon.capacites.a}},{{pokemon.capacites.b}},{{pokemon.capacites.c}},{{pokemon.capacites.d}}" data-generation="{{pokemon.generation}}" data-categorie="{{pokemon.categorie}}">
         <div class="boutons">
             <a href="/{{pokemon.id}}"><button>Voir</button></a>
             <button onclick="ajouter_liste(this)">Ajouter</button>

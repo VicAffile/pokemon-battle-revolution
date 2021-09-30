@@ -2,6 +2,7 @@ const bouton = document.getElementById('bouton');
 bouton.addEventListener('click', () => {
     bouton.classList.toggle('afficher');
     document.getElementById('filtre').classList.toggle('afficher');
+    document.getElementById('liste').classList.toggle('afficher');
 });
 
 
@@ -11,7 +12,9 @@ window.addEventListener('unload', () => {
             save_active(),
             document.querySelector('#sexe').value, [document.querySelector('#type1').value, document.querySelector('#type2').value],
             document.querySelector('#talent').value,
-            document.querySelector('#capacite').value
+            document.querySelector('#capacite').value,
+            document.querySelector('#generation').value,
+            document.querySelector('#categorie').value
         ]));
     } else {
         let parametres = JSON.parse(localStorage.getItem('filtres_pokemon_battle_revolution'));
@@ -20,6 +23,8 @@ window.addEventListener('unload', () => {
         parametres[2] = [document.querySelector('#type1').value, document.querySelector('#type2').value];
         parametres[3] = document.querySelector('#talent').value;
         parametres[4] = document.querySelector('#capacite').value;
+        parametres[5] = document.querySelector('#generation').value;
+        parametres[6] = document.querySelector('#categorie').value;
         localStorage.removeItem('filtres_pokemon_battle_revolution');
         localStorage.setItem('filtres_pokemon_battle_revolution', JSON.stringify(parametres));
     }
