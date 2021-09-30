@@ -938,11 +938,11 @@ body section#pokemon #affinitees .affinitees .intitule#double-faiblesse {
 }
 
 body section#pokemon #affinitees .affinitees .intitule#faiblesse {
-  min-width: 105px;
+  min-width: 104px;
 }
 
 body section#pokemon #affinitees .affinitees .intitule#resistance {
-  min-width: 115px;
+  min-width: 114px;
 }
 
 body section#pokemon #affinitees .affinitees .intitule#double-resistance {
@@ -991,7 +991,7 @@ body section#pokemon #affinitees .affinitees div p img {
 
 @media all and (max-width: 530px) {
   body section#pokemon #affinitees .affinitees div p img {
-    width: 70px;
+    width: 60px;
   }
 }
 
