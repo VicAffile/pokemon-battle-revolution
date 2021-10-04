@@ -719,6 +719,15 @@
         "effet": "Cette capacité a deux effets possibles suivant que le lanceur est de type Spectre ou non. Si le lanceur est de type Spectre alors le lanceur perd la moitié de ses PV maximaux et maudit la cible. Lorsqu'un Pokémon est maudit, il perd un quart de sa vie à chaque tour. Cet effet disparaît avec le switch. Si le lanceur n'est pas de type Spectre alors le lanceur augmente d'un niveau l'Attaque Physique et la Défense Physique, mais baisse d'un niveau la vitesse du lanceur."
     },
     {
+        "nom": "Martobois",
+        "type": "Plante",
+        "puissance": "120",
+        "precision": "100%",
+        "pp": "15",
+        "categorie": "Physique",
+        "effet": "Fait subir au lanceur 1/3 des dégâts infligés à la cible."
+    },
+    {
         "nom": "Marto-Poing",
         "type": "Combat",
         "puissance": "100",
